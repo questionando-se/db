@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O remo de assento deslizante é um esporte que faz uso de um barco e dois remos do mesmo tamanho." },
+        { "type": "text", "data": "A figura mostra uma das posições de uma técnica chamada afastamento." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/remo.png" },
+        { "type": "text", "data": "Nessa posição, os dois remos se encontram no ponto \\(A\\) e suas outras extremidades estão indicadas pelos pontos \\(B\\) e \\(C\\). Esses três pontos formam um triângulo \\(ABC\\) cujo ângulo \\(B\\hat{A}C\\) tem medida de 170°." },
+        { "type": "text", "data": "O tipo de triângulo com vértices nos pontos \\(A\\), \\(B\\) e \\(C\\), no momento em que o remador está nessa posição, é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "retângulo escaleno." }
+        ],
+        [
+            { "type": "text", "data": "acutângulo escaleno." }
+        ],
+        [
+            { "type": "text", "data": "acutângulo isosceles." }
+        ],
+        [
+            { "type": "text", "data": "obtusângulo escaleno." }
+        ],
+        [
+            { "type": "text", "data": "obtusângulo isósceles." }
+        ]
+    ],
+    "correct": 4
+}

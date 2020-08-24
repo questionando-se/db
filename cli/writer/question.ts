@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const RELATIVE_URL = 'http://10.0.0.103:8080/'; // TODO: change this to github
+const RELATIVE_URL = 'https://raw.githubusercontent.com/questionando-se/db/master/';
 const ALPHABET = [
     'A', 'B', 'C',
     'D', 'E', 'F',

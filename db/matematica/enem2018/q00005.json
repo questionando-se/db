@@ -1,31 +1,28 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": ["geometry"],
+    "tags": [],
     "content": [
-        { "type": "text", "data": "Minecraft é um jogo virtual que pode auxiliar no desenvolvimento de conhecimentos relacionados a espaço e forma. É possível criar casas, edifícios, monumentos e até naves espaciais, tudo em escala real, através do empilhamento de cubinhos." },
-        { "type": "text", "data": "Um jogador deseja construir um cubo com dimensões \\(4\\times 4\\times 4\\). Ele já empilhou alguns dos cubinhos necessários, conforme a figura." },
-        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/cube001.png" },
-        { "type": "text", "data": "Os cubinhos que ainda faltam empilhar para finalizar a construção do cubo, juntos formam uma peça única, capaz de completar a tarefa." },
-        { "type": "text", "data": "O formato da peça capaz de completar o cubo \\(4\\times 4\\times 4\\) é" }
+        { "type": "text", "data": "Um rapaz estuda em uma escola que fica longe de sua casa, e por isso precisa utilizar o transporte público. Como é muito observador, todos os dias ele anota a hora exata (sem considerar os segundos) em que o ônibus passa pelo ponto de espera. Também notou que nunca consegue chegar ao ponto de ônibus antes de 6 h 15 min da manhã. Analisando os dados coletados durante o mês de fevereiro, o qual teve 21 dias letivos, ele concluiu que 6 h 21 min foi o que mais se repetiu, e que a mediana do conjunto de dados é 6 h 22 min." },
+        { "type": "text", "data": "A probabilidade de que, em algum dos dias letivos de fevereiro, esse rapaz tenha apanhado o ônibus antes de 6 h 21 min da manhã é, no máximo," }
     ],
     "resolutions": [],
     "alternatives": [
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube002.png" }
+            { "type": "text", "data": "\\(\\frac{4}{21}\\)" }
         ],
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube003.png" }
+            { "type": "text", "data": "\\(\\frac{5}{21}\\)" }
         ],
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube004.png" }
+            { "type": "text", "data": "\\(\\frac{6}{21}\\)" }
         ],
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube005.png" }
+            { "type": "text", "data": "\\(\\frac{7}{21}\\)" }
         ],
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube006.png" }
+            { "type": "text", "data": "\\(\\frac{8}{21}\\)" }
         ]
     ],
-    "correct": 0
+    "correct": 3
 }
