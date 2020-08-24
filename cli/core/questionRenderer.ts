@@ -31,21 +31,25 @@ export function renderQuestion(data: QuestionFile): string {
         `correct: ${data.correct}`,
         '---',
         '',
-        ''
+        '',
+        '<div class="question-body">',
+        ...data.content.map((item) => renderContent(item)),
+        '</div>',
+        '<div class="question-options">'
     );
-    output.push(
-        ...data.content.map((item) => renderContent(item))
-    );
-    output.push('<ul class="options">');
-    data.alternatives.forEach((alt, index) => {
-        output.push('<li>');
-        output.push(`<span class="indicator">${ALPHABET[index]}</span>`);
+    data.alternatives.forEach((alt) => {
         output.push(
-            ...alt.map((item) => renderContent(item))
+            '<div class="option-item">',
+            '<label>',
+            `<input name="question-alternative" type="radio" />`,
+            '<span>',
+            ...alt.map((item) => renderContent(item)),
+            '</span>',
+            '</label>',
+            '</div>',
         );
-        output.push('</li>');
     });
-    output.push('</ul>');
+    output.push('</div>');
     return output.join('\n');
 }
 

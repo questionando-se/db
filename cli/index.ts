@@ -84,16 +84,100 @@ const sorted = inputQuestionFiles.sort((a, b) => {
     }
 });
 
+const exams: string[] = [];
+
 // write questions
 sorted.forEach((item) => {
+    if (item.data.exam) {
+        if (exams.indexOf(item.data.exam) === -1) {
+            exams.push(item.data.exam);
+        }
+    }
     const questionsPath = preparePath(outputPath, 'questions');
     const filePath = path.join(questionsPath, `${item.parsed.name}.html`);
     const content = renderQuestion(item.data);
     fs.writeFileSync(filePath, content);
 });
+paginateItems(outputPath, sorted, 'lists', 'all');
 
-paginateItems(outputPath, sorted, 'all');
 
+
+
+let examsOutput: string[] = [
+    '---',
+    'layout: examsList',
+    '---',
+    '<div class="exams-list">',
+];
+exams.forEach((ex) => {
+    const years: number[] = [];
+    const noYears: QuestionFileInformation[] = [];
+    const questinonsByExam = sorted.filter((item) => {
+        const is = item.data.exam === ex;
+        if (is) {
+            if (item.data.year) {
+                if (years.indexOf(item.data.year) === -1) {
+                    years.push(item.data.year);
+                }
+            } else {
+                noYears.push(item);
+            }
+        }
+        return is;
+    });
+    let yearsOutput: string[] = [
+        '---\n',
+        'layout: yearsList\n',
+        `exam: ${ex}\n`,
+        '---\n\n',
+    ];
+    if (noYears.length > 0) {
+        // paginate the questions without year
+        paginateItems(outputPath, noYears, 'lists', 'exams', ex, 'sa');
+        yearsOutput.push(
+            '<div class="year-item">',
+            '<div class="left">',
+            '<div class="marker circle">',
+            '<span>S.A.</span>',
+            '</div>',
+            '</div>',
+            '<div class="right">',
+            `<a href="{{ site.url }}/lists/exams/${ex}/sa">Sem ano</a>`,
+            '</div>',
+            '</div>'
+        );
+    }
+    years.forEach((y) => {
+        const items = questinonsByExam.filter((item) => item.data.year === y);
+        if (items.length > 0) {
+            paginateItems(outputPath, items, 'lists', 'exams', ex, y.toString());
+            yearsOutput.push(
+                '<div class="year-item">',
+                '<div class="left">',
+                '<div class="marker circle">',
+                `<span>${y}</span>`,
+                '</div>',
+                '</div>',
+                '<div class="right">',
+                `<a href="{{ site.url }}/lists/exams/${ex}/${y}">${y}</a>`,
+                '</div>',
+                '</div>'
+            );
+        }
+    });
+    examsOutput.push(`{% include exams/${ex}.html %}`);
+
+    const yearsPathOutput = preparePath(outputPath, 'lists', 'exams', ex);
+    const yearsFileOutput = path.join(yearsPathOutput, 'index.html');
+    fs.writeFileSync(yearsFileOutput, yearsOutput.join(''));
+});
+examsOutput.push('</div>');
+
+const examsPath = preparePath(outputPath, 'lists', 'exams');
+const fileExams = path.join(examsPath, 'index.html');
+fs.writeFileSync(fileExams, examsOutput.join('\n'));
+
+/*
 const geometry = sorted.filter((item) => {
     if (!item.data.tags) {
         return false;
@@ -102,3 +186,4 @@ const geometry = sorted.filter((item) => {
 });
 
 paginateItems(outputPath, geometry, 'tags', 'geometry');
+*/
