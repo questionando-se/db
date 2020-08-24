@@ -1,0 +1,38 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O colesterol total de uma pessoa é obtido pela soma da taxa do seu \"colesterol bom\" com a taxa do seu \"colesterol ruim\". Os exames periódicos, realizados em um paciente adulto, apresentaram taxa normal de \"colesterol bom\", porém, taxa do \"colesterol ruim\" (também chamado LDL) de 280 mg/dL." },
+        { "type": "text", "data": "O quadro apresenta uma classificação de acordo com as taxas de LDL em adultos." },
+        { "type": "table", "data": [
+            [{ "header": true, "span": 2, "text": "Taxa de LDL (mg/dL)" }],
+            [{ "text": "Ótima" }, { "text": "Menor do que 100" }],
+            [{ "text": "Próxima de ótima" }, { "text": "De 100 a 129" }],
+            [{ "text": "Limite" }, { "text": "De 130 a 159" }],
+            [{ "text": "Alta" }, { "text": "De 160 a 189" }],
+            [{ "text": "Muito Alta" }, { "text": "190 ou mais" }]
+        ], "credits": "Disponível em: www.minhavida.com.br. Acesso em: 15 out. 2015 (adaptado)." },
+        { "type": "text", "data": "O paciente, seguindo as recomendações médicas sobre estilo de vida e alimentação, realizou o exame logo após o primeiro mês, e a taxa de LDL reduziu 25%. No mês seguinte, realizou novo exame e constatou uma redução de mais 20% na taxa de LDL." },
+        { "type": "text", "data": "De acordo com o resultado do segundo exame, a classificação da taxa de LDL do paciente é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "ótima." }
+        ],
+        [
+            { "type": "text", "data": "próxima de ótima." }
+        ],
+        [
+            { "type": "text", "data": "limite." }
+        ],
+        [
+            { "type": "text", "data": "alta." }
+        ],
+        [
+            { "type": "text", "data": "muito alta." }
+        ]
+    ],
+    "correct": 3
+}

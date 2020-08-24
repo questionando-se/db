@@ -1,0 +1,34 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Numa atividade de treinamento realizada no Exército de um determinado país, três equipes - Alpha, Beta e Gama - foram designadas a percorrer diferentes caminhos, todos com os mesmos pontos de partida e de chegada." },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "A equipe Alpha realizou seu percurso em 90 minutos com uma velocidade média de 6,0 km/h." },
+            { "type": "text", "data": "A equipe Beta também percorreu sua trajetória em 90 minutos, mas sua velocidade média foi de 5,0 km/h." },
+            { "type": "text", "data": "Com uma velocidade média de 6,5km/h a equipe Gama concluiu seu caminho em 60 minutos." }
+        ] },
+        { "type": "text", "data": "Com base nesses dados, foram comparadas as distâncias \\(d_{\\text{Beta}}\\), \\(d_{\\text{Alpha}}\\) e \\(d_{\\text{Gama}}\\) percorridas pelas três equipes." },
+        { "type": "text", "data": "A ordem das distâncias percorridas pelas equipes Alpha, Beta e Gama é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(d_{\\text{Gama}} < d_{\\text{Beta}} < d_{\\text{Alpha}}\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(d_{\\text{Alpha}} < d_{\\text{Beta}} < d_{\\text{Gama}}\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(d_{\\text{Gama}} < d_{\\text{Beta}} < d_{\\text{Alpha}}\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(d_{\\text{Beta}} < d_{\\text{Alpha}} < d_{\\text{Gama}}\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(d_{\\text{Gama}} < d_{\\text{Alpha}} < d_{\\text{Beta}}\\)" }
+        ]
+    ],
+    "correct": 0
+}
