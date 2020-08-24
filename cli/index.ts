@@ -1,6 +1,9 @@
 import path, { ParsedPath } from 'path';
 import fs from 'fs';
-import renderQuestion from './writer/question'
+import { renderQuestion, renderQuestionSummary } from './core/questionRenderer';
+import { QuestionFile, QuestionFileInformation, parseQuestionFile } from './core/question';
+import { paginateItems } from './core/pagination';
+import { preparePath } from './utils/path';
 
 const working = process.cwd();
 
@@ -35,10 +38,8 @@ if (!fs.existsSync(inputPath) || !fs.existsSync(outputPath)) {
     process.exit(1);
 }
 
-const inputQuestionFiles: {
-    path: string;
-    parsed: ParsedPath;
-}[] = [];
+const inputQuestionFiles: QuestionFileInformation[] = [];
+const pushedNames: string[] = [];
 
 function parsePath(dir: string) {
     const files = fs.readdirSync(dir);
@@ -50,10 +51,16 @@ function parsePath(dir: string) {
                 console.error('the question not has correctly named: ' + parsed.name)
                 process.exit(1);
             }
+            if (pushedNames.indexOf(parsed.name) !== -1) {
+                console.error('two questions with the same id: ' + parsed.name);
+                process.exit(1);
+            }
+            pushedNames.push(parsed.name);
             const filePath = path.join(dir, s);
             inputQuestionFiles.push({
                 path: filePath,
-                parsed: path.parse(filePath)
+                parsed: path.parse(filePath),
+                data: parseQuestionFile(filePath)
             });
         } else {
             parsePath(path.join(dir, s));
@@ -77,16 +84,21 @@ const sorted = inputQuestionFiles.sort((a, b) => {
     }
 });
 
+// write questions
 sorted.forEach((item) => {
-    const questionsPath = path.join(outputPath, 'questions');
-    if (!fs.existsSync(questionsPath)) {
-        fs.mkdirSync(questionsPath);
-        if (!fs.existsSync(questionsPath)) {
-            console.error('can\'t create the questions path. make this manualy.')
-            process.exit(1);
-        }
-    }
-    const filePath = path.join(outputPath, 'questions', `${item.parsed.name}.html`);
-    const content = renderQuestion(item.path);
+    const questionsPath = preparePath(outputPath, 'questions');
+    const filePath = path.join(questionsPath, `${item.parsed.name}.html`);
+    const content = renderQuestion(item.data);
     fs.writeFileSync(filePath, content);
 });
+
+paginateItems(outputPath, sorted, 'all');
+
+const geometry = sorted.filter((item) => {
+    if (!item.data.tags) {
+        return false;
+    }
+    return (item.data.tags.indexOf('geometry') !== -1);
+});
+
+paginateItems(outputPath, geometry, 'tags', 'geometry');
