@@ -1,31 +1,28 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": ["geometry"],
+    "tags": [],
     "content": [
-        { "type": "text", "data": "Minecraft é um jogo virtual que pode auxiliar no desenvolvimento de conhecimentos relacionados a espaço e forma. É possível criar casas, edifícios, monumentos e até naves espaciais, tudo em escala real, através do empilhamento de cubinhos." },
-        { "type": "text", "data": "Um jogador deseja construir um cubo com dimensões \\(4\\times 4\\times 4\\). Ele já empilhou alguns dos cubinhos necessários, conforme a figura." },
-        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/cube001.png" },
-        { "type": "text", "data": "Os cubinhos que ainda faltam empilhar para finalizar a construção do cubo, juntos formam uma peça única, capaz de completar a tarefa." },
-        { "type": "text", "data": "O formato da peça capaz de completar o cubo \\(4\\times 4\\times 4\\) é" }
+        { "type": "text", "data": "Um produtor de milho utiliza uma área de 160 hectares para as suas atividades agrícolas. Essa área é dividida em duas partes: uma de 40 hectares, com maior produtividade, e outra, de 120 hectares, com menor produtividade. A produtividade é dada pela razão entre a produção, em tonelada, e a área cultivada. Sabe-se que a área de 40 hectares tem produtividade igual a 2,5 vezes à da outra. Esse fazendeiro pretende aumentar sua produção total em 15%, aumentando o tamanho da sua propriedade. Para tanto, pretende comprar uma parte de uma fazenda vizinha, que possui a mesma produtividade da parte de 120 hectares de suas terras." },
+        { "type": "text", "data": "Qual é a área mínima, em hectare, que o produtor precisará comprar?" }
     ],
     "resolutions": [],
     "alternatives": [
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube002.png" }
+            { "type": "text", "data": "36." }
         ],
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube003.png" }
+            { "type": "text", "data": "33." }
         ],
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube004.png" }
+            { "type": "text", "data": "27." }
         ],
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube005.png" }
+            { "type": "text", "data": "24." }
         ],
         [
-            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube006.png" }
+            { "type": "text", "data": "21." }
         ]
     ],
-    "correct": 0
+    "correct": 1
 }

@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um mapa é a representação reduzida e simplificada de uma localidade. Essa redução, que é feita com o uso de uma escala, mantém a proporção do espaço representado em relação ao espaço real." },
+        { "type": "text", "data": "Certo mapa tem escala 1 : 58.000.000." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/mapa.png", "credits": "Disponível em: http://oblogdedaynabrigth.blogspot.com.br. Acesso em: 9 ago. 2012." },
+        { "type": "text", "data": "Considere que, nesse mapa, o segmento de reta que liga o navio à marca do tesouro meça 7,6 cm." },
+        { "type": "text", "data": "A medida real, em quilômetro, desse segmento de reta é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "4.408." }
+        ],
+        [
+            { "type": "text", "data": "7.632." }
+        ],
+        [
+            { "type": "text", "data": "44.080." }
+        ],
+        [
+            { "type": "text", "data": "76.316." }
+        ],
+        [
+            { "type": "text", "data": "440.800." }
+        ]
+    ],
+    "correct": 0
+}

@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "De acordo com a Lei Universal da Gravitação, proposta por Isaac Newton, a intensidade da força gravitacional \\(F\\) que a Terra exerce sobre um satélite em órbita circular é proporcional à massa \\(m\\) do satélite e inversamente proporcional ao quadrado do raio \\(r\\) da órbita, ou seja" },
+        { "type": "text", "data": "\\[ F=\frac{km}{r^2}. \\]" },
+        { "type": "text", "data": "No plano cartesiano, três satélites, \\(A\\), \\(B\\) e \\(C\\), estão representados, cada um por um ponto (\\(m\\); \\(r\\)) cujas coordenadas são, respectivamente, a massa do satélite e o raio da sua órbita em torno da Terra." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/satelites.png" },
+        { "type": "text", "data": "Com base nas posições relativas dos pontos no gráfico, deseja-se comparar as intensidades \\(F_A\\), \\(F_B\\) e \\F_C\\) da força gravitacional que a Terra exerce sobre os satélites \\(A\\), \\(B\\) e \\(C\\), respectivamente." },
+        { "type": "text", "data": "As intensidades \\(F_A\\), \\(F_B\\) e \\(F_C\\) expressas no gráfico satisfazem a relação" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(F_C=F_A<F_B \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(F_A=F_B<F_C \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(F_A<F_B<F_C \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(F_A<F_C<F_B \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(F_C<F_A<F_B \\)." }
+        ]
+    ],
+    "correct": 4
+}

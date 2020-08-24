@@ -5,7 +5,7 @@
     "content": [
         { "type": "text", "data": "O remo de assento deslizante é um esporte que faz uso de um barco e dois remos do mesmo tamanho." },
         { "type": "text", "data": "A figura mostra uma das posições de uma técnica chamada afastamento." },
-        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/remo.png" },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/remo.png", "credits": "Disponível em: www.remobrasil.com. Acesso em: 6 dez. 2017 (adaptado)." },
         { "type": "text", "data": "Nessa posição, os dois remos se encontram no ponto \\(A\\) e suas outras extremidades estão indicadas pelos pontos \\(B\\) e \\(C\\). Esses três pontos formam um triângulo \\(ABC\\) cujo ângulo \\(B\\hat{A}C\\) tem medida de 170°." },
         { "type": "text", "data": "O tipo de triângulo com vértices nos pontos \\(A\\), \\(B\\) e \\(C\\), no momento em que o remador está nessa posição, é" }
     ],

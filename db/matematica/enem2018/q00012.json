@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "De acordo com um relatório recente da Agência Internacional de Energia (AIE), o mercado de veículos elétricos atingiu um novo marco em 2016, quando foram vendidos mais de 750 mil automóveis da categoria. Com isso, o total de carros elétricos vendidos no mundo alcançou a marca de 2 milhões de unidades desde que os primeiros modelos começaram a ser comercializados em 2011." },
+        { "type": "text", "data": "No Brasil, a expansão das vendas também se verifica. A marca A, por exemplo, expandiu suas vendas no ano de 2016, superando em 360 unidades as vendas de 2015, conforme representado no gráfico." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/carros-eletricos.png", "credits": "Disponível em: www.tecmundo.com.br. Acesso em: 5 dez. 2017." },
+        { "type": "text", "data": "A média anual do número de carros vendidos pela marca A, nos anos representados no gráfico, foi de" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "192." }
+        ],
+        [
+            { "type": "text", "data": "240." }
+        ],
+        [
+            { "type": "text", "data": "252." }
+        ],
+        [
+            { "type": "text", "data": "320." }
+        ],
+        [
+            { "type": "text", "data": "420." }
+        ]
+    ],
+    "correct": 3
+}

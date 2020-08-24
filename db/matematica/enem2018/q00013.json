@@ -1,0 +1,28 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Para apagar os focos A e B de um incêndio, que estavam a uma distância de 30 m um do outro, os bombeiros de um quartal decidiram se posicionar de modo que a distância de um bombeiro ao foco A, de temperatura mais elevada, fosse sempre o dobro da distância desse bombeiro ao foco B, de temperatura menos elevada." },
+        { "type": "text", "data": "Nestas condições, a maior distância, em metros, que dois bombeiros poderiam ter entre eles é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "30." }
+        ],
+        [
+            { "type": "text", "data": "40." }
+        ],
+        [
+            { "type": "text", "data": "45." }
+        ],
+        [
+            { "type": "text", "data": "60." }
+        ],
+        [
+            { "type": "text", "data": "68." }
+        ]
+    ],
+    "correct": 1
+}

@@ -12,7 +12,7 @@ export function paginateItems(
     const outputPath = preparePath(basePath, ...dirs);
 
     let current = 0;
-    let max_per_page = 3;
+    let max_per_page = 10;
     let currentHtml = '';
     let pagesHtml: string[] = [];
     items.forEach((item) => {

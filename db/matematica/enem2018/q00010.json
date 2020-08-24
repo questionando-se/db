@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Em 2014 foi inaugurada a maior roda-gigante do mundo, a High Roller, situada em Las Vegas. A figura representa um esboço dessa roda-gigante, no qual o ponto \\(A\\) representa uma de suas cadeiras:" },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/roda-gigante.png", "credits": "Disponível em: http://en.wikipedia.org. Acesso em: 22 abr. 2014 (adaptado)." },
+        { "type": "text", "data": "A partir da posição indicada, em que o segmento \\(OA\\) se encontra paralelo ao plano do solo, rotaciona-se a High Roller no sentido anti-horário, em torno do ponto \\(O\\). Sejam \\(t\\) o ângulo determinado pelo segmento \\(OA\\) em relação à sua posição inicial, e \\(f\\) a função que descreve a altura do ponto \\(A\\), em relação ao solo, em função de \\(t\\)." },
+        { "type": "text", "data": "Após duas voltas completas, \\(f\\) tem o seguinte gráfico:" },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/roda-gigante-grafico.png" },
+        { "type": "text", "data": "A expressão da função altura é dada por" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\( f(t)=80sen(t)+88\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( f(t)=80cos(t)+88\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( f(t)=88cos(t)+168\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( f(t)=168sen(t)+88cos(t)\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( f(t)=88sen(t)+168cos(t)\\)." }
+        ]
+    ],
+    "correct": 0
+}
