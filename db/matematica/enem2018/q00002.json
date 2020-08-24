@@ -16,6 +16,7 @@
         { "type": "text", "data": "O paciente, seguindo as recomendações médicas sobre estilo de vida e alimentação, realizou o exame logo após o primeiro mês, e a taxa de LDL reduziu 25%. No mês seguinte, realizou novo exame e constatou uma redução de mais 20% na taxa de LDL." },
         { "type": "text", "data": "De acordo com o resultado do segundo exame, a classificação da taxa de LDL do paciente é" }
     ],
+    "difficulty": "easy",
     "resolutions": [],
     "alternatives": [
         [

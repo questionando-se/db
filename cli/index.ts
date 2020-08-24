@@ -101,13 +101,14 @@ sorted.forEach((item) => {
 paginateItems(outputPath, sorted, 'lists', 'all');
 
 
+const levels: (string | undefined)[] = ['easy', 'medium', 'hard', undefined];
 
 
 let examsOutput: string[] = [
     '---',
     'layout: examsList',
     '---',
-    '<div class="exams-list">',
+    '<div class="collection">',
 ];
 exams.forEach((ex) => {
     const years: number[] = [];
@@ -125,17 +126,19 @@ exams.forEach((ex) => {
         }
         return is;
     });
-    let yearsOutput: string[] = [
+    let examIndexOutput: string[] = [
         '---\n',
         'layout: yearsList\n',
         `exam: ${ex}\n`,
         '---\n\n',
+        '<h4>Por ano de realização</h4>',
+        '<div class="collection">'
     ];
     if (noYears.length > 0) {
         // paginate the questions without year
         paginateItems(outputPath, noYears, 'lists', 'exams', ex, 'sa');
-        yearsOutput.push(
-            '<div class="year-item">',
+        examIndexOutput.push(
+            '<div class="collection-item">',
             '<div class="left">',
             '<div class="marker circle">',
             '<span>S.A.</span>',
@@ -151,8 +154,8 @@ exams.forEach((ex) => {
         const items = questinonsByExam.filter((item) => item.data.year === y);
         if (items.length > 0) {
             paginateItems(outputPath, items, 'lists', 'exams', ex, y.toString());
-            yearsOutput.push(
-                '<div class="year-item">',
+            examIndexOutput.push(
+                '<div class="collection-item">',
                 '<div class="left">',
                 '<div class="marker circle">',
                 `<span>${y}</span>`,
@@ -165,17 +168,59 @@ exams.forEach((ex) => {
             );
         }
     });
+
+    examIndexOutput.push('</div>', '<h4>Por dificuldade</h4>', '<div class="collection">');
+    
+    levels.forEach((level) => {
+        const questionsByLevel = sorted.filter((item) => item.data.difficulty === level);
+        let img = '';
+        let text = '';
+        let link = '';
+        if (level === undefined) {
+            img = '{{ site.url }}/assets/images/difficulty/no-classified.png';
+            text = 'Não classificados';
+            link = `{{ site.url }}/lists/exams/${ex}/noclassified`;
+        } else if (level === 'easy') {
+            img = '{{ site.url }}/assets/images/difficulty/easy.png';
+            text = 'Fáceis';
+            link = `{{ site.url }}/lists/exams/${ex}/${level}`;
+        } else if (level === 'medium') {
+            img = '{{ site.url }}/assets/images/difficulty/medium.png';
+            text = 'Médias';
+            link = `{{ site.url }}/lists/exams/${ex}/${level}`;
+        } else {
+            img = '{{ site.url }}/assets/images/difficulty/hard.png';
+            text = 'Difíceis';
+            link = `{{ site.url }}/lists/exams/${ex}/${level}`;
+        }
+        examIndexOutput.push(
+            '<div class="collection-item">',
+            '<div class="left">',
+            `<img src="${img}" class="circle" />`,
+            '</div>',
+            '<div class="right">',
+            `<a href="${link}">${text}</a>`,
+            '</div>',
+            '</div>'
+        );
+        paginateItems(outputPath, questionsByLevel, 'lists', 'exams', ex, level === undefined ? 'noclassified' : level);
+    });
+
+    examIndexOutput.push('</div>');
+
     examsOutput.push(`{% include exams/${ex}.html %}`);
 
     const yearsPathOutput = preparePath(outputPath, 'lists', 'exams', ex);
     const yearsFileOutput = path.join(yearsPathOutput, 'index.html');
-    fs.writeFileSync(yearsFileOutput, yearsOutput.join(''));
+    fs.writeFileSync(yearsFileOutput, examIndexOutput.join(''));
 });
 examsOutput.push('</div>');
 
 const examsPath = preparePath(outputPath, 'lists', 'exams');
 const fileExams = path.join(examsPath, 'index.html');
 fs.writeFileSync(fileExams, examsOutput.join('\n'));
+
+
 
 /*
 const geometry = sorted.filter((item) => {

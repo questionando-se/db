@@ -8,6 +8,7 @@
         { "type": "text", "data": "Qual teria sido a cobertura dessa campanha no ano de 2014?" }
     ],
     "resolutions": [],
+    "difficulty": "easy",
     "alternatives": [
         [
             { "type": "text", "data": "62,3%." }

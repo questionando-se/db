@@ -9,6 +9,7 @@
         { "type": "text", "data": "A média anual do número de carros vendidos pela marca A, nos anos representados no gráfico, foi de" }
     ],
     "resolutions": [],
+    "difficulty": "easy",
     "alternatives": [
         [
             { "type": "text", "data": "192." }

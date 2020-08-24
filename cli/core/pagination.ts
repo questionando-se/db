@@ -10,6 +10,7 @@ export function paginateItems(
     ...dirs: string[]
 ) {
     const outputPath = preparePath(basePath, ...dirs);
+    const relUrl = dirs.join('/');
 
     let current = 0;
     let max_per_page = 10;
@@ -26,6 +27,8 @@ export function paginateItems(
     });
     if (currentHtml !== '') {
         pagesHtml.push(currentHtml);
+    } else if (pagesHtml.length === 0) {
+        pagesHtml.push('<h4>Não existem questões listadas aqui</h4>');
     }
 
     const pagesCount = pagesHtml.length;
@@ -36,6 +39,7 @@ export function paginateItems(
             'layout: questionList',
             `currentPage: ${currentPage}`,
             `pagesCount: ${pagesCount}`,
+            `relativePath: ${relUrl}`,
             '---',
         ];
         let filePath = path.join(outputPath, 'index.html');

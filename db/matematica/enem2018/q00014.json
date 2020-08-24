@@ -7,6 +7,7 @@
         { "type": "text", "data": "Em um torneio de tênis, disputado nesse sistema, participam 128 tenistas. Para se definir o campeão desse torneio, o número de partidas necessárias é dado por" }
     ],
     "resolutions": [],
+    "difficulty": "easy",
     "alternatives": [
         [
             { "type": "text", "data": "\\(2\\times 128\\)." }

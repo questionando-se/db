@@ -10,6 +10,7 @@
         { "type": "text", "data": "O formato da peça capaz de completar o cubo \\(4\\times 4\\times 4\\) é" }
     ],
     "resolutions": [],
+    "difficulty": "easy",
     "alternatives": [
         [
             { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube002.png" }

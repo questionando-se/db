@@ -13,6 +13,7 @@ export interface QuestionFile {
     exam?: string;
     year?: number;
     tags?: string[];
+    difficulty?: 'easy' | 'medium' | 'hard';
     content: QuestionFileContent[];
     alternatives: QuestionFileContent[][];
     correct: number;

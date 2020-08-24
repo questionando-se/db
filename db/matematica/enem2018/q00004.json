@@ -10,6 +10,7 @@
         { "type": "text", "data": "O tipo de triângulo com vértices nos pontos \\(A\\), \\(B\\) e \\(C\\), no momento em que o remador está nessa posição, é" }
     ],
     "resolutions": [],
+    "difficulty": "easy",
     "alternatives": [
         [
             { "type": "text", "data": "retângulo escaleno." }

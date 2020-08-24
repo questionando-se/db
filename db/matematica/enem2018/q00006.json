@@ -10,6 +10,7 @@
         { "type": "text", "data": "A medida real, em quilômetro, desse segmento de reta é" }
     ],
     "resolutions": [],
+    "difficulty": "easy",
     "alternatives": [
         [
             { "type": "text", "data": "4.408." }
