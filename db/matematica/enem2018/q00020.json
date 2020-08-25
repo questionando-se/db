@@ -1,0 +1,86 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A este ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes." },
+        { "type": "text", "data": "Em uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "rowspan": 2, "text": "Colocação" },
+                { "header": true, "span": 4, "text": "Ranking" }
+            ],
+            [
+                { "header": true, "text": "I" },
+                { "header": true, "text": "II" },
+                { "header": true, "text": "III" },
+                { "header": true, "text": "IV" }
+            ],
+            [
+                { "text": "1°" },
+                { "text": "Ana" },
+                { "text": "Dani" },
+                { "text": "Bia" },
+                { "text": "Edu" }
+            ],
+            [
+                { "text": "2°" },
+                { "text": "Bia" },
+                { "text": "Caio" },
+                { "text": "Ana" },
+                { "text": "Ana" }
+            ],
+            [
+                { "text": "3°" },
+                { "text": "Caio" },
+                { "text": "Edu" },
+                { "text": "Caio" },
+                { "text": "Dani" }
+            ],
+            [
+                { "text": "4°" },
+                { "text": "Dani" },
+                { "text": "Ana" },
+                { "text": "Edu" },
+                { "text": "Bia" }
+            ],
+            [
+                { "text": "5°" },
+                { "text": "Edu" },
+                { "text": "Bia" },
+                { "text": "Dani" },
+                { "text": "Caio" }
+            ]
+        ] },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Ranking" },
+                { "header": true, "text": "Frequência" }
+            ],
+            [{ "text": "I" }, { "text": "4" }],
+            [{ "text": "II" }, { "text": "9" }],
+            [{ "text": "III" }, { "text": "7" }],
+            [{ "text": "IV" }, { "text": "5" }]
+        ] },
+        { "type": "text", "data": "A poesia vencedora foi a de" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "Edu." }
+        ],
+        [
+            { "type": "text", "data": "Dani." }
+        ],
+        [
+            { "type": "text", "data": "Caio." }
+        ],
+        [
+            { "type": "text", "data": "Bia." }
+        ],
+        [
+            { "type": "text", "data": "Ana." }
+        ]
+    ],
+    "correct": 4
+}

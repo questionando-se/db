@@ -24,6 +24,7 @@ function renderUL(content: QuestionFileContent): string {
 interface TableData {
     header?: boolean;
     span?: number;
+    rowspan?: number;
     text: string;
 };
 
@@ -45,6 +46,9 @@ function renderTable(content: QuestionFileContent): string {
                 }
                 if (col.span !== undefined) {
                     html += ` colspan="${col.span}"`
+                }
+                if (col.rowspan !== undefined) {
+                    html += ` rowspan="${col.span}"`
                 }
                 html += `>${col.text}${close}`;
                 return html;

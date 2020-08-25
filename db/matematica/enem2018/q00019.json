@@ -1,0 +1,36 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A rosa dos ventos é uma figura que representa oito sentidos, que dividem o círculo em partes iguais." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/rosadosventos.png" },
+        { "type": "text", "data": "Uma câmera de vigilância está fixada no teto de um shopping e sua lente pode ser direcionada remotamente, através de um controlador, para qualquer sentido. A lente da câmera está apontada inicialmente no sentido Oeste e o seu controlador efetua três mudanças consecutivas, a saber:" },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "1ª mudança: 135° no sentido anti-horário;" },
+            { "type": "text", "data": "2ª mudança: 60° no sentido horário;" },
+            { "type": "text", "data": "3ª mudança: 45° no sentido anti-horário;" }
+        ] },
+        { "type": "text", "data": "Após a 3ª mudança, ele é orientado a reposicionar a câmera, com a menor amplitude possível, no sentido Noroeste (NO) devido a um movimento suspeito de um cliente." },
+        { "type": "text", "data": "Qual mudança de sentido o controlador deve efetuar para reposicionar a câmera?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "75º no sentido horário." }
+        ],
+        [
+            { "type": "text", "data": "105º no sentido anti-horário." }
+        ],
+        [
+            { "type": "text", "data": "120º no sentido anti-horário." }
+        ],
+        [
+            { "type": "text", "data": "135° no sentido anti-horário." }
+        ],
+        [
+            { "type": "text", "data": "165° no sentido horário." }
+        ]
+    ],
+    "correct": 4
+}
