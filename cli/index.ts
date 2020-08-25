@@ -98,7 +98,7 @@ sorted.forEach((item) => {
     const content = renderQuestion(item.data);
     fs.writeFileSync(filePath, content);
 });
-paginateItems(outputPath, sorted, 'lists', 'all');
+paginateItems(outputPath, sorted, null, 'lists', 'all');
 
 
 const levels: (string | undefined)[] = ['easy', 'medium', 'hard', undefined];
@@ -136,7 +136,7 @@ exams.forEach((ex) => {
     ];
     if (noYears.length > 0) {
         // paginate the questions without year
-        paginateItems(outputPath, noYears, 'lists', 'exams', ex, 'sa');
+        paginateItems(outputPath, noYears, { exam: ex, year: 'sa' }, 'lists', 'exams', ex, 'sa');
         examIndexOutput.push(
             '<div class="collection-item">',
             '<div class="left">',
@@ -153,7 +153,7 @@ exams.forEach((ex) => {
     years.forEach((y) => {
         const items = questinonsByExam.filter((item) => item.data.year === y);
         if (items.length > 0) {
-            paginateItems(outputPath, items, 'lists', 'exams', ex, y.toString());
+            paginateItems(outputPath, items, { exam: ex, year: y.toString() }, 'lists', 'exams', ex, y.toString());
             examIndexOutput.push(
                 '<div class="collection-item">',
                 '<div class="left">',
@@ -203,7 +203,10 @@ exams.forEach((ex) => {
             '</div>',
             '</div>'
         );
-        paginateItems(outputPath, questionsByLevel, 'lists', 'exams', ex, level === undefined ? 'noclassified' : level);
+        paginateItems(outputPath, questionsByLevel, {
+            exam: ex,
+            difficulty: level === undefined ? 'noclassified' : level
+        }, 'lists', 'exams', ex, level === undefined ? 'noclassified' : level);
     });
 
     examIndexOutput.push('</div>');

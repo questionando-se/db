@@ -27,6 +27,9 @@ export function renderQuestion(data: QuestionFile): string {
     if (data.tags !== undefined) {
         output.push(`tags: ${data.tags.join(', ')}`);
     }
+    if (data.difficulty !== undefined) {
+        output.push(`difficulty: ${data.difficulty}`);
+    }
     output.push(
         `correct: ${data.correct}`,
         '---',
@@ -73,8 +76,35 @@ function removeHtmlTags(strx: string, size: number): string {
     return output + '...';
 }
 
-export function renderQuestionSummary(data: QuestionFile): string {
-    const output = ['<div class="question">'];
+export function renderQuestionSummary(data: QuestionFile, id: string): string {
+    const output = [
+        '<div class="question">',
+        '<div class="question-header">',
+        `<a class="question-title" href="{{ site.url }}/questions/${id}.html">`
+    ];
+    if (data.exam) {
+        output.push(data.exam);
+    }
+    if (data.year) {
+        output.push(` (${data.year})`);
+    }
+    if (data.difficulty) {
+        if (data.difficulty === 'easy') {
+            output.push(' - Fácil');
+        } else if (data.difficulty === 'medium') {
+            output.push(' - Média');
+        } else {
+            output.push(' - Difícil');
+        }
+    }
+    output.push('</a>');
+    if (data.tags && data.tags.length > 0) {
+        output.push('<div class="tags">');
+        data.tags.forEach((tag) => output.push(`<span class="tag">${tag}</div>`));
+        output.push('</div>');
+    }
+
+    output.push('</div><div class="question-body">');
     let img = '';
     const content = data.content.map((item) => {
         if (item.type === 'image') {
@@ -85,7 +115,8 @@ export function renderQuestionSummary(data: QuestionFile): string {
     if (img !== '') {
         output.push(`<img src=${img} />`);
     }
-    output.push(`<div class="content">${removeHtmlTags(content, 350)}</div>`);
+    output.push(`<div class="content">${removeHtmlTags(content, 300)}</div>`);
     output.push('</div>');
-    return output.join('\n');
+    output.push('</div>');
+    return output.join('');
 }
