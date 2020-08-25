@@ -48,7 +48,7 @@ function renderTable(content: QuestionFileContent): string {
                     html += ` colspan="${col.span}"`
                 }
                 if (col.rowspan !== undefined) {
-                    html += ` rowspan="${col.span}"`
+                    html += ` rowspan="${col.rowspan}"`
                 }
                 html += `>${col.text}${close}`;
                 return html;
