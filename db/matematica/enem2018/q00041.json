@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Para criar um logotipo, um profissional da área de design gráfico deseja construí-lo utilizando o conjunto de pontos do plano na forma de um triângulo, exatamente como mostra a imagem." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/logo-triangulo.png", "credits": "Disponível em: www.goo.gl. Acesso em: 2 dez. 2017 (adaptado)." },
+        { "type": "text", "data": "Para construir tal imagem utilizando uma ferramenta gráfica, será necessário escrever algebricamente o conjunto que representa os pontos desse gráfico." },
+        { "type": "text", "data": "Esse conjunto é dado pelos pares ordenados \\( (x; y) \\in \\mathbb{N}\\times\\mathbb{N}\\), tais que" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(0\\leqslant x\\leqslant y\\leqslant 10\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(0\\leqslant y\\leqslant x\\leqslant 10\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(0\\leqslant x\\leqslant 10\\), \\(0\\leqslant y\\leqslant 10\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(0\\leqslant x + y \\leqslant 10 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(0\\leqslant x + y \\leqslant 20 \\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 178,
+    "correct": 1
+}

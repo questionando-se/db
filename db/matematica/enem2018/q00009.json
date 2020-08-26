@@ -24,5 +24,7 @@
             { "type": "text", "data": "\\(2.250 < X < 3.000\\)." }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 144,
     "correct": 2
 }

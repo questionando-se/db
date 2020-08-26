@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Durante uma festa de colégio, um grupo de alunos organizou uma rifa. Oitenta alunos faltaram à festa e não participaram da rifa. Entre os que compareceram, alguns compraram três bilhetes, 45 compraram 2 bilhetes, e muitos compraram apenas um. O total de alunos que comprou um único bilhete era 20% do número total de bilhetes vendidos, e o total de bilhetes vendidos excedeu em 33 o número total de alunos do colégio." },
+        { "type": "text", "data": "Quantos alunos compraram somente um bilhete?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "34." }
+        ],
+        [
+            { "type": "text", "data": "42." }
+        ],
+        [
+            { "type": "text", "data": "47." }
+        ],
+        [
+            { "type": "text", "data": "48." }
+        ],
+        [
+            { "type": "text", "data": "79." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 168,
+    "correct": 3
+}

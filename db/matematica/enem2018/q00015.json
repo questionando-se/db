@@ -28,5 +28,7 @@
             { "type": "text", "data": "\\(F_C < F_A < F_B \\)." }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 151,
     "correct": 4
 }

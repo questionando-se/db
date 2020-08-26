@@ -26,5 +26,7 @@
             { "type": "text", "data": "65,5%." }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 143,
     "correct": 1
 }

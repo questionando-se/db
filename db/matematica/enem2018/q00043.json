@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um designer de jogos planeja um jogo que faz uso de um tabuleiro de dimensão \\(n\\times n\\), com \\(n\\geqslant 2\\), no qual cada jogador, na sua vez, coloca uma peça sobre uma das casas vazias do tabuleiro. Quando uma peça é posicionada, a região formada pelas casas que estão na mesma linha ou coluna dessa peça é chamada de zona de combate dessa peça. Na figura está ilustrada a zona de combate de uma peça colocada em uma das casas de um tabuleiro de dimensão \\(8\\times 8\\)." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/tabuleiro.png" },
+        { "type": "text", "data": "O tabuleiro deve ser dimensionado de forma que a probabilidade de se posicionar a segunda peça aleatoriamente, seguindo a regra do jogo, e esta ficar sobre a zona de combate da primeira, seja inferior a \\(\\frac{1}{5}\\)." },
+        { "type": "text", "data": "A dimensão mínima que o designer deve adotar para esse tabuleiro é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(4\\times 4\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(6\\times 6\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(9\\times 9\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(10\\times 10\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(11\\times 11\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 180,
+    "correct": 3
+}

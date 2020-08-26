@@ -17,6 +17,8 @@ export interface QuestionFile {
     content: QuestionFileContent[];
     alternatives: QuestionFileContent[][];
     correct: number;
+    notebook?: string;
+    number?: number;
 }
 
 export interface QuestionFileInformation {

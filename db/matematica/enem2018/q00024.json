@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um edifício tem a numeração dos andares iniciando no térreo (T), e continuando com primeiro, segundo, terceiro, ..., até o último andar. Uma criança entrou no elevador e, tocando no painel, seguiu uma sequência de andares, parando, abrindo e fechando a porta em diversos andares. A partir de onde entrou a criança, o elevador subiu sete andares, em seguida desceu dez, desceu mais treze, subiu nove, desceu quatro e parou no quinto andar, finalizando a sequência. Considere que, no trajeto seguido pela criança, o elevador parou uma vez no último andar do edifício." },
+        { "type": "text", "data": "De acordo com as informações dadas, o último andar do edifício é o" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "16°." }
+        ],
+        [
+            { "type": "text", "data": "22°." }
+        ],
+        [
+            { "type": "text", "data": "23°." }
+        ],
+        [
+            { "type": "text", "data": "25°." }
+        ],
+        [
+            { "type": "text", "data": "32°." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 160,
+    "correct": 2
+}

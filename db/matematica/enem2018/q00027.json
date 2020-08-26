@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O gerente do setor de recursos humanos de uma empresa está organizando uma avaliação em que uma das etapas é um jogo de perguntas e respostas.  Para essa etapa, ele classificou as perguntas, pelo nível de dificuldade, em fácil, médio e difícil, e escreveu cada pergunta em cartões para colocação em uma urna." },
+        { "type": "text", "data": "Contudo, após depositar vinte perguntas de diferentes níveis na urna, ele observou que 25% delas eram de nível fácil.  Querendo que as perguntas de nível fácil sejam a maioria, o gerente decidiu acrescentar mais perguntas de nível fácil à urna, de modo que a probabilidade de o primeiro participante retirar, aleatoriamente, uma pergunta de nível fácil seja de 75%." },
+        { "type": "text", "data": "Com essas informações, a quantidade de perguntas de nível fácil que o gerente deve acrescentar à urna é igual a:" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "10." }
+        ],
+        [
+            { "type": "text", "data": "15." }
+        ],
+        [
+            { "type": "text", "data": "35." }
+        ],
+        [
+            { "type": "text", "data": "40." }
+        ],
+        [
+            { "type": "text", "data": "45." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 163,
+    "correct": 3
+}

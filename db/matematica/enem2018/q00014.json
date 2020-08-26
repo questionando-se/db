@@ -25,5 +25,7 @@
             { "type": "text", "data": "\\(64+32+16+8+4+2+1\\)." }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 149,
     "correct": 4
 }

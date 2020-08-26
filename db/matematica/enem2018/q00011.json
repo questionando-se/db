@@ -28,5 +28,7 @@
             { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/cube006.png" }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 146,
     "correct": 0
 }

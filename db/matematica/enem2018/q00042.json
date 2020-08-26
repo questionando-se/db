@@ -1,0 +1,34 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A figura mostra uma praça circular que contém um chafariz em seu centro e, em seu entorno, um passeio. Os círculos que definem a praça e o chafariz são concêntricos." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/chafariz1.png" },
+        { "type": "text", "data": "O passeio terá seu piso revestido com ladrilhos. Sem condições de calcular os raios, pois o chafariz está cheio, um engenheiro fez a seguinte medição: esticou uma trena tangente ao chafariz, medindo a distância entre dois pontos \\(A\\) e \\(B\\), conforme a figura. Com isso, obteve a medida do segmento de reta \\(AB\\): 16 m." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/chafariz2.png" },
+        { "type": "text", "data": "Dispondo apenas dessa medida, o engenheiro calculou corretamente a medida da área do passeio, em metro quadrado." },
+        { "type": "text", "data": "A medida encontrada pelo engenheiro foi." }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(4\\pi\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(8\\pi\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(48\\pi\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(64\\pi\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(192\\pi\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 179,
+    "correct": 3
+}

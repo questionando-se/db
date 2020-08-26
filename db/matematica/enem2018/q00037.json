@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Os guindastes são fundamentais em canteiros de obras, no manejo de materiais pesados como vigas de aço. A figura ilustra uma sequência de estágios em que um guindaste iça uma viga de aço que se encontra inicialmente no solo." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/guindaste001.png" },
+        { "type": "text", "data": "Na figura, o ponto \\(O\\) representa a projeção ortogonal do cabo de aço sobre o plano do chão e este se mantém na vertical durante todo o movimento de içamento da viga, que se inicia no tempo \\(t=0\\) (estágio 1) e finaliza no tempo \\(t_f\\) (estágio 3). Uma das extremidades da viga é içada verticalmente a partir do ponto \\(O\\), enquanto que a outra extremidade desliza sobre o solo em direção ao ponto \\(O\\). Considere que o cabo de aço utilizado pelo guindaste para içar a viga fique sempre na posição vertical. Na figura, o ponto \\(M\\) representa o ponto médio do segmento que representa a viga." },
+        { "type": "text", "data": "O gráfico que descreve a distância do ponto \\(M\\) ao ponto \\(O\\), em função do tempo, entre \\(t=0\\) e \\(t_f\\), é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/guindaste002.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/guindaste003.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/guindaste004.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/guindaste005.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2018/matematica/guindaste006.png" }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 174,
+    "correct": 0
+}

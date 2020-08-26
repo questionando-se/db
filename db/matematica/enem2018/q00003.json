@@ -25,5 +25,7 @@
             { "type": "text", "data": "\\( \\frac{50}{9X}+\\frac{50}{4Y} \\)" }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 138,
     "correct": 0
 }

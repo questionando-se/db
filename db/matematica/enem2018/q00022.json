@@ -1,0 +1,44 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um artesão possui potes cilíndricos de tinta cujas medidas externas são 4 cm de diâmetro e 6 cm de altura. Ele pretende adquirir caixas organizadoras para armazenar seus potes de tinta, empilhados verticalmente com tampas voltadas para cima, de forma que as caixas possam ser fechadas." },
+        { "type": "text", "data": "No mercado, existem cinco opções de caixas organizadoras, com tampa, em formato de paralelepípedo, reto retângulo, vendidas pelo mesmo preço, possuindo as seguintes dimensões internas:" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Modelo" },
+                { "header": true, "text": "Comprimento<br/>(cm)" },
+                { "header": true, "text": "Largura<br/>(cm)" },
+                { "header": true, "text": "Altura<br/>(cm)" }
+            ],
+            [{ "text": "I" }, { "text": "8" }, { "text": "8" }, { "text": "40" }],
+            [{ "text": "II" }, { "text": "8" }, { "text": "20" }, { "text": "14" }],
+            [{ "text": "III" }, { "text": "18" }, { "text": "5" }, { "text": "35" }],
+            [{ "text": "IV" }, { "text": "20" }, { "text": "12" }, { "text": "12" }],
+            [{ "text": "V" }, { "text": "24" }, { "text": "8" }, { "text": "14" }]
+        ] },
+        { "type": "text", "data": "Qual desses modelos  o artesão deve adquirir para conseguir armazenar o maior número de potes por caixa?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 158,
+    "correct": 3
+}

@@ -1,0 +1,47 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Devido ao não cumprimento das metas definidas para a campanha de vacinação contra a gripe comum e o vírus H1N1 em um ano, o Ministério da Saúde anunciou a prorrogação da campanha por mais uma semana. A tabela apresenta as quantidades de pessoas vacinadas dentre os cinco grupos de risco até a data de início da prorrogação da campanha." },
+        { "type": "table", "data": [
+            [{ "header": true, "span": 4, "text": "Balanço parcial nacional de vacinação contra a gripe" }],
+            [
+                { "header": true, "rowspan": 2, "text": "Grupo de risco" },
+                { "header": true, "rowspan": 2, "text": "População (milhão)" },
+                { "header": true, "span": 2, "text": "População já vacinada" }
+            ],
+            [
+                { "header": true, "text": "(milhão)" },
+                { "header": true, "text": "(%)" }
+            ],
+            [{ "text": "Crianças" }, { "text": "4,5" }, { "text": "0,9" }, { "text": "20" }],
+            [{ "text": "Profissionais de saúde" }, { "text": "2,0" }, { "text": "1,0" }, { "text": "50" }],
+            [{ "text": "Gestantes" }, { "text": "2,5" }, { "text": "1,5" }, { "text": "60" }],
+            [{ "text": "Indígenas" }, { "text": "0,5" }, { "text": "0,4" }, { "text": "80" }],
+            [{ "text": "Idosos" }, { "text": "20,5" }, { "text": "8,2" }, { "text": "40" }]
+        ], "credits": "Disponível em: http://portalsaude.saude.gov.br. Acesso em: 16 ago. 2012." },
+        { "type": "text", "data": "Qual é a porcentagem do total de pessoas desses grupos de risco já vacinadas?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "12." }
+        ],
+        [
+            { "type": "text", "data": "18." }
+        ],
+        [
+            { "type": "text", "data": "30." }
+        ],
+        [
+            { "type": "text", "data": "40." }
+        ],
+        [
+            { "type": "text", "data": "50." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 167,
+    "correct": 3
+}

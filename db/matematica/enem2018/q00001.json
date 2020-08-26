@@ -30,5 +30,7 @@
             { "type": "text", "data": "\\(d_{\\text{Gama}} < d_{\\text{Alpha}} < d_{\\text{Beta}}\\)" }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 136,
     "correct": 0
 }

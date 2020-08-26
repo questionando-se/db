@@ -24,5 +24,7 @@
             { "type": "text", "data": "\\(\\frac{8}{21}\\)" }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 140,
     "correct": 3
 }

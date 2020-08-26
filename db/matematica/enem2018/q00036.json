@@ -1,0 +1,59 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O salto ornamental é um esporte em que cada competidor realiza seis saltos. A nota em cada salto é calculada pela soma das notas dos juízes, multiplicada pela nota de partida (o grau de dificuldade de cada salto). Fica em primeiro lugar o atleta que obtiver a maior soma das seis notas recebidas." },
+        { "type": "text", "data": "O atleta 10 irá realizar o último salto da final. Ele observa no Quadro 1, antes de executar o salto, o recorte do quadro parcial de notas com a sua classificação e a dos três primeiros lugares até aquele momento." },
+        { "type": "text", "data": "<b class=\"text-center\">Quadro 1</b>" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Classificação" },
+                { "header": true, "text": "Atleta" },
+                { "header": true, "text": "6º Salto" },
+                { "header": true, "text": "Total" }
+            ],
+            [{ "text": "1°" }, { "text": "3" }, { "text": "135,0" }, { "text": "829,0" }],
+            [{ "text": "2°" }, { "text": "4" }, { "text": "140,0" }, { "text": "825,2" }],
+            [{ "text": "3°" }, { "text": "8" }, { "text": "140,4" }, { "text": "824,2" }],
+            [{ "text": "6°" }, { "text": "10" }, { "text": "" }, { "text": "687,5" }]
+        ] },
+        { "type": "text", "data": "Ele precisa decidir com seu trinador qual salto deverá realizar. Os dados dos possíveis tipos de salto estão no Quadro 2." },
+        { "type": "text", "data": "<b class=\"text-center\">Quadro 2</b>" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Tipo de salto" },
+                { "header": true, "text": "Nota de partida" },
+                { "header": true, "text": "Estimativa da soma das notas dos juízes" },
+                { "header": true, "text": "Probabilidade de obter a nota" }
+            ],
+            [{ "text": "T1" }, { "text": "2,2" }, { "text": "57" }, { "text": "89,76%" }],
+            [{ "text": "T2°" }, { "text": "2,4" }, { "text": "58" }, { "text": "93,74%" }],
+            [{ "text": "T3" }, { "text": "2,6" }, { "text": "55" }, { "text": "91,88%" }],
+            [{ "text": "T4" }, { "text": "2,8" }, { "text": "50" }, { "text": "95,38%" }],
+            [{ "text": "T5" }, { "text": "3" }, { "text": "53" }, { "text": "87,34%" }]
+        ] },
+        { "type": "text", "data": "O atleta optará pelo salto com a maior probabilidade de obter a nota estimada, de maneira que lhe permita alcançar o primeiro lugar. Considerando essas condições, o salto que o atleta deverá escolher é o de tipo" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "T1." }
+        ],
+        [
+            { "type": "text", "data": "T2." }
+        ],
+        [
+            { "type": "text", "data": "T3." }
+        ],
+        [
+            { "type": "text", "data": "T4." }
+        ],
+        [
+            { "type": "text", "data": "T5." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 173,
+    "correct": 2
+}

@@ -1,0 +1,33 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O Salão do Automóvel de São Paulo é um evento no qual vários fabricantes expõem seus modelos mais recentes de veículos, mostrando, principalmente, suas inovações em design e tecnologia." },
+        { "type": "text", "data": "<small class=\"text-right\">Disponível em: http://g1.globo.com. Acesso em: 4 fev. 2015 (adaptado).</small>" },
+        { "type": "text", "data": "Uma montadora pretende participar desse evento com dois estandes, um na entrada e outro na região central do salão, expondo, em cada um deles, um carro compacto e uma caminhonete." },
+        { "type": "text", "data": "Para compor os estandes, foram disponibilizados pela montadora quatro carros compactos, de modelos distintos, e seis caminhonetes de diferentes cores para serem escolhidos aqueles que serão expostos. A posição dos carros dentro de cada estande é irrelevante.." },
+        { "type": "text", "data": "Uma expressão que fornece a quantidade de maneiras diferentes que os estandes podem ser compostos é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(A_{10}^{4}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(C_{10}^{4}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(C_{4}^{2} \\times C_{6}^{2} \\times 2\\times 2 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(A_{4}^{2} \\times C_{6}^{2} \\times 2\\times 2 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(C_{4}^{2} \\times C_{6}^{2} \\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 161,
+    "correct": 2
+}

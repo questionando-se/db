@@ -32,5 +32,7 @@
             { "type": "text", "data": "165° no sentido horário." }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 155,
     "correct": 4
 }

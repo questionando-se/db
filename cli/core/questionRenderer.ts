@@ -1,18 +1,6 @@
 import { QuestionFile, makeUrl } from './question';
 import renderContent from './questionContentRenderer';
 
-const ALPHABET = [
-    'A', 'B', 'C',
-    'D', 'E', 'F',
-    'G', 'H', 'I',
-    'J', 'K', 'L',
-    'M', 'N', 'O',
-    'P', 'Q', 'R',
-    'S', 'T', 'U',
-    'V', 'W', 'X',
-    'Y', 'Z'
-];
-
 export function renderQuestion(data: QuestionFile): string {
     let output: string[] = [
         '---',
@@ -86,7 +74,12 @@ export function renderQuestionSummary(data: QuestionFile, id: string): string {
         output.push(data.exam);
     }
     if (data.year) {
-        output.push(` (${data.year})`);
+        output.push(` ${data.year}`);
+    }
+    if (data.exam === 'ENEM') {
+        if (data.number && data.notebook) {
+            output.push(` - Questão ${data.number} Caderno ${data.notebook}`);
+        }
     }
     if (data.difficulty) {
         if (data.difficulty === 'easy') {
@@ -110,12 +103,15 @@ export function renderQuestionSummary(data: QuestionFile, id: string): string {
         if (item.type === 'image') {
             img = makeUrl(item.data as string, item.pathType);
         }
+        if (item.type !== 'text') {
+            return '';
+        }
         return renderContent(item);
     }).join('');
     if (img !== '') {
         output.push(`<img src=${img} />`);
     }
-    output.push(`<div class="content">${removeHtmlTags(content, 300)}</div>`);
+    output.push(`<div class="content">${removeHtmlTags(content, 150)}</div>`);
     output.push('</div>');
     output.push('</div>');
     return output.join('');

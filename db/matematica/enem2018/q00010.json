@@ -28,5 +28,7 @@
             { "type": "text", "data": "\\( f(t)=88sen(t)+168cos(t)\\)." }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 145,
     "correct": 0
 }

@@ -27,5 +27,7 @@
             { "type": "text", "data": "\\( \\frac{2\\cdot \\pi \\cdot 5}{3} + 2 \\)" }
         ]
     ],
+    "notebook": "Amarelo",
+    "number": 157,
     "correct": 0
 }
