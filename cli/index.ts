@@ -1,9 +1,11 @@
-import path, { ParsedPath } from 'path';
+import path from 'path';
 import fs from 'fs';
-import { renderQuestion, renderQuestionSummary } from './core/questionRenderer';
-import { QuestionFile, QuestionFileInformation, parseQuestionFile } from './core/question';
-import { paginateItems, paginateTags } from './core/pagination';
+import { renderQuestion } from './core/questionRenderer';
+import { QuestionFileInformation, parseQuestionFile } from './core/question';
+import * as Paginator from './core/pagination';
 import { preparePath } from './utils/path';
+
+import * as StaticWriter from './writer/staticPageWriter';
 
 const working = process.cwd();
 
@@ -98,7 +100,7 @@ sorted.forEach((item) => {
     const content = renderQuestion(item.data);
     fs.writeFileSync(filePath, content);
 });
-paginateItems(
+Paginator.paginateItems(
     outputPath,
     sorted,
     null,
@@ -106,166 +108,45 @@ paginateItems(
     'lists', 'all'
 );
 
-
-const levels: (string | undefined)[] = ['easy', 'medium', 'hard', undefined];
-
-let examsOutput: string[] = [
-    '---',
-    'layout: examsList',
-    '---',
-    '<div class="collection">',
-];
-exams.forEach((ex) => {
-    const years: number[] = [];
-    const noYears: QuestionFileInformation[] = [];
-    const questinonsByExam = sorted.filter((item) => {
-        const is = item.data.exam === ex;
-        if (is) {
-            if (item.data.year) {
-                if (years.indexOf(item.data.year) === -1) {
-                    years.push(item.data.year);
-                }
-            } else {
-                noYears.push(item);
-            }
-        }
-        return is;
-    });
-
-    paginateTags(outputPath, questinonsByExam, `/lists/exams/${ex}`, {
-        exam: ex,
-    }, 'lists', 'exams', ex, 'tags');
-    
-
-    let examIndexOutput: string[] = [
-        '---\n',
-        'layout: yearsList\n',
-        `exam: ${ex}\n`,
-        '---\n\n',
-        '<h4>Por ano de realização</h4>',
-        '<div class="collection">'
-    ];
-    if (noYears.length > 0) {
-        // paginate the questions without year
-        paginateItems(
-            outputPath,
-            noYears,
-            { exam: ex, year: 'sa' },
-            `/lists/exams/${ex}`,
-            'lists', 'exams', ex, 'sa'
-        );
-        examIndexOutput.push(
-            '<div class="collection-item">',
-            '<div class="left">',
-            '<div class="marker circle">',
-            '<span>S.A.</span>',
-            '</div>',
-            '</div>',
-            '<div class="right">',
-            `<a href="{{ site.url }}/lists/exams/${ex}/sa">Sem ano</a>`,
-            '</div>',
-            '</div>'
-        );
-    }
-    years.forEach((y) => {
-        const items = questinonsByExam.filter((item) => item.data.year === y);
-        if (items.length > 0) {
-            paginateItems(
-                outputPath,
-                items,
-                { exam: ex, year: y.toString() },
-                `/lists/exams/${ex}/${y}`,
-                'lists', 'exams', ex, y.toString()
-            );
-            examIndexOutput.push(
-                '<div class="collection-item">',
-                '<div class="left">',
-                '<div class="marker circle">',
-                `<span>${y}</span>`,
-                '</div>',
-                '</div>',
-                '<div class="right">',
-                `<a href="{{ site.url }}/lists/exams/${ex}/${y}">${y}</a>`,
-                '</div>',
-                '</div>'
-            );
-
-            paginateTags(outputPath, items, `/lists/exams/${ex}/${y}`, {
-                exam: ex,
-                year: y.toString(),
-            }, 'lists', 'exams', ex, y.toString(), 'tags');
-        }
-    });
-
-    examIndexOutput.push('</div>', '<h4>Por dificuldade</h4>', '<div class="collection">');
-    
-    levels.forEach((level) => {
-        const questionsByLevel = questinonsByExam.filter((item) => item.data.difficulty === level);
-        let img = '';
-        let text = '';
-        let link = '';
-        if (level === undefined) {
-            img = '{{ site.url }}/assets/images/difficulty/no-classified.png';
-            text = 'Não classificados';
-            link = `{{ site.url }}/lists/exams/${ex}/noclassified`;
-        } else if (level === 'easy') {
-            img = '{{ site.url }}/assets/images/difficulty/easy.png';
-            text = 'Fáceis';
-            link = `{{ site.url }}/lists/exams/${ex}/${level}`;
-        } else if (level === 'medium') {
-            img = '{{ site.url }}/assets/images/difficulty/medium.png';
-            text = 'Médias';
-            link = `{{ site.url }}/lists/exams/${ex}/${level}`;
-        } else {
-            img = '{{ site.url }}/assets/images/difficulty/hard.png';
-            text = 'Difíceis';
-            link = `{{ site.url }}/lists/exams/${ex}/${level}`;
-        }
-        examIndexOutput.push(
-            '<div class="collection-item">',
-            '<div class="left">',
-            `<img src="${img}" class="circle" />`,
-            '</div>',
-            '<div class="right">',
-            `<a href="${link}">${text}</a>`,
-            '</div>',
-            '</div>'
-        );
-        paginateItems(
-            outputPath,
-            questionsByLevel,
-            {
-                exam: ex,
-                difficulty: level === undefined ? 'noclassified' : level
-            },
-            `/lists/exams/${ex}`,
-            'lists', 'exams', ex, level === undefined ? 'noclassified' : level
-        );
-    });
-
-    examIndexOutput.push('</div>');
-
-    examsOutput.push(`{% include exams/${ex}.html %}`);
-
-    const yearsPathOutput = preparePath(outputPath, 'lists', 'exams', ex);
-    const yearsFileOutput = path.join(yearsPathOutput, 'index.html');
-    fs.writeFileSync(yearsFileOutput, examIndexOutput.join(''));
+exams.forEach((exam) => {
+    const questinonsByExam = Paginator.byExam(
+        outputPath,
+        'lists/exams',
+        exam,
+        sorted,
+        'lists', 'exams'
+    );
+    Paginator.paginateTags(
+        outputPath,
+        questinonsByExam,
+        `/lists/exams/${exam}`,
+        {
+            exam
+        },
+        'lists', 'exams', exam, 'tags'
+    );
+    const yearsData = Paginator.byYears(
+        outputPath,
+        `lists/exams/${exam}`,
+        {
+            exam,
+        },
+        questinonsByExam,
+        'lists', 'exams', exam
+    );
+    Paginator.byDifficulty(
+        outputPath,
+        `lists/exams/${exam}`,
+        {
+            exam,
+        },
+        questinonsByExam,
+        'lists', 'exams', exam
+    );
+    StaticWriter.examHome(
+        outputPath,
+        exam,
+        yearsData
+    );
 });
-examsOutput.push('</div>');
-
-const examsPath = preparePath(outputPath, 'lists', 'exams');
-const fileExams = path.join(examsPath, 'index.html');
-fs.writeFileSync(fileExams, examsOutput.join('\n'));
-
-
-
-/*
-const geometry = sorted.filter((item) => {
-    if (!item.data.tags) {
-        return false;
-    }
-    return (item.data.tags.indexOf('geometry') !== -1);
-});
-
-paginateItems(outputPath, geometry, 'tags', 'geometry');
-*/
+StaticWriter.examsList(outputPath, exams);

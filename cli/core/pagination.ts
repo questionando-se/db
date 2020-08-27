@@ -1,6 +1,6 @@
 import path from 'path';
 import fs from 'fs';
-import { QuestionFileInformation } from './question';
+import { QuestionFileInformation, difficultyLevels } from './question';
 import { renderQuestionSummary } from './questionRenderer';
 import { preparePath } from '../utils/path';
 import tags from './tags';
@@ -10,6 +10,11 @@ interface BreadCrumb {
     year?: string;
     difficulty?: string;
     tag?: string;
+}
+
+export interface YearsPaginationOutput {
+    years: number[];
+    hasWithoutYears: boolean;
 }
 
 function makeBreadCrumbData(data: BreadCrumb | null): string[] {
@@ -125,5 +130,112 @@ export function paginateTags(
             },
             tagsPrefix,
             ...dirs, tag);
+    });
+}
+
+export function byExam(
+    outputPath: string,
+    root: string,
+    exam: string,
+    items: QuestionFileInformation[],
+    ...dirs: string[]
+) {
+    const questinonsByExam = items.filter((item) => item.data.exam === exam);
+    paginateItems(
+        outputPath,
+        questinonsByExam,
+        {
+            exam,
+        },
+        `${root}/${exam}`,
+        ...dirs, exam, 'all'
+    );
+    return questinonsByExam;
+}
+
+export function byYears(
+    outputPath: string,
+    root: string,
+    breadCrumbData: BreadCrumb,
+    items: QuestionFileInformation[],
+    ...dirs: string[]
+) : YearsPaginationOutput {
+    const years: number[] = [];
+    const noYears: QuestionFileInformation[] = [];
+    items.forEach((item) => {
+        if (item.data.year) {
+            if (years.indexOf(item.data.year) === -1) {
+                years.push(item.data.year);
+            }
+        } else {
+            noYears.push(item);
+        }
+    });
+    if (noYears.length > 0) {
+        // paginate the questions without year
+        paginateItems(
+            outputPath,
+            noYears,
+            {
+                ...breadCrumbData,
+                year: 'sa'
+            },
+            `${root}/sa`,
+            ...dirs, 'sa'
+        );
+    }
+    const usedYears: number[] = [];
+    years.forEach((y) => {
+        const yearItems = items.filter((item) => item.data.year === y);
+        if (yearItems.length > 0) {
+            usedYears.push(y);
+            const year = y.toString();
+            paginateItems(
+                outputPath,
+                yearItems,
+                {
+                    ...breadCrumbData,
+                    year,
+                },
+                `${root}/${y}`,
+                ...dirs, year
+            );
+            paginateTags(
+                outputPath,
+                yearItems,
+                `${root}/${y}`,
+                {
+                    ...breadCrumbData,
+                    year,
+                },
+                ...dirs, year, 'tags'
+            );
+        }
+    });
+    return {
+        years: usedYears,
+        hasWithoutYears: (noYears.length > 0)
+    };
+}
+
+export function byDifficulty(
+    outputPath: string,
+    root: string,
+    breadCrumbData: BreadCrumb,
+    items: QuestionFileInformation[],
+    ...dirs: string[]
+) {
+    difficultyLevels.forEach((level) => {
+        const questionsByLevel = items.filter((item) => item.data.difficulty === level);
+        paginateItems(
+            outputPath,
+            questionsByLevel,
+            {
+                ...breadCrumbData,
+                difficulty: level === undefined ? 'noclassified' : level
+            },
+            root,
+            ...dirs, level === undefined ? 'noclassified' : level
+        );
     });
 }

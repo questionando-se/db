@@ -3,6 +3,8 @@ import fs from 'fs';
 
 export const RELATIVE_URL = 'https://raw.githubusercontent.com/questionando-se/db/master/';
 
+export const difficultyLevels: (string | undefined)[] = ['easy', 'medium', 'hard', undefined];
+
 export interface QuestionFileContent {
     type: string;
     data: any;
