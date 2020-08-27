@@ -1,7 +1,7 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": [],
+    "tags": ["probabilidade"],
     "content": [
         { "type": "text", "data": "Para ganhar um prêmio, uma pessoa deverá retirar, sucessivamente e sem reposição, duas bolas pretas de uma mesma urna." },
         { "type": "text", "data": "Inicialmente, as quantidades e cores das bolas são como descritas a seguir:" },

@@ -1,7 +1,7 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": [],
+    "tags": ["financeira"],
     "content": [
         { "type": "text", "data": "Um contrato de empréstimo prevê que quando uma parcela é paga de forma antecipada, conceder-se-á uma redução de juros de acordo com o período de antecipação. Nesse caso, paga-se o valor presente, que é o valor, naquele momento, de uma quantia que deveria ser paga em uma data futura. Um valor presente \\(P\\) submetido a juros compostos com taxa \\(i\\), por um período de tempo \\(n\\), produz um valor futuro \\(V\\) determinado pela fórmula" },
         { "type": "text", "data": "\\[ V=P \\cdot (1+i)^n \\]" },

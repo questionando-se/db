@@ -1,7 +1,7 @@
 {
     "exam": "ENEM",
     "year": 2017,
-    "tags": [],
+    "tags": ["geometria-plana"],
     "content": [
         { "type": "text", "data": "Um garçom precisa escolher uma bandeja de base retangular para servir quatro taças de espumante que precisam ser dispostas em uma única fileira, paralela ao lado maior da pandeja, e com suas bases totalmente apoiadas na bandeja. A base e a borda superior das taças são círculos de raio 4cm e 5cm, respectivamente." },
         { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/taca.png" },

@@ -1,7 +1,7 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": [],
+    "tags": ["geometria-analitica"],
     "content": [
         { "type": "text", "data": "Para criar um logotipo, um profissional da área de design gráfico deseja construí-lo utilizando o conjunto de pontos do plano na forma de um triângulo, exatamente como mostra a imagem." },
         { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/logo-triangulo.png", "credits": "Disponível em: www.goo.gl. Acesso em: 2 dez. 2017 (adaptado)." },

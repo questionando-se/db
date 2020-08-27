@@ -1,7 +1,7 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": [],
+    "tags": ["geometria-plana", "triangulos"],
     "content": [
         { "type": "text", "data": "O remo de assento deslizante é um esporte que faz uso de um barco e dois remos do mesmo tamanho." },
         { "type": "text", "data": "A figura mostra uma das posições de uma técnica chamada afastamento." },

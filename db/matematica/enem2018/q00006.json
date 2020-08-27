@@ -1,7 +1,7 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": [],
+    "tags": ["geometria-plana", "escala"],
     "content": [
         { "type": "text", "data": "Um mapa é a representação reduzida e simplificada de uma localidade. Essa redução, que é feita com o uso de uma escala, mantém a proporção do espaço representado em relação ao espaço real." },
         { "type": "text", "data": "Certo mapa tem escala 1 : 58.000.000." },

@@ -1,7 +1,7 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": [],
+    "tags": ["porcentagem"],
     "content": [
         { "type": "text", "data": "O colesterol total de uma pessoa é obtido pela soma da taxa do seu \"colesterol bom\" com a taxa do seu \"colesterol ruim\". Os exames periódicos, realizados em um paciente adulto, apresentaram taxa normal de \"colesterol bom\", porém, taxa do \"colesterol ruim\" (também chamado LDL) de 280 mg/dL." },
         { "type": "text", "data": "O quadro apresenta uma classificação de acordo com as taxas de LDL em adultos." },

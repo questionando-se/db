@@ -1,5 +1,6 @@
 import { QuestionFile, makeUrl } from './question';
 import renderContent from './questionContentRenderer';
+import tags from './tags';
 
 export function renderQuestion(data: QuestionFile): string {
     let output: string[] = [
@@ -64,7 +65,7 @@ function removeHtmlTags(strx: string, size: number): string {
     return output + '...';
 }
 
-export function renderQuestionSummary(data: QuestionFile, id: string): string {
+export function renderQuestionSummary(data: QuestionFile, id: string, tagPrefix: string): string {
     const output = [
         '<div class="question">',
         '<div class="question-header">',
@@ -93,7 +94,14 @@ export function renderQuestionSummary(data: QuestionFile, id: string): string {
     output.push('</a>');
     if (data.tags && data.tags.length > 0) {
         output.push('<div class="tags">');
-        data.tags.forEach((tag) => output.push(`<span class="tag">${tag}</div>`));
+        data.tags.forEach((tag) => {
+            const title = tags[tag];
+            if (!title) {
+                console.warn(`tag "${tag}" not found.`);
+                return;
+            }
+            output.push(`<a href="{{ site.url }}/${tagPrefix}/tags/${tag}" class="tag">${title}</a>`)
+        });
         output.push('</div>');
     }
 

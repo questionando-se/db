@@ -1,7 +1,7 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": [],
+    "tags": ["combinatoria"],
     "content": [
         { "type": "text", "data": "O Salão do Automóvel de São Paulo é um evento no qual vários fabricantes expõem seus modelos mais recentes de veículos, mostrando, principalmente, suas inovações em design e tecnologia." },
         { "type": "text", "data": "<small class=\"text-right\">Disponível em: http://g1.globo.com. Acesso em: 4 fev. 2015 (adaptado).</small>" },

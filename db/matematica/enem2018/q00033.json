@@ -1,7 +1,7 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": [],
+    "tags": ["geometria-plana"],
     "content": [
         { "type": "text", "data": "Um quebra-cabeça consiste em recobrir um quadrado com triângulos retângulos isósceles, como ilustra a figura." },
         { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/quebra-cabeca.png" },

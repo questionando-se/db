@@ -3,11 +3,13 @@ import fs from 'fs';
 import { QuestionFileInformation } from './question';
 import { renderQuestionSummary } from './questionRenderer';
 import { preparePath } from '../utils/path';
+import tags from './tags';
 
 interface BreadCrumb {
     exam?: string;
     year?: string;
     difficulty?: string;
+    tag?: string;
 }
 
 function makeBreadCrumbData(data: BreadCrumb | null): string[] {
@@ -24,6 +26,13 @@ function makeBreadCrumbData(data: BreadCrumb | null): string[] {
     if (data.year) {
         output.push(`year: ${data.year}`);
     }
+    if (data.tag) {
+        output.push(`tag: ${data.tag}`);
+        const title = tags[data.tag];
+        if (title) {
+            output.push(`tagText: ${title}`);
+        }
+    }
     return output;
 }
 
@@ -31,6 +40,7 @@ export function paginateItems(
     basePath: string,
     items: QuestionFileInformation[],
     breadcrumbData: BreadCrumb | null,
+    tagsLink: string,
     ...dirs: string[]
 ) {
     const outputPath = preparePath(basePath, ...dirs);
@@ -47,7 +57,7 @@ export function paginateItems(
             pagesHtml.push(currentHtml);
             currentHtml = '';
         }
-        currentHtml += renderQuestionSummary(item.data, item.parsed.name);
+        currentHtml += renderQuestionSummary(item.data, item.parsed.name, tagsLink);
         current += 1;
     });
     if (currentHtml !== '') {
@@ -79,5 +89,41 @@ export function paginateItems(
         }
         const content = output.join('\n') + '\n' + html;
         fs.writeFileSync(filePath, content);
+    });
+}
+
+export function paginateTags(
+    outputPath: string,
+    items: QuestionFileInformation[],
+    tagsPrefix: string,
+    breadCrumbData: BreadCrumb,
+    ...dirs: string[]
+) {
+    const tags: string[] = [];
+    items.forEach((item) => {
+        if (item.data.tags && item.data.tags.length > 0) {
+            item.data.tags.forEach((tag) => {
+                if (tags.indexOf(tag) === -1) {
+                    tags.push(tag);
+                }
+            });
+        }
+    });
+    tags.forEach((tag) => {
+        const questionsByTag = items.filter((item) => {
+            if (!item.data.tags) {
+                return false;
+            }
+            return (item.data.tags.indexOf(tag) !== -1);
+        });
+        paginateItems(
+            outputPath,
+            questionsByTag,
+            {
+                ...breadCrumbData,
+                tag
+            },
+            tagsPrefix,
+            ...dirs, tag);
     });
 }
