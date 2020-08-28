@@ -100,14 +100,34 @@ sorted.forEach((item) => {
     const content = renderQuestion(item.data);
     fs.writeFileSync(filePath, content);
 });
-Paginator.paginateItems(
+
+
+const byYearsData = Paginator.byYears(
+    outputPath,
+    'lists/years',
+    {},
+    sorted,
+    'lists', 'years'
+);
+StaticWriter.yearsList(outputPath, byYearsData);
+Paginator.byDifficulty(
+    outputPath,
+    'lists',
+    {},
+    sorted,
+    'lists', 'difficulty'
+);
+StaticWriter.difficultyList(outputPath);
+Paginator.paginateTags(
     outputPath,
     sorted,
-    null,
-    `/lists`,
-    'lists', 'all'
+    'lists',
+    {},
+    'lists', 'tags'
 );
 
+
+// list by exam
 exams.forEach((exam) => {
     const questinonsByExam = Paginator.byExam(
         outputPath,
@@ -119,7 +139,7 @@ exams.forEach((exam) => {
     Paginator.paginateTags(
         outputPath,
         questinonsByExam,
-        `/lists/exams/${exam}`,
+        `lists/exams/${exam}`,
         {
             exam
         },
