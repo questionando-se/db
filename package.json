@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "math": "tsc && node build/index.js --input db/matematica --output ../matematica"
+    "math": "tsc && node build/index.js --input db/matematica --output ../matematica",
+    "phys": "tsc && node build/index.js --input db/fisica --output ../fisica"
   },
   "keywords": [],
   "author": "",
