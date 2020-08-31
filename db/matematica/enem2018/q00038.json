@@ -3,7 +3,7 @@
     "year": 2018,
     "tags": [],
     "content": [
-        { "type": "text", "data": "A incluniação de uma rampa é calculada da seguinte maneira: para cada metro medido na horizontal, mede-se \\(x\\) centímetros na vertical. Diz-se, nesse caso, que a rampa tem inclinação de \\(x\\)%, como no exemplo da figura:" },
+        { "type": "text", "data": "A inclinação de uma rampa é calculada da seguinte maneira: para cada metro medido na horizontal, mede-se \\(x\\) centímetros na vertical. Diz-se, nesse caso, que a rampa tem inclinação de \\(x\\)%, como no exemplo da figura:" },
         { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/rampa-inclinacao.png" },
         { "type": "text", "data": "A figura apresenta um projeto de uma rampa de acesso a uma garagem residencial cuja base, situada 2 metros abaixo do nível da rua, tem 8 metros de comprimento." },
         { "type": "image", "pathType": "relative",  "data": "assets/enem2018/matematica/rampa-projeto.png" },
