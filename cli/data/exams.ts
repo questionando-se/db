@@ -10,6 +10,11 @@ const examsData: { [key: string]: ExamData } = {
         longText: 'Exame Nacional do Ensino Médio',
         image: 'data/logo/enem.png'
     },
+    FUVEST: {
+        text: 'Fuvest',
+        longText: 'Fundação Universitária para o Vestibular',
+        image: 'data/logo/fuvest.png'
+    }
 };
 
 export default examsData;
