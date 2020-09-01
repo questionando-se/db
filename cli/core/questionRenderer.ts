@@ -2,28 +2,30 @@ import { QuestionFile, makeUrl } from './question';
 import renderContent from './questionContentRenderer';
 import tags from './tags';
 
+/**
+ * Render full question document.
+ * @param data the parsed QuestionFile.
+ */
 export function renderQuestion(data: QuestionFile): string {
     let output: string[] = [
-        '---',
-        'layout: question',
+        '---\n',
+        'layout: question\n',
     ];
     if (data.exam !== undefined) {
-        output.push(`exam: ${data.exam}`);
+        output.push(`exam: ${data.exam}\n`);
     }
     if (data.year !== undefined) {
-        output.push(`year: ${data.year}`);
+        output.push(`year: ${data.year}\n`);
     }
     if (data.tags !== undefined) {
-        output.push(`tags: ${data.tags.join(', ')}`);
+        output.push(`tags: ${data.tags.join(', ')}\n`);
     }
     if (data.difficulty !== undefined) {
-        output.push(`difficulty: ${data.difficulty}`);
+        output.push(`difficulty: ${data.difficulty}\n`);
     }
     output.push(
-        `correct: ${data.correct}`,
-        '---',
-        '',
-        '',
+        `correct: ${data.correct}\n`,
+        '---\n\n',
         '<div class="question-body">',
         ...data.content.map((item) => renderContent(item)),
         '</div>',
@@ -42,10 +44,14 @@ export function renderQuestion(data: QuestionFile): string {
         );
     });
     output.push('</div>');
-    return output.join('\n');
+    return output.join('');
 }
 
-
+/**
+ * remove html tags to create an summary.
+ * @param strx the content string.
+ * @param size the summary size.
+ */
 function removeHtmlTags(strx: string, size: number): string {
     let output = '';
     if (strx.indexOf("<") !== -1) {
@@ -65,6 +71,12 @@ function removeHtmlTags(strx: string, size: number): string {
     return output + '...';
 }
 
+/**
+ * 
+ * @param data the parsed QuestionFile.
+ * @param id the QuestionFile id.
+ * @param tagPrefix the tag link prefix.
+ */
 export function renderQuestionSummary(data: QuestionFile, id: string, tagPrefix: string): string {
     const output = [
         '<div class="question">',

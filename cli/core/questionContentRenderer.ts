@@ -1,14 +1,26 @@
 import { makeUrl, QuestionFileContent } from './question';
 
+/**
+ * render text content.
+ * @param content the QuestionFileContent.
+ */
 function renderText(content: QuestionFileContent): string {
     return `<p>${content.data as string}</p>`;
 }
 
+/**
+ * render image content.
+ * @param content the QuestionFileContent.
+ */
 function renderImage(content: QuestionFileContent): string {
     const url = makeUrl(content.data as string, content.pathType);
     return `<img src="${url}" />`;
 }
 
+/**
+ * render unordered list content.
+ * @param content the QuestionFileContent.
+ */
 function renderUL(content: QuestionFileContent): string {
     const data = content.data as QuestionFileContent[];
     const output = ['<ul>'];
@@ -21,13 +33,32 @@ function renderUL(content: QuestionFileContent): string {
     return output.join('\n');
 }
 
+/**
+ * Table Content Cell Data Format.
+ */
 interface TableData {
+    /**
+     * Indicate if cell is header.
+     */
     header?: boolean;
+    /**
+     * Column span for the cell.
+     */
     span?: number;
+    /**
+     * Rowspan for the cell.
+     */
     rowspan?: number;
+    /**
+     * Cell text.
+     */
     text: string;
 };
 
+/**
+ * render table content.
+ * @param content the QuestionFileContent.
+ */
 function renderTable(content: QuestionFileContent): string {
     const data = content.data as TableData[][];
     const output = ['<table>'];
@@ -60,6 +91,10 @@ function renderTable(content: QuestionFileContent): string {
     return output.join('\n');
 }
 
+/**
+ * render QuestionFileContent.
+ * @param content the QuestionFileContent.
+ */
 export default function renderContent(content: QuestionFileContent): string {
     if (content.type === 'text') {
         return renderText(content);

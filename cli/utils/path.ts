@@ -1,6 +1,11 @@
 import path from 'path';
 import fs from 'fs';
 
+/**
+ * prepare path for file creation (create all directories if not exists [in ...names list])
+ * @param basePath the base path to join.
+ * @param names the path folders.
+ */
 export function preparePath(basePath: string, ...names: string[]): string {
     let currentPath = basePath;
     names.forEach((n) => {

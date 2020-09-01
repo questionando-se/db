@@ -5,18 +5,46 @@ import { renderQuestionSummary } from './questionRenderer';
 import { preparePath } from '../utils/path';
 import tags from './tags';
 
+/**
+ * Information to create BreadCrumb's.
+ */
 interface BreadCrumb {
+    /**
+     * Exam Name.
+     */
     exam?: string;
+    /**
+     * Year Name.
+     */
     year?: string;
+    /**
+     * Difficulty.
+     */
     difficulty?: string;
+    /**
+     * Tag.
+     */
     tag?: string;
 }
 
+/**
+ * Years Pagination Output Information Data.
+ */
 export interface YearsPaginationOutput {
+    /**
+     * The Paginated Years.
+     */
     years: number[];
+    /**
+     * A value indicating if has Questions Withtout Years.
+     */
     hasWithoutYears: boolean;
 }
 
+/**
+ * create the breadcrumb information from data.
+ * @param data the breadcrumb data.
+ */
 function makeBreadCrumbData(data: BreadCrumb | null): string[] {
     if (!data) {
         return [];
@@ -41,6 +69,14 @@ function makeBreadCrumbData(data: BreadCrumb | null): string[] {
     return output;
 }
 
+/**
+ * paginate items.
+ * @param basePath the base path to join.
+ * @param items the items to paginate.
+ * @param breadcrumbData the breadcrumb data.
+ * @param tagsLink the tags link base.
+ * @param dirs the directories.
+ */
 export function paginateItems(
     basePath: string,
     items: QuestionFileInformation[],
@@ -97,6 +133,14 @@ export function paginateItems(
     });
 }
 
+/**
+ * paginate the tags of items.
+ * @param outputPath the output path to join.
+ * @param items the items to paginate.
+ * @param tagsPrefix the tags link prefix.
+ * @param breadCrumbData the breadcrumb data.
+ * @param dirs the directories.
+ */
 export function paginateTags(
     outputPath: string,
     items: QuestionFileInformation[],
@@ -133,6 +177,14 @@ export function paginateTags(
     });
 }
 
+/**
+ * paginate the items by exam.
+ * @param outputPath the output path to join.
+ * @param root the root link.
+ * @param exam the exam name.
+ * @param items the items to use.
+ * @param dirs the directories.
+ */
 export function byExam(
     outputPath: string,
     root: string,
@@ -153,6 +205,14 @@ export function byExam(
     return questinonsByExam;
 }
 
+/**
+ * paginate the items by years.
+ * @param outputPath the output path to join.
+ * @param root the root link.
+ * @param breadCrumbData the breadcrumb data.
+ * @param items the items to use.
+ * @param dirs the directories.
+ */
 export function byYears(
     outputPath: string,
     root: string,
@@ -218,6 +278,14 @@ export function byYears(
     };
 }
 
+/**
+ * paginate the items by difficulty.
+ * @param outputPath the output path to join.
+ * @param root the root link.
+ * @param breadCrumbData the breadcrumb data.
+ * @param items the items to use.
+ * @param dirs the directories.
+ */
 export function byDifficulty(
     outputPath: string,
     root: string,

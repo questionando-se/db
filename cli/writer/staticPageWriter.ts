@@ -3,6 +3,12 @@ import fs from 'fs';
 import { preparePath } from '../utils/path';
 import { YearsPaginationOutput } from '../core/pagination';
 
+/**
+ * write the exam home page.
+ * @param outputPath the output path to join.
+ * @param exam the exam name.
+ * @param yearsData the paginated years data.
+ */
 export function examHome(
     outputPath: string,
     exam: string,
@@ -57,50 +63,55 @@ export function examHome(
     output.push('</div>', '<h4>Por dificuldade</h4>', '<div class="collection">');
     output.push(
         '<div class="collection-item">',
-        '<div class="left">',
-        '<img src="{{ site.url }}/assets/images/difficulty/no-classified.png" class="circle" />',
-        '</div>',
-        '<div class="right">',
-        `<a href="{{ site.url }}/lists/exams/${exam}/noclassified">Não classificados</a>`,
-        '</div>',
+        '   <div class="left">',
+        '       <img src="{{ site.url }}/assets/images/difficulty/no-classified.png" class="circle" />',
+        '   </div>',
+        '   <div class="right">',
+        `       <a href="{{ site.url }}/lists/exams/${exam}/noclassified">Não classificados</a>`,
+        '   </div>',
         '</div>'
     );
     output.push(
         '<div class="collection-item">',
-        '<div class="left">',
-        '<img src="{{ site.url }}/assets/images/difficulty/easy.png" class="circle" />',
-        '</div>',
-        '<div class="right">',
-        `<a href="{{ site.url }}/lists/exams/${exam}/easy">Fáceis</a>`,
-        '</div>',
+        '   <div class="left">',
+        '       <img src="{{ site.url }}/assets/images/difficulty/easy.png" class="circle" />',
+        '   </div>',
+        '   <div class="right">',
+        `       <a href="{{ site.url }}/lists/exams/${exam}/easy">Fáceis</a>`,
+        '   </div>',
         '</div>'
     );
     output.push(
         '<div class="collection-item">',
-        '<div class="left">',
-        '<img src="{{ site.url }}/assets/images/difficulty/medium.png" class="circle" />',
-        '</div>',
-        '<div class="right">',
-        `<a href="{{ site.url }}/lists/exams/${exam}/medium">Médias</a>`,
-        '</div>',
+        '   <div class="left">',
+        '       <img src="{{ site.url }}/assets/images/difficulty/medium.png" class="circle" />',
+        '   </div>',
+        '   <div class="right">',
+        `       <a href="{{ site.url }}/lists/exams/${exam}/medium">Médias</a>`,
+        '   </div>',
         '</div>'
     );
     output.push(
         '<div class="collection-item">',
-        '<div class="left">',
-        '<img src="{{ site.url }}/assets/images/difficulty/hard.png" class="circle" />',
-        '</div>',
-        '<div class="right">',
-        `<a href="{{ site.url }}/lists/exams/${exam}/hard">Difíceis</a>`,
-        '</div>',
+        '   <div class="left">',
+        '       <img src="{{ site.url }}/assets/images/difficulty/hard.png" class="circle" />',
+        '   </div>',
+        '   <div class="right">',
+        `       <a href="{{ site.url }}/lists/exams/${exam}/hard">Difíceis</a>`,
+        '   </div>',
         '</div>'
     );
     output.push('</div>');
     const yearsPathOutput = preparePath(outputPath, 'lists', 'exams', exam);
     const yearsFileOutput = path.join(yearsPathOutput, 'index.html');
-    fs.writeFileSync(yearsFileOutput, output.join(''));
+    fs.writeFileSync(yearsFileOutput, output.map((line) => line.trimLeft()).join(''));
 }
 
+/**
+ * write the exams list page.
+ * @param outputPath the output path to join.
+ * @param exams the exams name list.
+ */
 export function examsList(
     outputPath: string,
     exams: string[]
@@ -111,6 +122,7 @@ export function examsList(
         '---\n\n',
         '<div class="collection">',
     ];
+    // TODO: add the exams information here.
     exams.forEach((exam) => output.push(`{% include exams/${exam}.html %}`));
     output.push('</div>');
     const examsPath = preparePath(outputPath, 'lists', 'exams');
@@ -118,6 +130,11 @@ export function examsList(
     fs.writeFileSync(fileExams, output.map((line) => line.trimLeft()).join(''));
 }
 
+/**
+ * write the years list page.
+ * @param outputPath the output path to join.
+ * @param yearsData the paginated years data.
+ */
 export function yearsList(
     outputPath: string,
     yearsData: YearsPaginationOutput,
@@ -160,9 +177,13 @@ export function yearsList(
     output.push('</div>');
     const yearsPathOutput = preparePath(outputPath, 'lists', 'years');
     const yearsFileOutput = path.join(yearsPathOutput, 'index.html');
-    fs.writeFileSync(yearsFileOutput, output.join(''));
+    fs.writeFileSync(yearsFileOutput, output.map((line) => line.trimLeft()).join(''));
 }
 
+/**
+ * write the difficulty list page.
+ * @param outputPath the output path to join.
+ */
 export function difficultyList(
     outputPath: string
 ) {
@@ -208,5 +229,5 @@ export function difficultyList(
     ];
     const pathOutput = preparePath(outputPath, 'lists', 'difficulty');
     const fileOutput = path.join(pathOutput, 'index.html');
-    fs.writeFileSync(fileOutput, output.join(''));
+    fs.writeFileSync(fileOutput, output.map((line) => line.trimLeft()).join(''));
 }

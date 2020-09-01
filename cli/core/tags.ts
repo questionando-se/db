@@ -1,3 +1,6 @@
+/**
+ * Tag id and display text.
+ */
 const tags: { [key: string]: string } = {
     "geometria-plana": "Geometria Plana",
     "geometria-analitica": "Geometria Analítica",
