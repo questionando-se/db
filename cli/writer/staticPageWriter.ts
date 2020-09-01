@@ -131,9 +131,10 @@ export function examsList(
             '   <div class="left">',
             `       <img src="${makeUrl(data.image, 'relative')}" alt="" class="circle" />`,
             '   </div>',
-            '<div class="right">',
-            `   <a href="{{ site.url }}/lists/exams/${exam}">${data.text}</a>`,
-            `   <p>${data.longText}</p>`,
+            '   <div class="right">',
+            `       <a href="{{ site.url }}/lists/exams/${exam}">${data.text}</a>`,
+            `       <p>${data.longText}</p>`,
+            '   </div>',
             '</div>'
         );
     });
