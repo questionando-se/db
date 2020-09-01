@@ -1,6 +1,6 @@
 import { QuestionFile, makeUrl } from './question';
 import renderContent from './questionContentRenderer';
-import tags from './tags';
+import tags from '../data/tags';
 
 /**
  * Render full question document.

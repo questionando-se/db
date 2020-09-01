@@ -3,7 +3,7 @@ import fs from 'fs';
 import { QuestionFileInformation, difficultyLevels } from './question';
 import { renderQuestionSummary } from './questionRenderer';
 import { preparePath } from '../utils/path';
-import tags from './tags';
+import tags from '../data/tags';
 
 /**
  * Information to create BreadCrumb's.

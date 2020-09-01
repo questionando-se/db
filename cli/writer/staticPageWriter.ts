@@ -2,6 +2,8 @@ import path from 'path';
 import fs from 'fs';
 import { preparePath } from '../utils/path';
 import { YearsPaginationOutput } from '../core/pagination';
+import examsData from '../data/exams';
+import { makeUrl } from '../core/question';
 
 /**
  * write the exam home page.
@@ -122,8 +124,19 @@ export function examsList(
         '---\n\n',
         '<div class="collection">',
     ];
-    // TODO: add the exams information here.
-    exams.forEach((exam) => output.push(`{% include exams/${exam}.html %}`));
+    exams.forEach((exam) => {
+        const data = examsData[exam];
+        output.push(
+            '<div class="collection-item">',
+            '   <div class="left">',
+            `       <img src="${makeUrl(data.image, 'relative')}" alt="" class="circle" />`,
+            '   </div>',
+            '<div class="right">',
+            `   <a href="{{ site.url }}/lists/exams/${exam}">${data.text}</a>`,
+            `   <p>${data.longText}</p>`,
+            '</div>'
+        );
+    });
     output.push('</div>');
     const examsPath = preparePath(outputPath, 'lists', 'exams');
     const fileExams = path.join(examsPath, 'index.html');
