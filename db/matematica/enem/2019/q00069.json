@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Durante suas férias, oito amigos, dos quais dois são canhotos, decidem realizar um torneio de vôlei de praia. Eles precisam formar quatro duplas para a realização do torneio. Nenhuma dupla pode ser formada por dois jogadores canhotos." },
+        { "type": "text", "data": "De quantas maneiras diferentes podem ser formadas essas quatro duplas?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "69." }
+        ],
+        [
+            { "type": "text", "data": "70." }
+        ],
+        [
+            { "type": "text", "data": "90." }
+        ],
+        [
+            { "type": "text", "data": "104." }
+        ],
+        [
+            { "type": "text", "data": "105." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 160,
+    "correct": 2
+}

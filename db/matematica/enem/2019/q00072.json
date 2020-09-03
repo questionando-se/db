@@ -1,0 +1,36 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma empresa presta serviço de abastecimento de água em uma cidade. O valor mensal a pagar por esse serviço é determinado pela aplicação de tarifas, por faixas de consumo de água, sendo obtido pela adição dos valores correspondentes a cada faixa." },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "Faixa 1: para consumo de até 6 m<sup>3</sup>, valor fixo de R$ 12,00;" },
+            { "type": "text", "data": "Faixa 2: para consumo superior a 6 m<sup>3</sup> e até 10 m<sup>3</sup>, tarifa de R$ 3,00 por metro cúbico ao que exceder a 6 m<sup>3</sup>;" },
+            { "type": "text", "data": "Faixa 3: para consumo superior a 10 m<sup>3</sup>, tarifa de R$ 6,00 por metro cúbico ao que exceder a 10 m<sup>3</sup>." }
+        ] },
+        { "type": "text", "data": "Sabe-se que nessa cidade o consumo máximo de água por residência é de 15 m<sup>3</sup> por mês." },
+        { "type": "text", "data": "O gráfico que melhor descreve o valor \\(P\\), em real, a ser pago por mês, em função do volume \\(V\\) de água consumido, em metro cúbico, é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/volume-grafico-1.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/volume-grafico-2.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/volume-grafico-3.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/volume-grafico-4.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/volume-grafico-5.png" }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 163,
+    "correct": 0
+}

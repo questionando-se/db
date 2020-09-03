@@ -1,0 +1,36 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Para contratar três máquinas que farão o reparo de vias rurais de um município, a prefeitura elaborou um edital que, entre outras cláusulas, previa:" },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "Cada empresa interessada só pode cadastrar uma única máquina para concorrer ao edital;" },
+            { "type": "text", "data": "O total de recursos destinados para contratar o conjunto das três máquinas é de R$ 31 000,00;" },
+            { "type": "text", "data": "O valor a ser pago a cada empresa será inversamente proporcional à idade de uso da máquina cadastrada pela empresa para o presente edital." }
+        ] },
+        { "type": "text", "data": "As três empresas vencedoras do edital cadastraram máquinas com 2, 3 e 5 anos de idade de uso." },
+        { "type": "text", "data": "Quanto receberá a empresa que cadastrou a máquina com maior idade de uso?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "R$ 3 100,00." }
+        ],
+        [
+            { "type": "text", "data": "R$ 6 000,00." }
+        ],
+        [
+            { "type": "text", "data": "R$ 6 200,00." }
+        ],
+        [
+            { "type": "text", "data": "R$ 15 000,00." }
+        ],
+        [
+            { "type": "text", "data": "R$ 15 500,00." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 156,
+    "correct": 1
+}

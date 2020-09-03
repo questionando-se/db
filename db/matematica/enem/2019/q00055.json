@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Em um condomínio, uma área pavimentada, que tem a forma de um círculo com diâmetro medindo 6 m, é cercada por grama. A administração do condomínio deseja ampliar essa área, mantendo seu formato circular, e aumentando, em 8 m, o diâmetro dessa região, mantendo o revestimento da parte já existente. O condomínio dispõe, em estoque, de material suficiente para pavimentar mais 100 m<sup>2</sup> de área. O síndico do condomínio irá avaliar se esse material disponível será suficiente para pavimentar a região a ser ampliada." },
+        { "type": "text", "data": "Utilize 3 como aproximação para \\(\\pi\\)." },
+        { "type": "text", "data": "A conclusão correta a que o síndico deverá chegar, considerando a nova área a ser pavimentada, é a de que o material disponível em estoque" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "será suficiente, pois a área da nova região a ser pavimentada mede 21 m<sup>2</sup>." }
+        ],
+        [
+            { "type": "text", "data": "será suficiente, pois a área da nova região a ser pavimentada mede 24 m<sup>2</sup>." }
+        ],
+        [
+            { "type": "text", "data": "será suficiente, pois a área da nova região a ser pavimentada mede 48 m<sup>2</sup>." }
+        ],
+        [
+            { "type": "text", "data": "não será suficiente, pois a área da nova região a ser pavimentada mede 108 m<sup>2</sup>." }
+        ],
+        [
+            { "type": "text", "data": "não será suficiente, pois a área da nova região a ser pavimentada mede 120 m<sup>2</sup>." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 146,
+    "correct": 4
+}

@@ -1,0 +1,44 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um casal planejou uma viagem e definiu como teto para o gasto diário um valor de até R$ 1 000,00. Antes de decidir o destino da viagem, fizeram uma pesquisa sobre a taxa de câmbio vigente para as moedas de cinco países que desejavam visitar e também sobre as estimativas de gasto diário em cada um, com o objetivo de escolher o destino que apresentasse o menor custo diário em real." },
+        { "type": "text", "data": "O quadro mostra os resultados obtidos com a pesquisa realizada." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "País de destino" },
+                { "header": true, "text": "Moeda local" },
+                { "header": true, "text": "Taxa de câmbio" },
+                { "header": true, "text": "Gasto diário" }
+            ],
+            [{ "text": "França" }, { "text": "Euro (€)" }, { "text": "R$ 3,14" }, { "text": "315,00 €" }],
+            [{ "text": "EUA" }, { "text": "Dólar (US$)" }, { "text": "R$ 2,78" }, { "text": "US$ 390,00" }],
+            [{ "text": "Austrália" }, { "text": "Dólar australiano (A$)" }, { "text": "R$ 2,14" }, { "text": "A$ 400,00" }],
+            [{ "text": "Canadá" }, { "text": "Dólar canadense (C$)" }, { "text": "R$ 2,10" }, { "text": "C$ 410,00" }],
+            [{ "text": "Reino Unido" }, { "text": "Libra esterlina (£)" }, { "text": "R$ 4,24" }, { "text": "£ 290,00" }]
+        ] },
+        { "type": "text", "data": "Nessas condições, qual será o destino escolhido para a viagem?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "Austrália." }
+        ],
+        [
+            { "type": "text", "data": "Canadá." }
+        ],
+        [
+            { "type": "text", "data": "EUA." }
+        ],
+        [
+            { "type": "text", "data": "França." }
+        ],
+        [
+            { "type": "text", "data": "Reino Unido." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 143,
+    "correct": 0
+}

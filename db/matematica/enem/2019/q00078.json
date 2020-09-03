@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um mestre de obras deseja fazer uma laje com espessura de 5 cm utilizando concreto usinado, conforme as dimensões do projeto dadas na figura. O concreto para fazer a laje será fornecido por uma usina que utiliza caminhões com capacidades máximas de 2 m<sup>3</sup>, 5 m<sup>3</sup> e 10 m<sup>3</sup> de concreto." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/mestre-obras.png" },
+        { "type": "text", "data": "Qual a menor quantidade de caminhões, utilizando suas capacidades máximas, que o mestre de obras deverá pedir à usina de concreto para fazer a laje?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "Dez caminhões com capacidade máxima de 10 m<sup>3</sup>." }
+        ],
+        [
+            { "type": "text", "data": "Cinco caminhões com capacidade máxima de 10 m<sup>3</sup>." }
+        ],
+        [
+            { "type": "text", "data": "Um caminhão com capacidade máxima de 5 m<sup>3</sup>." }
+        ],
+        [
+            { "type": "text", "data": "Dez caminhões com capacidade máxima de 2 m<sup>3</sup>." }
+        ],
+        [
+            { "type": "text", "data": "Um caminhão com capacidade máxima de 2 m<sup>3</sup>." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 169,
+    "correct": 2
+}

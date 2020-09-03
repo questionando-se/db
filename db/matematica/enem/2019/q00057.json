@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um professor aplica, durante os cinco dias úteis de uma semana, testes com quatro questões de múltipla escolha a cinco alunos. Os resultados foram representados na matriz." },
+        { "type": "text", "data": "\\[ \\begin{bmatrix} 3 & 2 & 0 & 1 & 2\\\\ 3 & 2 & 4 & 1 & 2 \\\\ 2 & 2 & 2 & 3 & 2 \\\\ 3 & 2 & 4 & 1 & 0 \\\\ 0 & 2 & 0 & 4 & 4 \\end{bmatrix} \\]" },
+        { "type": "text", "data": "Nessa matriz os elementos das linhas de 1 a 5 representam as quantidades de questões acertadas pelos alunos Ana, Bruno, Carlos, Denis e Érica, respectivamente, enquanto que as colunas de 1 a 5 indicam os dias da semana, de segunda-feira a sexta-feira, respectivamente, em que os testes foram aplicados." },
+        { "type": "text", "data": "O teste que apresentou maior quantidade de acertos foi o aplicado na" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "segunda-feira." }
+        ],
+        [
+            { "type": "text", "data": "terça-feira." }
+        ],
+        [
+            { "type": "text", "data": "quarta-feira." }
+        ],
+        [
+            { "type": "text", "data": "quinta-feira." }
+        ],
+        [
+            { "type": "text", "data": "sexta-feira." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 148,
+    "correct": 0
+}

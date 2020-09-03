@@ -1,0 +1,34 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um grupo de países criou uma instituição responsável por organizar o Programa Internacional de Nivelamento de Estudos (PINE) com o objetivo de melhorar os índices mundiais de educação. Em sua sede foi construída uma escultura suspensa, com a logomarca oficial do programa, em três dimensões, que é formada por suas iniciais, conforme mostrada na figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/pine_1.png" },
+        { "type": "text", "data": "Essa escultura está suspensa por cabos de aço, de maneira que o espaçamento entre letras adjacentes é o mesmo, todas têm igual espessura e ficam dispostas em posição ortogonal ao solo, como ilustrado a seguir." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/pine_2.png" },
+        { "type": "text", "data": "Ao meio-dia, com o sol a pino, as letras que formam essa escultura projetam ortogonalmente suas sombras sobre o solo." },
+        { "type": "text", "data": "A sombra projetada no solo é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/pine_3.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/pine_4.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/pine_5.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/pine_6.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/pine_7.png" }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 139,
+    "correct": 4
+}

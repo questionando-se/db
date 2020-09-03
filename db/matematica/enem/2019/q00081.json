@@ -1,0 +1,39 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Os alunos de uma turma escolar foram divididos em dois grupos. Um grupo jogaria basquete, enquanto o outro jogaria futebol. Sabe-se que o grupo de basquete é formado pelos alunos mais altos da classe e tem uma pessoa a mais do que o grupo de futebol. A tabela seguinte apresenta informações sobre as alturas dos alunos da turma." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Média" },
+                { "header": true, "text": "Mediana" },
+                { "header": true, "text": "Moda" }
+            ],
+            [{ "text": "1,65" }, { "text": "1,67" }, { "text": "1,70" }]
+        ] },
+        { "type": "text", "data": "Os alunos P, J, F e M medem, respectivamente, 1,65 m, 1,66 m, 1,67 m e 1,68 m, e as suas alturas não são iguais a de nenhum outro colega da sala." },
+        { "type": "text", "data": "Segundo essas informações, argumenta-se que os alunos P, J, F e M jogaram, respectivamente," }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "basquete, basquete, basquete, basquete." }
+        ],
+        [
+            { "type": "text", "data": "futebol, basquete, basquete, basquete." }
+        ],
+        [
+            { "type": "text", "data": "futebol, futebol, basquete, basquete." }
+        ],
+        [
+            { "type": "text", "data": "futebol, futebol, futebol, basquete." }
+        ],
+        [
+            { "type": "text", "data": "futebol, futebol, futebol, futebol." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 172,
+    "correct": 2
+}

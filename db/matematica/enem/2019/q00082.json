@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma empresa tem diversos funcionários. Um deles é o gerente, que recebe R$ 1 000,00 por semana. Os outros funcionários são diaristas. Cada um deles trabalha 2 dias por semana, recebendo R$ 80,00 por dia trabalhado." },
+        { "type": "text", "data": "Chamando de \\(X\\) a quantidade total de funcionários da empresa, a quantia \\(Y\\), em reais, que esta empresa gasta semanalmente para pagar seus funcionários é expressa por," }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\( Y = 80X + 920 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( Y = 80X + 1 000 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( Y = 80X + 1 080 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( Y = 160X + 840 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( Y = 160X + 1 000 \\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 173,
+    "correct": 3
+}

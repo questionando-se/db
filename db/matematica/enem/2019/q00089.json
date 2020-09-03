@@ -1,0 +1,33 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um grupo de engenheiros está projetando um motor cujo esquema de deslocamento vertical do pistão dentro da câmara de combustão está representado na figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/combustao.png" },
+        { "type": "text", "data": "A função \\( h(t) = 4 + 4 sen\\left ( \\frac{\\beta t}{2} - \\frac{\\pi}{t} \\right ) \\) definida para \\( t\\geqslant 0\\) descreve como varia a altura \\(h\\), medida em centímetro, da parte superior do pistão dentro da câmara de combustão, em função do tempo \\(t\\), medido em segundo. Nas figuras estão indicadas as alturas do pistão em dois instantes distintos." },
+        { "type": "text", "data": "O valor do parâmetro \\(\\beta\\), que é dado por um número inteiro positivo, está relacionado com a velocidade de deslocamento do pistão. Para que o motor tenha uma boa potência, é necessário e suficiente que, em menos de 4 segundos após o início do funcionamento (instante \\(t = 0\\)), a altura da base do pistão alcance por três vezes o valor de 6 cm. Para os cálculos, utilize 3 como aproximação para \\(\\pi\\)." },
+        { "type": "text", "data": "O menor valor inteiro a ser atribuído ao parâmetro \\(\\beta\\), de forma que o motor a ser construído tenha boa potência, é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1." }
+        ],
+        [
+            { "type": "text", "data": "2." }
+        ],
+        [
+            { "type": "text", "data": "4." }
+        ],
+        [
+            { "type": "text", "data": "5." }
+        ],
+        [
+            { "type": "text", "data": "8." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 180,
+    "correct": 3
+}

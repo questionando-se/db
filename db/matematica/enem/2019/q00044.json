@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A bula de um antibiótico infantil, fabricado na forma de xarope, recomenda que sejam ministrados, diariamente, no máximo 500 mg desse medicamento para cada quilograma de massa do paciente. Um pediatra prescreveu a dosagem máxima desse antibiótico para ser ministrada diariamente a uma criança de 20 kg pelo período de 5 dias. Esse medicamento pode ser comprado em frascos de 10 mL, 50 mL, 100 mL, 250 mL e 500 mL. Os pais dessa criança decidiram comprar a quantidade exata de medicamento que precisará ser ministrada no tratamento, evitando a sobra de medicamento. Considere que 1 g desse medicamento ocupe um volume de 1 cm<sup>3</sup>." },
+        { "type": "text", "data": "A capacidade do frasco em mililitro, que esses pais deverão comprar é." }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "10." }
+        ],
+        [
+            { "type": "text", "data": "50." }
+        ],
+        [
+            { "type": "text", "data": "100." }
+        ],
+        [
+            { "type": "text", "data": "250." }
+        ],
+        [
+            { "type": "text", "data": "500." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 136,
+    "correct": 1
+}

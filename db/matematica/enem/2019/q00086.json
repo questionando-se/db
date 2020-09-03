@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A taxa de urbanização de um município é dada pela razão entre a população urbana e a população total do município (isto é, a soma das populações rural e urbana). Os gráficos apresentam, respectivamente, a população urbana e a população rural de cinco municípios (I, II, III, IV, V) de uma mesma região estadual. Em reunião entre o governo do estado e os prefeitos desses municípios, ficou acordado que o município com maior taxa de urbanização receberá um investimento extra em infraestrutura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/pop-urbana.png" },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/pop-rural.png" },
+        { "type": "text", "data": "Segundo o acordo, qual município receberá o investimento extra?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 177,
+    "correct": 2
+}

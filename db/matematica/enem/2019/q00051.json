@@ -1,0 +1,33 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Nos seis cômodos de uma casa há sensores de presença posicionados de forma que a luz de cada cômodo acende assim que uma pessoa nele adentra, e apaga assim que a pessoa se retira desse cômodo. Suponha que o acendimento e o desligamento sejam instantâneos." },
+        { "type": "text", "data": "O morador dessa casa visitou alguns desses cômodos, ficando exatamente um minuto em cada um deles. O gráfico descreve o consumo acumulado de energia, em watt \\(x\\) minuto, em função do tempo \\(t\\), em minuto, das lâmpadas de LED dessa casa, enquanto a figura apresenta a planta baixa da casa, na qual os cômodos estão numerados de 1 a 6, com as potências das respectivas lâmpadas indicadas." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/lampada_grafico.png" },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/lampada_mapa.png" },
+        { "type": "text", "data": "A sequência de deslocamentos pelos cômodos, conforme o consumo de energia apresentado no gráfico, é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1 \\(\\longrightarrow\\) 4 \\(\\longrightarrow\\) 5 \\(\\longrightarrow\\) 4 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 6 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 4." }
+        ],
+        [
+            { "type": "text", "data": "1 \\(\\longrightarrow\\) 2 \\(\\longrightarrow\\) 3 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 4 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 4 \\(\\longrightarrow\\) 4." }
+        ],
+        [
+            { "type": "text", "data": "1 \\(\\longrightarrow\\) 4 \\(\\longrightarrow\\) 5 \\(\\longrightarrow\\) 4 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 6 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 2 \\(\\longrightarrow\\) 3." }
+        ],
+        [
+            { "type": "text", "data": "1 \\(\\longrightarrow\\) 2 \\(\\longrightarrow\\) 3 \\(\\longrightarrow\\) 5 \\(\\longrightarrow\\) 4 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 6 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 4." }
+        ],
+        [
+            { "type": "text", "data": "1 \\(\\longrightarrow\\) 4 \\(\\longrightarrow\\) 2 \\(\\longrightarrow\\) 3 \\(\\longrightarrow\\) 5 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 6 \\(\\longrightarrow\\) 1 \\(\\longrightarrow\\) 4." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 142,
+    "correct": 0
+}

@@ -1,0 +1,43 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O serviço de meteorologia de uma cidade emite relatórios diários com a previsão do tempo. De posse dessas informações, a prefeitura emite três tipos de alertas para a população:" },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "Alerta cinza: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será inferior a 10 °C, e a umidade relativa do ar for inferior a 40%;" },
+            { "type": "text", "data": "Alerta laranja: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura deve variar entre 35 °C e 40 °C, e a umidade relativa do ar deve ficar abaixo de 30%;" },
+            { "type": "text", "data": "Alerta vermelho: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será superior a 40 °C, e a umidade relativa do ar for inferior a 25%." }
+        ] },
+        { "type": "text", "data": "Um resumo da previsão do tempo nessa cidade, para um período de 15 dias, foi apresentado no gráfico." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/meteorologia-grafico.png" },
+        { "type": "text", "data": "Decorridos os 15 dias de validade desse relatório, um funcionário percebeu que, no período a que se refere o gráfico, foram emitidos os seguintes alertas:" },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "Dia 1: alerta cinza;" },
+            { "type": "text", "data": "Dia 12: alerta laranja;" },
+            { "type": "text", "data": "Dia 13: alerta vermelho." }
+        ] },
+        { "type": "text", "data": "Em qual(is) desses dias o(s) aviso(s) foi(ram) emitido(s) corretamente?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1." }
+        ],
+        [
+            { "type": "text", "data": "12." }
+        ],
+        [
+            { "type": "text", "data": "1 e 12." }
+        ],
+        [
+            { "type": "text", "data": "1 e 13." }
+        ],
+        [
+            { "type": "text", "data": "1, 12 e 13." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 150,
+    "correct": 0
+}

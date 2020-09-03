@@ -1,0 +1,41 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Em uma fábrica de refrigerantes, é necessário que se faça periodicamente o controle no processo de engarrafamento para evitar que sejam envasadas garrafas fora da especificação do volume escrito no rótulo." },
+        { "type": "text", "data": "Diariamente, durante 60 dias, foram anotadas as quantidades de garrafas fora dessas especificações. O resultado está apresentado no quadro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Quantidade de garrafas fora das<br/>especificações por dia" },
+                { "header": true, "text": "Quantidade<br/>de dias" }
+            ],
+            [{ "text": "0" }, { "text": "52" }],
+            [{ "text": "1" }, { "text": "5" }],
+            [{ "text": "2" }, { "text": "2" }],
+            [{ "text": "3" }, { "text": "1" }]
+        ] },
+        { "type": "text", "data": "A média diária de garrafas fora das especificações no período considerado é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "0,1." }
+        ],
+        [
+            { "type": "text", "data": "0,2." }
+        ],
+        [
+            { "type": "text", "data": "1,5." }
+        ],
+        [
+            { "type": "text", "data": "2,0." }
+        ],
+        [
+            { "type": "text", "data": "3,0." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 166,
+    "correct": 1
+}

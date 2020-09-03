@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O dono de um restaurante situado às margens de uma rodovia percebeu que, ao colocar uma placa de propaganda de seu restaurante ao longo da rodovia, as vendas aumentaram. Pesquisou junto aos seus clientes e concluiu que a probabilidade de um motorista perceber uma placa de anúncio é \\(\\frac{1}{2}\\). Com isso, após autorização do órgão competente, decidiu instalar novas placas com anúncios de seu restaurante ao longo dessa rodovia, de maneira que a probabilidade de um motorista perceber pelo menos uma das placas instaladas fosse superior a \\(\\frac{99}{100}\\)." },
+        { "type": "text", "data": "A quantidade mínima de novas placas de propaganda a serem instaladas é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "99." }
+        ],
+        [
+            { "type": "text", "data": "51." }
+        ],
+        [
+            { "type": "text", "data": "50." }
+        ],
+        [
+            { "type": "text", "data": "6." }
+        ],
+        [
+            { "type": "text", "data": "1." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 164,
+    "correct": 3
+}

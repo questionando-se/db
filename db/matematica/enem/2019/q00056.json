@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Os exercícios físicos são recomendados para o bom funcionamento do organismo, pois aceleram o metabolismo e, em consequência, elevam o consumo de calorias. No gráfico, estão registrados os valores calóricos, em kcal, gastos em cinco diferentes atividades físicas, em função do tempo dedicado às atividades, contado em minuto." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/kcalorias.png" },
+        { "type": "text", "data": "Qual dessas atividades físicas proporciona o maior consumo de quilocalorias por minuto?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 147,
+    "correct": 1
+}

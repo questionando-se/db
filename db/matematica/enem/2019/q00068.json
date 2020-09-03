@@ -1,0 +1,34 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Após o Fórum Nacional Contra a Pirataria (FNCP) incluir a linha de autopeças em campanha veiculada contra a falsificação, as agências fiscalizadoras divulgaram que os cinco principais produtos de autopeças falsificados são: rolamento, pastilha de freio, caixa de direção, catalisador e amortecedor." },
+        { "type": "text", "data": "<small class='text-right'>Disponível em: www.oficinabrasil.com.br. Acesso em: 25 ago. 2014 (adaptado).</small>" },
+        { "type": "text", "data": "Após uma grande apreensão, as peças falsas foram cadastradas utilizando-se a codificação:" },
+        { "type": "text", "data": "1: rolamento, 2: pastilha de freio, 3: caixa de direção, 4: catalisador e 5: amortecedor." },
+        { "type": "text", "data": "Ao final obteve-se a sequência: 5, 4, 3, 2, 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 3, 4, ... que apresenta um padrão de formação que consiste na repetição de um bloco de números. Essa sequência descreve a ordem em que os produtos apreendidos foram cadastrados." },
+        { "type": "text", "data": "O 2 015º item cadastrado foi um(a)" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "rolamento." }
+        ],
+        [
+            { "type": "text", "data": "catalisador." }
+        ],
+        [
+            { "type": "text", "data": "amortecedor." }
+        ],
+        [
+            { "type": "text", "data": "pastilha de freio." }
+        ],
+        [
+            { "type": "text", "data": "caixa de direção." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 159,
+    "correct": 4
+}

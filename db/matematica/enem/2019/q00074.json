@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O preparador físico de um time de basquete dispõe de um plantel de 20 jogadores, com média de altura igual a 1,80 m. No último treino antes da estreia em um campeonato, um dos jogadores desfalcou o time em razão de uma séria contusão, forçando o técnico a contratar outro jogador para recompor o grupo." },
+        { "type": "text", "data": "Se o novo jogador é 0,20 m mais baixo que o anterior, qual é a média de altura, em metro, do novo grupo?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1,60." }
+        ],
+        [
+            { "type": "text", "data": "1,78." }
+        ],
+        [
+            { "type": "text", "data": "1,79." }
+        ],
+        [
+            { "type": "text", "data": "1,81." }
+        ],
+        [
+            { "type": "text", "data": "1,82." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 165,
+    "correct": 2
+}
