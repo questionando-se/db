@@ -11,11 +11,14 @@ export default class HomePageWriter {
 
     private complementayVideos: number;
 
-    constructor(items: QuestionFileInformation[]) {
+    private version: string;
+
+    constructor(version: string, items: QuestionFileInformation[]) {
         this.hasEnemExam = false;
         this.questions = 0;
         this.resolutionVideos = 0;
         this.complementayVideos = 0;
+        this.version = version;
         this.parseData(items);
     }
 
@@ -59,7 +62,7 @@ export default class HomePageWriter {
             '                    </div>',
             '                </div>',
             '                <div class="col s12 m2 hide-on-small-only">',
-            '                    <img class="circle responsive-img white" src="https://raw.githubusercontent.com/questionando-se/db/master/data/logo/enem.png" />',
+            `                    <img class="circle responsive-img white" src="https://cdn.jsdelivr.net/gh/questionando-se/dashboard@${this.version}/logos/enem.png" />`,
             '                </div>',
             '            </div>',
             '        </div>',

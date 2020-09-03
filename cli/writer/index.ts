@@ -106,7 +106,7 @@ export default class SiteCreator {
     }
 
     public makeStaticFiles(items: QuestionFileInformation[]): void {
-        const home = new HomePageWriter(items);
+        const home = new HomePageWriter(this.version, items);
         home.write(this.homePath);
         const includes = new IncludesWriter();
         includes.write(this.homePath);
