@@ -1,6 +1,7 @@
 import { QuestionFile, makeUrl } from './question';
 import renderContent from './questionContentRenderer';
 import tags from '../data/tags';
+import examsData from '../data/exams';
 
 /**
  * Render full question document.
@@ -13,6 +14,8 @@ export function renderQuestion(data: QuestionFile): string {
     ];
     if (data.exam !== undefined) {
         output.push(`exam: ${data.exam}\n`);
+        const examData = examsData[data.exam];
+        output.push(`title: ${examData.writeQuestionTitle(data)}\n`);
     }
     if (data.year !== undefined) {
         output.push(`year: ${data.year}\n`);
@@ -78,32 +81,17 @@ function removeHtmlTags(strx: string, size: number): string {
  * @param tagPrefix the tag link prefix.
  */
 export function renderQuestionSummary(data: QuestionFile, id: string, tagPrefix: string): string {
+    if (!data.exam) {
+        return '';
+    }
+    const examData = examsData[data.exam];
     const output = [
         '<div class="question">',
         '<div class="question-header">',
-        `<a class="question-title" href="{{ site.url }}/questions/${id}.html">`
+        `<a class="question-title" href="{{ site.url }}/questions/${id}.html">`,
+        examData.writeQuestionTitle(data),
+        '</a>'
     ];
-    if (data.exam) {
-        output.push(data.exam);
-    }
-    if (data.year) {
-        output.push(` ${data.year}`);
-    }
-    if (data.exam === 'ENEM') {
-        if (data.number && data.notebook) {
-            output.push(` - Questão ${data.number} Caderno ${data.notebook}`);
-        }
-    }
-    if (data.difficulty) {
-        if (data.difficulty === 'easy') {
-            output.push(' - Fácil');
-        } else if (data.difficulty === 'medium') {
-            output.push(' - Média');
-        } else {
-            output.push(' - Difícil');
-        }
-    }
-    output.push('</a>');
     if (data.tags && data.tags.length > 0) {
         output.push('<div class="tags">');
         data.tags.forEach((tag) => {
