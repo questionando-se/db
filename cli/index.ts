@@ -1,39 +1,21 @@
 import path from 'path';
 import fs from 'fs';
-import { renderQuestion } from './core/questionRenderer';
 import { QuestionFileInformation, parseQuestionFile } from './core/question';
-import * as Paginator from './core/pagination';
-import { preparePath } from './utils/path';
-
-import * as StaticWriter from './writer/staticPageWriter';
+import SiteCreator from './writer';
+import ArgParser from './argParser';
 
 const working = process.cwd();
-
-const args = process.argv.slice(2);
-
-let inputPath = '';
-let outputPath = '';
-
-for (let i = 0; i < args.length; i += 1) {
-    const current = args[i];
-    if (current === '--input') {
-        if (i + 1 < args.length) {
-            inputPath = args[i + 1];
-            if (!fs.existsSync(inputPath)) {
-                inputPath = path.join(working, inputPath);
-            }
-            i += 1;
-        }
-    } else if (current === '--output') {
-        if (i + 1 < args.length) {
-            outputPath = args[i + 1];
-            if (!fs.existsSync(outputPath)) {
-                outputPath = path.join(working, outputPath);
-            }
-            i += 1;
-        }
+function makeWorkingDir(dir: string) {
+    if (!fs.existsSync(dir)) {
+        return path.join(working, dir);
     }
+    return dir;
 }
+
+const args = new ArgParser();
+const inputPath = makeWorkingDir(args.getArg('input', ''));
+const outputPath = makeWorkingDir(args.getArg('output', ''));
+const version = args.getArg('version', '0.0.2');
 
 if (!fs.existsSync(inputPath) || !fs.existsSync(outputPath)) {
     console.error('the input or the output path not exists...');
@@ -86,87 +68,7 @@ const sorted = inputQuestionFiles.sort((a, b) => {
     }
 });
 
-const exams: string[] = [];
-
-// write questions
-sorted.forEach((item) => {
-    if (item.data.exam) {
-        if (exams.indexOf(item.data.exam) === -1) {
-            exams.push(item.data.exam);
-        }
-    }
-    const questionsPath = preparePath(outputPath, 'questions');
-    const filePath = path.join(questionsPath, `${item.parsed.name}.html`);
-    const content = renderQuestion(item.data);
-    fs.writeFileSync(filePath, content);
-});
-
-
-const byYearsData = Paginator.byYears(
-    outputPath,
-    'lists/years',
-    {},
-    sorted,
-    'lists', 'years'
-);
-StaticWriter.yearsList(outputPath, byYearsData);
-Paginator.byDifficulty(
-    outputPath,
-    'lists',
-    {},
-    sorted,
-    'lists', 'difficulty'
-);
-StaticWriter.difficultyList(outputPath);
-Paginator.paginateTags(
-    outputPath,
-    sorted,
-    'lists',
-    {},
-    'lists', 'tags'
-);
-
-
-// list by exam
-exams.forEach((exam) => {
-    const questinonsByExam = Paginator.byExam(
-        outputPath,
-        'lists/exams',
-        exam,
-        sorted,
-        'lists', 'exams'
-    );
-    Paginator.paginateTags(
-        outputPath,
-        questinonsByExam,
-        `lists/exams/${exam}`,
-        {
-            exam
-        },
-        'lists', 'exams', exam, 'tags'
-    );
-    const yearsData = Paginator.byYears(
-        outputPath,
-        `lists/exams/${exam}`,
-        {
-            exam,
-        },
-        questinonsByExam,
-        'lists', 'exams', exam
-    );
-    Paginator.byDifficulty(
-        outputPath,
-        `lists/exams/${exam}`,
-        {
-            exam,
-        },
-        questinonsByExam,
-        'lists', 'exams', exam
-    );
-    StaticWriter.examHome(
-        outputPath,
-        exam,
-        yearsData
-    );
-});
-StaticWriter.examsList(outputPath, exams);
+const creator = new SiteCreator(outputPath, version);
+creator.makeStaticFiles(sorted);
+const exams = creator.makeQuestions(sorted);
+creator.makeLists(exams, sorted);

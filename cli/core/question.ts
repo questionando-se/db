@@ -29,6 +29,16 @@ export interface QuestionFileContent {
     pathType?: 'relative' | 'absolute';
 }
 
+export interface VideoData {
+    url: string;
+    credits: string;
+}
+
+export interface ComplementaryData {
+    videoUrl: string;
+    credits?: string;
+}
+
 /**
  * Question File Data Information
  */
@@ -69,6 +79,11 @@ export interface QuestionFile {
      * Question Number.
      */
     number?: number;
+    /**
+     * Question Resolutions.
+     */
+    resolutions?: VideoData[];
+    complementary?: (ComplementaryData)[];
 }
 
 /**
