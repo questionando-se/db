@@ -5,7 +5,7 @@
     "content": [
         { "type": "text", "data": "Uma administração municipal encomendou a pintura de dez placas de sinalização para colocar em seu pátio de estacionamento." },
         { "type": "text", "data": "O profissional contratado para o serviço inicial pintará o fundo de dez placas e cobrará um valor de acordo com a área total dessas placas. O formato de cada placa é um círculo de diâmetro \\(d = 40\\) cm, que tangencia lados de um retângulo, sendo que o comprimento total da placa é \\(h = 60\\) cm, conforme ilustrado na figura. Use 3,14 como aproximação para \\(\\pi\\)." },
-        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/proibido-estacionar.png" },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/proibido-estacionar.png.png" },
         { "type": "text", "data": "Qual é a soma das medidas das áreas, em centímetros quadrados, das dez placas?" }
     ],
     "resolutions": [],

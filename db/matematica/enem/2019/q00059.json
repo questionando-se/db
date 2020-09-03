@@ -10,7 +10,7 @@
             { "type": "text", "data": "Alerta vermelho: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será superior a 40 °C, e a umidade relativa do ar for inferior a 25%." }
         ] },
         { "type": "text", "data": "Um resumo da previsão do tempo nessa cidade, para um período de 15 dias, foi apresentado no gráfico." },
-        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/meteorologia-grafico.png" },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/meteorologia-grafico.png.png" },
         { "type": "text", "data": "Decorridos os 15 dias de validade desse relatório, um funcionário percebeu que, no período a que se refere o gráfico, foram emitidos os seguintes alertas:" },
         { "type": "ul", "data": [
             { "type": "text", "data": "Dia 1: alerta cinza;" },
