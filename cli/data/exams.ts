@@ -25,6 +25,12 @@ const examsData: { [key: string]: ExamData } = {
         image: 'logos/enem.png',
         writeQuestionTitle: (data: QuestionFile) => commmonNotebookTitle(data, 'Caderno'),
     },
+    ENEM_PPL: {
+        text: 'Enem PPL',
+        longText: 'Exame Nacional do Ensino Médio para Pessoas Privadas de Liberdade e Jovens sob Medida Socioeducativa',
+        image: 'logos/enem.png',
+        writeQuestionTitle: (data: QuestionFile) => commmonNotebookTitle(data, 'Caderno'),
+    },
     FUVEST: {
         text: 'Fuvest',
         longText: 'Fundação Universitária para o Vestibular',

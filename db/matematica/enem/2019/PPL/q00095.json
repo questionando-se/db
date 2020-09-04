@@ -1,0 +1,41 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um gerente decidiu fazer um estudo financeiro da empresa onde trabalha analisando as receitas anuais dos três últimos anos. Tais receitas são apresentadas no quadro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Ano" },
+                { "header": true, "text": "Receita (bilhão de reais)" }
+            ],
+            [{ "text": "I" }, { "text": "2,2" }],
+            [{ "text": "II" }, { "text": "4,2" }],
+            [{ "text": "III" }, { "text": "7,4" }]
+        ] },
+        { "type": "text", "data": "Estes dados serão utilizados para projetar a receita mínima esperada para o ano atual (ano IV), pois a receita esperada para o ano IV é obtida em função das variações das receitas anuais anteriores, utilizando a seguinte regra: a variação do ano IV para o ano III será igual à variação do ano III para o II adicionada à média aritmética entre essa variação e a variação do ano II para o I." },
+        { "type": "text", "data": "O valor da receita mínima esperada, em bilhão de reais, será de" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "10,0." }
+        ],
+        [
+            { "type": "text", "data": "12,0." }
+        ],
+        [
+            { "type": "text", "data": "13,2." }
+        ],
+        [
+            { "type": "text", "data": "16,8." }
+        ],
+        [
+            { "type": "text", "data": "20,6." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 141,
+    "correct": 2
+}

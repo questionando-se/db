@@ -1,0 +1,33 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O boliche é um esporte cujo objetivo é derrubar, com uma bola, uma série de pinos alinhados em uma pista. A professora de matemática organizou um jogo de boliche em que os pinos são garrafas que possuem rótulos com números, conforme mostra o esquema." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/boliche.png" },
+        { "type": "text", "data": "O aluno marca pontos de acordo com a soma das quantidades expressas nos rótulos das garrafas que são derrubadas. Se dois ou mais rótulos representam a mesma quantidade, apenas um deles entra na contagem dos pontos. Um aluno marcou 7,55 pontos em uma jogada. Uma das garrafas que ele derrubou tinha o rótulo 6,8." },
+        { "type": "text", "data": "A quantidade máxima de garrafas que ele derrubou para obter essa pontuação é igual a" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "2." }
+        ],
+        [
+            { "type": "text", "data": "3." }
+        ],
+        [
+            { "type": "text", "data": "4." }
+        ],
+        [
+            { "type": "text", "data": "5." }
+        ],
+        [
+            { "type": "text", "data": "6." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 136,
+    "correct": 4
+}

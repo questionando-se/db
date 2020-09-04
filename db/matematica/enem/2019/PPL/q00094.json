@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma pessoa comprou um aparelho sem fio para transmitir músicas a partir do seu computador para o rádio de seu quarto. Esse aparelho possui quatro chaves seletoras e cada uma pode estar na posição 0 ou 1. Cada escolha das posições dessas chaves corresponde a uma frequência diferente de transmissão." },
+        { "type": "text", "data": "A quantidade de frequências diferentes que esse aparelho pode transmitir é determinada por" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "6." }
+        ],
+        [
+            { "type": "text", "data": "8." }
+        ],
+        [
+            { "type": "text", "data": "12." }
+        ],
+        [
+            { "type": "text", "data": "16." }
+        ],
+        [
+            { "type": "text", "data": "24." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 140,
+    "correct": 3
+}
