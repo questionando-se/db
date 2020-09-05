@@ -73,10 +73,11 @@ export default class ListsPageWriter {
     }
 
     public writeExamHome(outputPath: string, exam: string, yearsData: YearsPaginationOutput): void {
+        const examData = examsData[exam];
         const output = [
             '---\n',
             'layout: yearsList\n',
-            `exam: ${exam}\n`,
+            `exam: ${examData.text}\n`,
             '---\n\n',
             '<div class="collection">',
             '   <div class="collection-item">',

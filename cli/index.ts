@@ -99,6 +99,6 @@ function recreateGit() {
         'git add .',
         'git commit -m "Automatized build from CLI"',
         'git push origin master --force'
-    ].join('\n'));
+    ].join('&&'));
 }
 recreateGit();
