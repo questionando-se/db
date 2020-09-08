@@ -1,0 +1,56 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um fiscal de certa empresa de ônibus registra o tempo, em minuto, que um motorista novato gasta para completar certo percurso. No Quadro 1 figuram os tempos gastos pelo motorista ao realizar o mesmo percurso sete vezes. O Quadro 2 apresenta uma classificação para a variabilidade do tempo, segundo o valor do desvio padrão." },
+        { "type": "text", "data": "<b class='text-center'>Quadro 1</b>" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Tempos (em minuto)" },
+                { "text": "48" },
+                { "text": "54" },
+                { "text": "50" },
+                { "text": "46" },
+                { "text": "44" },
+                { "text": "52" },
+                { "text": "49" }
+            ]
+        ] },
+        { "type": "text", "data": "<b class='text-center'>Quadro 2</b>" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Variabilidade" },
+                { "header": true, "text": "Desvio padrão do tempo (min)" }
+            ],
+            [{ "text": "Extremamente baixa" }, { "text": "\\(0<\\sigma\\leqslant 2\\)" }],
+            [{ "text": "Baixa" }, { "text": "\\(2<\\sigma\\leqslant 4\\)" }],
+            [{ "text": "Moderada" }, { "text": "\\(4<\\sigma\\leqslant 6\\)" }],
+            [{ "text": "Alta" }, { "text": "\\(6<\\sigma\\leqslant 8\\)" }],
+            [{ "text": "Extremamente alta" }, { "text": "\\(\\sigma > 8\\)" }]
+        ] },
+        { "type": "text", "data": "Com base nas informações apresentadas nos quadros, a variabilidade do tempo é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "Extremamente baixa." }
+        ],
+        [
+            { "type": "text", "data": "Baixa." }
+        ],
+        [
+            { "type": "text", "data": "Moderada." }
+        ],
+        [
+            { "type": "text", "data": "Alta." }
+        ],
+        [
+            { "type": "text", "data": "Extremamente alta." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 178,
+    "correct": 1
+}

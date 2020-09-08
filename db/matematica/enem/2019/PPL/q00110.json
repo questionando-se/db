@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "No ano de 1751, o matemático Euler conseguiu demonstrar a famosa relação para poliedros convexos que relaciona o número de suas faces (\\(F\\)), arestas (\\(A\\)) e vértices (\\(V\\)): \\(V + F = A + 2\\). No entanto, na busca dessa demonstração, essa relação foi sendo testada em poliedros convexos e não convexos. Observou-se que alguns poliedros não convexos satisfaziam a relação e outros não. Um exemplo de poliedro não convexo é dado na figura. Todas as faces que não podem ser vistas diretamente são retangulares." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/poliedro_euler.png" },
+        { "type": "text", "data": "Qual a relação entre os vértices, as faces e as arestas do poliedro apresentado na figura?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\( V + F = A \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( V + F = A - 1 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( V + F = A + 1 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( V + F = A + 2 \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( V + F = A + 3 \\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 156,
+    "correct": 4
+}

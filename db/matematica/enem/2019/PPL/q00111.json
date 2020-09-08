@@ -1,0 +1,39 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma pessoa fez um depósito inicial de R$ 200,00 em um fundo de Investimentos que possui rendimento constante sob juros compostos de 5% ao mês. Esse Fundo possui cinco planos de carência (tempo mínimo necessário de rendimento do Fundo sem movimentação do cliente). Os planos são:" },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "Plano A: carência de 10 meses;" },
+            { "type": "text", "data": "Plano B: carência de 15 meses;" },
+            { "type": "text", "data": "Plano C: carência de 20 meses;" },
+            { "type": "text", "data": "Plano D: carência de 28 meses;" },
+            { "type": "text", "data": "Plano E: carência de 40 meses." }
+        ] },
+        { "type": "text", "data": "O objetivo dessa pessoa é deixar essa aplicação rendendo até que o valor inicialmente aplicado duplique, quando somado aos juros do fundo. Considere as aproximações: \\(\\log 2 = 0,30\\) e \\(\\log 1,05 = 0,02\\)." },
+        { "type": "text", "data": "Para que essa pessoa atinja seu objetivo apenas no período de carência, mas com a menor carência possível, deverá optar pelo plano" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "A." }
+        ],
+        [
+            { "type": "text", "data": "B." }
+        ],
+        [
+            { "type": "text", "data": "C." }
+        ],
+        [
+            { "type": "text", "data": "D." }
+        ],
+        [
+            { "type": "text", "data": "E." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 157,
+    "correct": 1
+}

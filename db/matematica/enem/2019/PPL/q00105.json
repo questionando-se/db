@@ -1,0 +1,34 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Na anestesia peridural, como a usada nos partos, o médico anestesista precisa introduzir uma agulha nas costas do paciente, que atravessará várias camadas de tecido até chegar a uma região estreita, chamada espaço epidural, que envolve a medula espinhal. A agulha é usada para injetar um líquido anestésico, e a força que deve ser aplicada à agulha para fazê-la avançar através dos tecidos é variável." },
+        { "type": "text", "data": "A figura é um gráfico do módulo \\(F\\) da força (em newton) em função do deslocamento \\(x\\) da ponta da agulha (em milímetro) durante uma anestesia peridural típica." },
+        { "type": "text", "data": "Considere que a velocidade de penetração da agulha deva ser a mesma durante a aplicação da anestesia e que a força aplicada à agulha pelo médico anestesista em cada ponto deve ser proporcional à resistência naquele ponto." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/modulo-forca-agulha.png", "credits": "HALLIDAY, D.; RESNICK, R. Fundamentos de física. Rio de Janeiro: lTC, 2008." },
+        { "type": "text", "data": "Com base nas informações apresentadas, a maior resistência à força aplicada observa-se ao longo do segmento" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "AB." }
+        ],
+        [
+            { "type": "text", "data": "FG." }
+        ],
+        [
+            { "type": "text", "data": "EF." }
+        ],
+        [
+            { "type": "text", "data": "GH." }
+        ],
+        [
+            { "type": "text", "data": "HI." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 151,
+    "correct": 3
+}

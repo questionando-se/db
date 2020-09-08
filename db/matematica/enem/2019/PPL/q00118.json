@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O projeto de transposição do Rio São Francisco consiste na tentativa de solucionar um problema que há muito afeta as populações do semiárido brasileiro, a seca. O projeto prevê a retirada de 26,4 m<sup>3</sup>/s de água desse rio. Para tornar mais compreensível a informação do volume de água a ser retirado, deseja-se expressar essa quantidade em litro por minuto." },
+        { "type": "text", "data": "<small class='text-right'>Disponível em: www.infoescola.com. Acesso em: 28 out. 2015.</small>" },
+        { "type": "text", "data": "Com base nas informações, qual expressão representa a quantidade de água retirada, em litro por minuto?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(\\frac{26,4}{1 000}\\times 60\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{26,4}{10}\\times 60\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(26,4\\times 1\\times 60\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(26,4\\times 10\\times 60\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(26,4\\times 1 000\\times 60\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 164,
+    "correct": 4
+}

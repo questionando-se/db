@@ -1,0 +1,43 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um país decide investir recursos na educação em suas cidades que tenham um alto nível de analfabetismo. Os recursos serão divididos de acordo com a idade média da população que é analfabeta, conforme apresentado no quadro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Recurso" },
+                { "header": true, "text": "Idade média da população analfabeta (M)" }
+            ],
+            [{ "text": "I" }, { "text": "\\(M \\leqslant 22\\)" }],
+            [{ "text": "II" }, { "text": "\\(22< M \\leqslant 27\\)" }],
+            [{ "text": "III" }, { "text": "\\(27 <M\\leqslant 32\\)" }],
+            [{ "text": "IV" }, { "text": "\\(32< M\\leqslant 37\\)" }],
+            [{ "text": "V" }, { "text": "\\(M > 37\\)" }]
+        ] },
+        { "type": "text", "data": "Uma cidade desse país possui \\(\\frac{60}{100}\\) do total de analfabetos de sua população composto por mulheres. A média de idade das mulheres analfabetas é de 30 anos, e a média de idade dos homens analfabetos é de 35 anos." },
+        { "type": "text", "data": "Considerando a média de idade da população analfabeta dessa cidade, ela receberá o recurso" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 179,
+    "correct": 2
+}

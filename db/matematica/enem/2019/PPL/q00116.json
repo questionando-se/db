@@ -1,0 +1,47 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O dono de um salão de festas precisa decorar cinco pilastras verticais cilíndricas idênticas, cujo raio da base mede 10 cm. O objetivo é revestir integralmente essas pilastras com faixas de menor comprimento possível, de modo que cada uma tenha seis faixas de cor preta e cinco faixas de cor branca, conforme ilustrado na figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/lateral-pilastra.png" },
+        { "type": "text", "data": "Ele orçou as faixas em cinco lojas que as comercializam na largura e nas cores desejadas, porém, em todas elas, só são vendidas peças inteiras. Os comprimentos e os respectivos preços das peças comercializadas por loja estão apresentados no quadro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Loja" },
+                { "header": true, "text": "Comprimento da peça (em metro)" },
+                { "header": true, "text": "Preço da peça (em real)" }
+            ],
+            [{ "text": "I" }, { "text": "3" }, { "text": "11,00" }],
+            [{ "text": "II" }, { "text": "7" }, { "text": "19,00" }],
+            [{ "text": "III" }, { "text": "10" }, { "text": "33,00" }],
+            [{ "text": "IV" }, { "text": "14" }, { "text": "37,00" }],
+            [{ "text": "V" }, { "text": "22" }, { "text": "61,00" }]
+        ] },
+        { "type": "text", "data": "O dono do salão de festas decidiu efetuar a compra em uma única loja, optando por aquela em que a compra ficaria mais barata." },
+        { "type": "text", "data": "Utilize 3 como valor aproximado para \\(\\pi\\)." },
+        { "type": "text", "data": "A loja na qual o dono do salão de festas deve comprar as peças necessárias para confeccionar as faixas é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 162,
+    "correct": 1
+}

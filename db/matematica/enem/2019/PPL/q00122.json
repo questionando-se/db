@@ -1,0 +1,33 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Em um trabalho escolar, um aluno fez uma planta do seu bairro, utilizando a escala 1 : 500, sendo que as quadras possuem as mesmas medidas, conforme a figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/ponte-trabalho-escolar.png" },
+        { "type": "text", "data": "O professor constatou que o aluno esqueceu de colocar a medida do comprimento da ponte na planta, mas foi informado por ele que ela media 73 m." },
+        { "type": "text", "data": "O valor a ser colocado na planta, em centímetro, referente ao comprimento da ponte deve ser" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1,46." }
+        ],
+        [
+            { "type": "text", "data": "6,8." }
+        ],
+        [
+            { "type": "text", "data": "14,6." }
+        ],
+        [
+            { "type": "text", "data": "68." }
+        ],
+        [
+            { "type": "text", "data": "146." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 168,
+    "correct": 2
+}

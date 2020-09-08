@@ -1,0 +1,34 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma formiga encontra-se no ponto \\(X\\), no lado externo de um copo que tem a forma de um cilindro reto. No lado interno, no ponto \\(V\\), existe um grão de açúcar preso na parede do copo. A formiga segue o caminho \\(XYZWV\\) (sempre sobre a superfície lateral do copo), de tal forma que os trechos \\(ZW\\) e \\(WV\\) são realizados na superfície interna do copo. O caminho \\(XYZWV\\) é mostrado na figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/formiga-copo-01.png" },
+        { "type": "text", "data": "Sabe-se que: os pontos \\(X\\), \\(V\\), \\(W\\) se encontram à mesma distância da borda; o trajeto \\(WV\\) é o mais curto possível; os trajetos \\(XY\\) e \\(ZW\\) são perpendiculares à borda do copo; e os pontos \\(X\\) e \\(V\\) se encontram diametralmente opostos." },
+        { "type": "text", "data": "Supondo que o copo é de material recortável, realiza-se um corte pelo segmento unindo \\(P\\) a \\(Q\\), perpendicular à borda do copo, e recorta-se também sua base, obtendo então uma figura plana. Desconsidere a espessura do copo." },
+        { "type": "text", "data": "Considerando apenas a planificação da superfície lateral do copo, a trajetória da formiga é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/formiga-copo-02.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/formiga-copo-03.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/formiga-copo-04.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/formiga-copo-05.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative", "data": "assets/enem2019/matematica/formiga-copo-06.png" }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 154,
+    "correct": 0
+}

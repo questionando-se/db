@@ -1,0 +1,46 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma empresa de transporte disponibiliza, para embalagem de encomendas, caixas de papelão no formato de paralelepípedo retoretângulo, conforme dimensões no quadro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Modelo da Caixa" },
+                { "header": true, "text": "Comprimento (cm)" },
+                { "header": true, "text": "Largura (cm)" },
+                { "header": true, "text": "Altura (cm)" }
+            ],
+            [{ "text": "1" }, { "text": "12" }, { "text": "12" }, { "text": "13" }],
+            [{ "text": "2" }, { "text": "23" }, { "text": "20" }, { "text": "25" }],
+            [{ "text": "3" }, { "text": "25" }, { "text": "25" }, { "text": "25" }],
+            [{ "text": "4" }, { "text": "26" }, { "text": "25" }, { "text": "24" }],
+            [{ "text": "5" }, { "text": "23" }, { "text": "26" }, { "text": "26" }]
+        ] },
+        { "type": "text", "data": "Para embalar uma encomenda, contendo um objeto esférico com 11 cm de raio, essa empresa adota como critério a utilização da caixa, dentre os modelos disponíveis, que comporte, quando fechada e sem deformá-la, a encomenda e que possua a menor área de superfície total." },
+        { "type": "text", "data": "Desconsidere a espessura da caixa." },
+        { "type": "text", "data": "Nessas condições, qual dos modelos apresentados deverá ser o escolhido pela empresa?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1." }
+        ],
+        [
+            { "type": "text", "data": "2." }
+        ],
+        [
+            { "type": "text", "data": "3." }
+        ],
+        [
+            { "type": "text", "data": "4." }
+        ],
+        [
+            { "type": "text", "data": "5." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 166,
+    "correct": 4
+}

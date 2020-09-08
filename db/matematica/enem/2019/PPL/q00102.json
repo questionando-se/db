@@ -1,0 +1,39 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Deseja-se comprar determinado produto e, após uma pesquisa de preços, o produto foi encontrado em 5 lojas diferentes, a preços variados." },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "Loja 1: 20% de desconto, que equivale a R$ 720,00, mais R$ 70,00 de frete;" },
+            { "type": "text", "data": "Loja 2: 20% de desconto, que equivale a R$ 740,00, mais R$ 50,00 de frete;" },
+            { "type": "text", "data": "Loja 3: 20% de desconto, que equivale a R$ 760,00, mais R$ 80,00 de frete;" },
+            { "type": "text", "data": "Loja 4: 15% de desconto, que equivale a R$ 710,00, mais R$ 10,00 de frete;" },
+            { "type": "text", "data": "Loja 5: 15% de desconto, que equivale a R$ 690,00, sem custo de frete." }
+        ] },
+        { "type": "text", "data": "O produto foi comprado na loja que apresentou o menor preço total." },
+        { "type": "text", "data": "O produto foi adquirido na loja" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1." }
+        ],
+        [
+            { "type": "text", "data": "2." }
+        ],
+        [
+            { "type": "text", "data": "3." }
+        ],
+        [
+            { "type": "text", "data": "4." }
+        ],
+        [
+            { "type": "text", "data": "5." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 148,
+    "correct": 0
+}

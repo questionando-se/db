@@ -1,0 +1,44 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma empresa divide o balanço anual de vendas de seus produtos em duas partes, calculando o número de vendas dos produtos ao final de cada semestre do ano. Após o balanço do primeiro semestre, foram realizadas ações de marketing para os cinco produtos menos vendidos da empresa. A tabela mostra a evolução das vendas desses produtos, do primeiro para o segundo semestre." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Produto" },
+                { "header": true, "text": "Número de unidades vendidas no primeiro semestre" },
+                { "header": true, "text": "Número de unidades vendias no segundo semestre" }
+            ],
+            [{ "text": "I" }, { "text": "350" }, { "text": "600" }],
+            [{ "text": "II" }, { "text": "1 000" }, { "text": "1 100" }],
+            [{ "text": "III" }, { "text": "4 000" }, { "text": "4 500" }],
+            [{ "text": "IV" }, { "text": "850" }, { "text": "1 200" }],
+            [{ "text": "V" }, { "text": "2 000" }, { "text": "2 600" }]
+        ] },
+        { "type": "text", "data": "O sucesso de uma ação de marketing de um produto é medido pelo aumento percentual do número de unidades vendidas desse produto, do primeiro para o segundo semestre." },
+        { "type": "text", "data": "A ação de marketing mais bem-sucedida foi para o produto" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 167,
+    "correct": 0
+}

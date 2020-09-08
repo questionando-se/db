@@ -1,0 +1,46 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "No desenvolvimento de um novo remédio, pesquisadores monitoram a quantidade \\(Q\\) de uma substância circulando na corrente sanguínea de um paciente, ao longo do tempo \\(t\\). Esses pesquisadores controlam o processo, observando que \\(Q\\) é uma função quadrática de \\(t\\). Os dados coletados nas duas primeiras horas foram:" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "\\(t\\) (hora)" },
+                { "text": "0" },
+                { "text": "1" },
+                { "text": "2" }
+            ],
+            [
+                { "header": true, "text": "\\(Q\\) (miligrama)" },
+                { "text": "1" },
+                { "text": "4" },
+                { "text": "6" }
+            ]
+        ] },
+        { "type": "text", "data": "Para decidir se devem interromper o processo, evitando riscos ao paciente, os pesquisadores querem saber, antecipadamente, a quantidade da substância que estará circulando na corrente sanguínea desse paciente após uma hora do último dado coletado." },
+        { "type": "text", "data": "Nas condições expostas, essa quantidade (em miligrama) será igual a" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "4." }
+        ],
+        [
+            { "type": "text", "data": "7." }
+        ],
+        [
+            { "type": "text", "data": "8." }
+        ],
+        [
+            { "type": "text", "data": "9." }
+        ],
+        [
+            { "type": "text", "data": "10." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 152,
+    "correct": 1
+}

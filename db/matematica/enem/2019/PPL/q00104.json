@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O modelo predador-presa consiste em descrever a interação entre duas espécies, sendo que uma delas (presa) serve de alimento para a outra (predador). A resposta funcional é a relação entre a taxa de consumo de um predador e a densidade populacional de sua presa. A figura mostra três respostas funcionais (f, g, h), em que a variável independente representa a densidade populacional da presa." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/predador-presa.png", "credits": "Disponível em: www.jornallivre.com.br. Acesso em: 1 ago. 2012 (adaptado)." },
+        { "type": "text", "data": "Qual o maior intervalo em que a resposta funcional \\(f(x)\\) é menor que as respostas funcionais \\(g(x)\\) e \\(h(x)\\), simultaneamente?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\( (0; B) \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( (B; C) \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( (B; E) \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( (C; D) \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( (C; E) \\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 150,
+    "correct": 4
+}

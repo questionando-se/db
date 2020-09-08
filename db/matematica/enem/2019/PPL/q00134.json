@@ -1,0 +1,39 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Para certas molas, a constante elástica (C) depende do diâmetro médio da circunferência da mola (D), do número de espirais úteis (N), do diâmetro (d) do fio de metal do qual é formada a mola e do módulo de elasticidade do material (G). A fórmula evidencia essas relações de dependência." },
+        { "type": "text", "data": "\\[ C=\\frac{G\\cdot d^4}{8\\cdot D^3\\cdot N} \\]" },
+        { "type": "text", "data": "O dono de uma fábrica possui uma mola \\(M_1\\) em um de seus equipamentos, que tem características \\(D_1\\), \\(d_1\\), \\(N_1\\) e \\(G_1\\), com uma constante elástica \\(C_1\\). Essa mola precisa ser substituída por outra, \\(M_2\\), produzida com outro material e com características diferentes, bem como uma nova constante elástica \\(C_2\\), da seguinte maneira:" },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "I) \\(D_2 =\\frac{D_1}{3}\\)." },
+            { "type": "text", "data": "II) \\(d_2 =3d_1\\)." },
+            { "type": "text", "data": "III) \\(N_2 = 9N_1\\)." }
+        ] },
+        { "type": "text", "data": "Além disso, a constante de elasticidade \\(G_2\\) do novo material é igual a \\(4G_1\\)." },
+        { "type": "text", "data": "O valor da constante \\(C_2\\) em função da constante \\(C_1\\) é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(C_2 = 972C_1\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(C_2 = 108C_1\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(C_2 = 4C_1\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(C_2 = \\frac{4}{3}C_1\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(C_2 = \\frac{4}{9}C_1\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 180,
+    "correct": 0
+}

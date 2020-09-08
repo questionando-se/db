@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma locadora possui disponíveis 120 veículos da categoria que um cliente pretende locar. Desses, 20% são da cor branca, 40% são da cor cinza, 16 veículos são da cor vermelha e o restante, de outras cores. O cliente não gosta da cor vermelha e ficaria contente com qualquer outra cor, mas o sistema de controle disponibiliza os veículos sem levar em conta a escolha da cor pelo cliente." },
+        { "type": "text", "data": "Disponibilizando aleatoriamente, qual é a probabilidade de o cliente ficar contente com a cor do veículo?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(\\frac{16}{120}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{32}{120}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{72}{120}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{101}{120}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{104}{120}\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 173,
+    "correct": 4
+}

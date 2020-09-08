@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Muitos restaurantes servem refrigerantes em copos contendo limão e gelo. Suponha um copo de formato cilíndrico, com as seguintes medidas: diâmetro = 6 cm e altura = 15 cm. Nesse copo, há três cubos de gelo, cujas arestas medem 2 cm cada, e duas rodelas cilíndricas de limão, com 4 cm de diâmetro e 0,5 cm de espessura cada. Considere que, ao colocar o refrigerante no copo, os cubos de gelo e os limões ficarão totalmente imersos. (Use 3 como aproximação para \\(\\pi\\))." },
+        { "type": "text", "data": "O volume máximo de refrigerante, em centímetro cúbico, que cabe nesse copo contendo as rodelas de limão e os cubos de gelo com suas dimensões inalteradas, é igual a" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "107." }
+        ],
+        [
+            { "type": "text", "data": "234." }
+        ],
+        [
+            { "type": "text", "data": "369." }
+        ],
+        [
+            { "type": "text", "data": "391." }
+        ],
+        [
+            { "type": "text", "data": "405." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 158,
+    "correct": 2
+}

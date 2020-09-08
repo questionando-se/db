@@ -1,0 +1,45 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O quadro apresenta a quantidade de um tipo de pão vendido em uma semana em uma padaria." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Dia da semana" },
+                { "header": true, "text": "Número de pães vendidos" }
+            ],
+            [{ "text": "Domingo" }, { "text": "250" }],
+            [{ "text": "Segunda-feira" }, { "text": "208" }],
+            [{ "text": "Terça-feira" }, { "text": "215" }],
+            [{ "text": "Quarta-feira" }, { "text": "251" }],
+            [{ "text": "Quinta-feira" }, { "text": "187" }],
+            [{ "text": "Sexta-feira" }, { "text": "187" }],
+            [{ "text": "Sábado" }, { "text": "186" }]
+        ] },
+        { "type": "text", "data": "O dono da padaria decidiu que, na semana seguinte, a produção diária desse tipo de pão seria igual ao número de pães vendidos no dia da semana em que tal quantidade foi a mais próxima da média das quantidades vendidas na semana." },
+        { "type": "text", "data": "O dia da semana utilizado como referência para a quantidade de pães a serem produzidos diariamente foi" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "domingo." }
+        ],
+        [
+            { "type": "text", "data": "segunda-feira." }
+        ],
+        [
+            { "type": "text", "data": "terça-feira." }
+        ],
+        [
+            { "type": "text", "data": "quarta-feira." }
+        ],
+        [
+            { "type": "text", "data": "sábado." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 169,
+    "correct": 2
+}

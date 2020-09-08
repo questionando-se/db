@@ -1,0 +1,33 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Os movimentos ondulatórios (periódicos) são representados por equações do tipo \\(\\pm A\\cdot sen(wt+\\theta)\\), que apresentam parâmetros com significados físicos importantes, tais como a frequência \\(w=\\frac{2\\pi}{T}\\), em que \\(T\\) é o período; \\(A\\) é a amplitude ou deslocamento máximo; \\(\\theta\\) é o ângulo de fase \\(0\\leqslant \\theta < \\frac{2\\pi}{w}\\), que mede o deslocamento no eixo horizontal em relação à origem no instante inicial do movimento." },
+        { "type": "text", "data": "O gráfico representa um movimento periódico, \\(P=P(t)\\), em centímetro, em que \\(P\\) é a posição da cabeça do pistão do motor de um carro em um instante \\(t\\), conforme ilustra a figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/onda-asen.png" },
+        { "type": "text", "data": "A expressão algébrica que representa a posição \\(P(t)\\), da cabeça do pistão, em função do tempo \\(t\\) é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\( P(t)=4sen(2t) \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( P(t)= -4sen(2t) \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( P(t)= -4sen(4t) \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(P(t)= 4sen \\left ( 2t+\\frac{\\pi}{4}\\right ) \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(P(t)= 4sen \\left ( 4t+\\frac{\\pi}{4}\\right ) \\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 145,
+    "correct": 0
+}

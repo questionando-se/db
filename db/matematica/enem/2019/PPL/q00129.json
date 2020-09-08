@@ -1,0 +1,44 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma empresa sorteia prêmios entre os funcionários como reconhecimento pelo tempo trabalhado. A tabela mostra a distribuição de frequência de 20 empregados dessa empresa que têm de 25 a 35 anos trabalhados. A empresa sorteou, entre esses empregados, uma viagem de uma semana, sendo dois deles escolhidos aleatoriamente." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Tempo de serviço" },
+                { "header": true, "text": "Número de empregados" }
+            ],
+            [{ "text": "25" }, { "text": "4" }],
+            [{ "text": "27" }, { "text": "1" }],
+            [{ "text": "29" }, { "text": "2" }],
+            [{ "text": "30" }, { "text": "2" }],
+            [{ "text": "32" }, { "text": "3" }],
+            [{ "text": "34" }, { "text": "5" }],
+            [{ "text": "35" }, { "text": "3" }]
+        ] },
+        { "type": "text", "data": "Qual a probabilidade de que ambos os sorteados tenham 34 anos de trabalho?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(\\frac{1}{20}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{1}{19}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{1}{16}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{2}{20}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{5}{20}\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 175,
+    "correct": 1
+}

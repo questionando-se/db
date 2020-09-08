@@ -1,0 +1,45 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma empresa especializou-se no aluguel de contêineres que são utilizados como unidades comerciais móveis. O modelo padrão alugado pela empresa tem altura de 2,4 m e as outras duas dimensões (largura e comprimento), 3,0 m e 7,0 m, respectivamente." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/conteiner.png" },
+        { "type": "text", "data": "Um cliente solicitou um contêiner com altura padrão, porém, com largura 40% maior e comprimento 20% menor que as correspondentes medidas do modelo padrão. Para atender às necessidades de mercado, a empresa também disponibiliza um estoque de outros modelos de contêineres, conforme o quadro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Modelos com altura de 2,4 m" },
+                { "header": true, "text": "Largura (em metro)" },
+                { "header": true, "text": "Comprimento (em metro)" }
+            ],
+            [{ "text": "I" }, { "text": "4,2" }, { "text": "8,4" }],
+            [{ "text": "II" }, { "text": "4,2" }, { "text": "5,6" }],
+            [{ "text": "III" }, { "text": "4,2" }, { "text": "5,8" }],
+            [{ "text": "IV" }, { "text": "5,0" }, { "text": "5,6" }],
+            [{ "text": "V" }, { "text": "5,0" }, { "text": "8,4" }]
+        ] },
+        { "type": "text", "data": "Dos modelos disponíveis, qual atende às necessidades do cliente?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 177,
+    "correct": 1
+}

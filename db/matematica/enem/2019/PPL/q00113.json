@@ -1,0 +1,42 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma empresa, investindo na segurança, contrata uma firma para instalar mais uma câmera de segurança no teto de uma sala. Para iniciar o serviço, o representante da empresa informa ao instalador que nessa sala já estão instaladas duas câmeras e, a terceira, deverá ser colocada de maneira a ficar equidistante destas. Além disso, ele apresenta outras duas informações:" },
+        { "type": "text", "data": "(i) um esboço em um sistema de coordenadas cartesianas, do teto da sala, onde estão inseridas as posições das câmeras 1 e 2, conforme a figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/cameras_seguranca.png" },
+        { "type": "text", "data": "(ii) cinco relações entre as coordenadas \\((x ; y)\\) da posição onde a câmera 3 deverá ser instalada." },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "R1: \\(y = x\\)" },
+            { "type": "text", "data": "R2: \\(y=-3x+5\\)" },
+            { "type": "text", "data": "R3: \\(y=-3x+10\\)" },
+            { "type": "text", "data": "R4: \\(y=\\frac{1}{3}x+\\frac{5}{3}\\)" },
+            { "type": "text", "data": "R5: \\(y=\\frac{1}{3}x+\\frac{1}{10}\\)" }
+        ] },
+        { "type": "text", "data": "O instalador, após analisar as informações e as cinco relações, faz a opção correta dentre as relações apresentadas para instalar a terceira câmera." },
+        { "type": "text", "data": "A relação escolhida pelo instalador foi a" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "R1." }
+        ],
+        [
+            { "type": "text", "data": "R2." }
+        ],
+        [
+            { "type": "text", "data": "R3." }
+        ],
+        [
+            { "type": "text", "data": "R4." }
+        ],
+        [
+            { "type": "text", "data": "R5." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 159,
+    "correct": 3
+}

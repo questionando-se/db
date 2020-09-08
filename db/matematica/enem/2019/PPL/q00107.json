@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um jardineiro cultiva plantas ornamentais e as coloca à venda quando estas atingem 30 centímetros de altura. Esse jardineiro estudou o crescimento de suas plantas, em função do tempo, e deduziu uma fórmula que calcula a altura em função do tempo, a partir do momento em que a planta brota do solo até o momento em que ela atinge sua altura máxima de 40 centímetros. A fórmula é \\(h = 5\\cdot \\log_{2} (t + 1)\\), em que \\(t\\) é o tempo contado em dia e \\(h\\), a altura da planta em centímetro." },
+        { "type": "text", "data": "A partir do momento em que uma dessas plantas é colocada à venda, em quanto tempo, em dia, ela alcançará sua altura máxima?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "63." }
+        ],
+        [
+            { "type": "text", "data": "96." }
+        ],
+        [
+            { "type": "text", "data": "128." }
+        ],
+        [
+            { "type": "text", "data": "192." }
+        ],
+        [
+            { "type": "text", "data": "255." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 153,
+    "correct": 3
+}

@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O esquema apresenta a concentração de álcool presente em cada 200 mL de diferentes tipos de bebidas." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/alcool-bebidas.png", "credits": "Disponível em: http://g1.globo.com. Acesso em: 30 jul. 2012 (adaptado)." },
+        { "type": "text", "data": "De acordo com as informações, indique qual o número máximo de taças de vinho, de 300 mL, que podem ser consumidas, semanalmente, por uma mulher que se enquadre no grupo de médio risco." }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "0." }
+        ],
+        [
+            { "type": "text", "data": "4." }
+        ],
+        [
+            { "type": "text", "data": "7." }
+        ],
+        [
+            { "type": "text", "data": "9." }
+        ],
+        [
+            { "type": "text", "data": "14." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 165,
+    "correct": 3
+}

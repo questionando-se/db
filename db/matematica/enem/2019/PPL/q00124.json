@@ -1,0 +1,33 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma pista circular delimitada por duas circunferências concêntricas foi construída. Na circunferência interna dessa pista, de raio 0,3 km, serão colocados aparelhos de ginástica localizados nos pontos \\(P\\), \\(Q\\) e \\(R\\), conforme a figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/pista-circular.png" },
+        { "type": "text", "data": "O segmento \\(RP\\) é um diâmetro dessa circunferência interna, e o ângulo \\(P\\hat{R}Q\\) tem medida igual a \\(\\frac{\\pi}{5}\\) radianos." },
+        { "type": "text", "data": "Para uma pessoa ir do ponto \\(P\\) ao ponto \\(Q\\) andando pela circunferência interna no sentido anti-horário, ela percorrerá uma distância, em quilômetro, igual a" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "0,009\\(\\pi\\)." }
+        ],
+        [
+            { "type": "text", "data": "0.03\\(\\pi\\)." }
+        ],
+        [
+            { "type": "text", "data": "0,06\\(\\pi\\)." }
+        ],
+        [
+            { "type": "text", "data": "0,12\\(\\pi\\)." }
+        ],
+        [
+            { "type": "text", "data": "0,18\\(\\pi\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 170,
+    "correct": 3
+}

@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A conta de telefone de uma loja foi, nesse mês, de R$  200,00.  O  valor  da  assinatura  mensal,  já  incluso na  conta,  é  de  R$  40,00,  o  qual  dá  direito  a  realizar uma   quantidade   ilimitada   de   ligações   locais   para   telefones fixos. As ligações para celulares são tarifadas separadamente. Nessa loja, são feitas somente ligações locais, tanto para telefones fixos quanto para celulares. Para reduzir os custos, o gerente planeja, para o próximo mês, uma conta de telefone com valor de R$ 80,00." },
+        { "type": "text", "data": "Para  que  esse  planejamento  se  cumpra,  a  redução percentual com gastos em ligações para celulares nessa loja deverá ser de" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "25%." }
+        ],
+        [
+            { "type": "text", "data": "40%." }
+        ],
+        [
+            { "type": "text", "data": "50%." }
+        ],
+        [
+            { "type": "text", "data": "60%." }
+        ],
+        [
+            { "type": "text", "data": "75%." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 146,
+    "correct": 4
+}

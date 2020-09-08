@@ -1,0 +1,45 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Deseja-se comprar determinado produto e, após uma pesquisa de preços, o produto foi encontrado em 5 lojas diferentes, a preços variadosPara a compra de um repelente eletrônico, uma pessoa fez uma pesquisa nos mercados de seu bairro. Cada tipo de repelente pesquisado traz escrito no rótulo da embalagem as informações quanto à duração, em dia, associada à quantidade de horas de utilização por dia. Essas informações e o preço por unidade foram representados no quadro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Tipo" },
+                { "header": true, "text": "Duração em dia" },
+                { "header": true, "text": "Horas por dia de utilização" },
+                { "header": true, "text": "Preço em real" }
+            ],
+            [{ "text": "I" }, { "text": "30" }, { "text": "12" }, { "text": "12,00" }],
+            [{ "text": "II" }, { "text": "32" }, { "text": "9" }, { "text": "9,00" }],
+            [{ "text": "III" }, { "text": "40" }, { "text": "10" }, { "text": "10,00" }],
+            [{ "text": "IV" }, { "text": "44" }, { "text": "8" }, { "text": "11,00" }],
+            [{ "text": "V" }, { "text": "48" }, { "text": "8" }, { "text": "12,00" }]
+        ] },
+        { "type": "text", "data": "A pessoa comprará aquele que apresentar o menor custo diário, quando ligado durante 8 horas por dia." },
+        { "type": "text", "data": "Nessas condições, o repelente eletrônico que essa pessoa comprará é do tipo" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 149,
+    "correct": 2
+}

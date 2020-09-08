@@ -1,0 +1,42 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Em um município foi realizado um levantamento relativo ao número de médicos, obtendo-se os dados:" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Ano" },
+                { "header": true, "text": "Médicos" }
+            ],
+            [{ "text": "1980" }, { "text": "137" }],
+            [{ "text": "1985" }, { "text": "162" }],
+            [{ "text": "1995" }, { "text": "212" }],
+            [{ "text": "2010" }, { "text": "287" }]
+        ] },
+        { "type": "text", "data": "Tendo em vista a crescente demanda por atendimento médico na rede de saúde pública, pretende-se promover a expansão, a longo prazo, do número de médicos desse município, seguindo o comportamento de crescimento linear no período observado no quadro." },
+        { "type": "text", "data": "Qual a previsão do número de médicos nesse município para o ano 2040?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "387." }
+        ],
+        [
+            { "type": "text", "data": "424." }
+        ],
+        [
+            { "type": "text", "data": "437." }
+        ],
+        [
+            { "type": "text", "data": "574." }
+        ],
+        [
+            { "type": "text", "data": "711." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 161,
+    "correct": 2
+}

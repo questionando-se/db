@@ -1,0 +1,49 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O quadro apresenta a relação dos jogadores que fizeram parte da seleção brasileira de voleibol masculino nas Olimpíadas de 2012, em Londres, e suas respectivas alturas, em metro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Nome" },
+                { "header": true, "text": "Altura (m)" }
+            ],
+            [{ "text": "Bruninho" }, { "text": "1,90" }],
+            [{ "text": "Dante" }, { "text": "2,01" }],
+            [{ "text": "Giba" }, { "text": "1,92" }],
+            [{ "text": "Leandro Vissoto" }, { "text": "2,11" }],
+            [{ "text": "Lucas" }, { "text": "2,09" }],
+            [{ "text": "Murilo" }, { "text": "1,90" }],
+            [{ "text": "Ricardinho" }, { "text": "1,91" }],
+            [{ "text": "Rodrigão" }, { "text": "2,05" }],
+            [{ "text": "Serginho" }, { "text": "1,84" }],
+            [{ "text": "Sidão" }, { "text": "2,03" }],
+            [{ "text": "Thiago Alves" }, { "text": "1,94" }],
+            [{ "text": "Wallace" }, { "text": "1,98" }]
+        ], "credits": "Disponível em: www.cbv.com.br. Acesso em: 31 jul. 2012 (adaptado)" },
+        { "type": "text", "data": "A mediana das alturas, em metro, desses jogadores é." }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1,90." }
+        ],
+        [
+            { "type": "text", "data": "1,91." }
+        ],
+        [
+            { "type": "text", "data": "1,96." }
+        ],
+        [
+            { "type": "text", "data": "1,97." }
+        ],
+        [
+            { "type": "text", "data": "1,98." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 171,
+    "correct": 2
+}

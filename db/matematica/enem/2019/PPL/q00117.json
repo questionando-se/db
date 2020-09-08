@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Considere que a safra nacional de cereais, leguminosas e oleaginosas, em 2012, aponte uma participação por região conforme indicado no gráfico. Em valores absolutos, essas estimativas indicam que as duas regiões maiores produtoras deveriam produzir juntas um total de 119,8 milhões de toneladas em 2012." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2019/matematica/grafico-safra.png" },
+        { "type": "text", "data": "De acordo com esses dados, a produção estimada, em milhão de tonelada, de cereais, leguminosas e oleaginosas, em 2012, na Região Sudeste do país, foi um valor mais aproximado de" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "11,4." }
+        ],
+        [
+            { "type": "text", "data": "13,6." }
+        ],
+        [
+            { "type": "text", "data": "15,7." }
+        ],
+        [
+            { "type": "text", "data": "18,1." }
+        ],
+        [
+            { "type": "text", "data": "35,6." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 163,
+    "correct": 3
+}

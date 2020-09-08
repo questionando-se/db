@@ -1,0 +1,37 @@
+{
+    "exam": "ENEM_PPL",
+    "year": 2019,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma equipe de cientistas decidiu iniciar uma cultura com exemplares de uma bactéria, em uma lâmina, a fim de determinar o comportamento dessa população. Após alguns dias, os cientistas verificaram os seguintes fatos:" },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "a cultura cresceu e ocupou uma área com o formato de um círculo;" },
+            { "type": "text", "data": "o raio do círculo formado pela cultura de bactérias aumentou 10% a cada dia;" },
+            { "type": "text", "data": "a concentração na cultura era de 1 000 bactérias por milímetro quadrado e não mudou significativamente com o tempo." }
+        ] },
+        { "type": "text", "data": "Considere que \\(r\\) representa o raio do círculo no primeiro dia, Q a quantidade de bactérias nessa cultura no decorrer do tempo e d o número de dias transcorridos." },
+        { "type": "text", "data": "Qual é a expressão que representa \\(Q\\) em função de \\(r\\) e \\(d\\)?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\( Q=(10^3 (1,1)^{d-1}r)^2\\pi \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( Q=10^3( (1,1)^{d-1}r)^2\\pi \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( Q=10^3 (1,1(d-1)r)^2\\pi \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( Q=2\\times 10^3 (1,1)^{d-1}r\\pi \\)." }
+        ],
+        [
+            { "type": "text", "data": "\\( Q=2\\times 10^3 (1,1(d-1)r)\\pi \\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "application": "2",
+    "number": 147,
+    "correct": 1
+}
