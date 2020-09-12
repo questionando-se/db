@@ -1,0 +1,42 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Alguns peixes, como o poraquê, a enguia-elétrica da Amazônia, podem produzir uma corrente elétrica quando se encontram em perigo. Um poraquê de 1 metro de comprimento, em perigo, produz uma corrente em torno de 2 ampéres e uma voltagem de 600 volts." },
+        { "type": "text", "data": "O quadro apresenta a potência aproximada de equipamentos elétricos." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Equipamento elétrico" },
+                { "header": true, "text": "Potência aproximada (watt)" }
+            ],
+            [{ "text": "Exaustor" }, { "text": "150" }],
+            [{ "text": "Computador" }, { "text": "300" }],
+            [{ "text": "Aspirador de pó" }, { "text": "600" }],
+            [{ "text": "Churrasqueira elétrica" }, { "text": "1 200" }],
+            [{ "text": "Secadora de roupas" }, { "text": "3 600" }]
+        ]},
+        { "type": "text", "data": "O equipamento elétrico que tem potência similar àquela produzida por esse peixe em perigo é o (a)" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "exaustor." }
+        ],
+        [
+            { "type": "text", "data": "computador." }
+        ],
+        [
+            { "type": "text", "data": "aspirador de pó." }
+        ],
+        [
+            { "type": "text", "data": "churrasqueira elétrica." }
+        ],
+        [
+            { "type": "text", "data": "secadora de roupas." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 109,
+    "correct": 3
+}

@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": ["teorica"],
+    "content": [
+        { "type": "text", "data": "Um projetista deseja construir um brinquedo que lance um pequeno cubo ao longo de um trilho horizontal, e o dispositivo precisa oferecer a opção de mudar a velocidade de lançamento. Para isso, ele utiliza uma mola e um trilho onde o atrito pode ser desprezado, conforme a figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/mola-cubo-trilho.jpg" },
+        { "type": "text", "data": "Para que a velocidade de lançamento do cubo seja aumentada quatro vezes, o projetista deve" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "manter a mesma mola e aumentar duas vezes a sua deformação." }
+        ],
+        [
+            { "type": "text", "data": "manter a mesma mola e aumentar quatro vezes a sua deformação." }
+        ],
+        [
+            { "type": "text", "data": "manter a mesma mola e aumentar dezesseis vezes a sua deformação." }
+        ],
+        [
+            { "type": "text", "data": "trocar a mola por outra de constante elástica duas vezes maior e manter a deformação." }
+        ],
+        [
+            { "type": "text", "data": "trocar a mola por outra de constante elástica quatro vezes maior e manter a deformação." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 98,
+    "correct": 1
+}
