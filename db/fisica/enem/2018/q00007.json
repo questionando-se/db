@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Ao pesquisar um resistor feito de um novo tipo de material, um cientista observou o comportamento mostrado no gráfico tensão versus corrente." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/resistor-01.png" },
+        { "type": "text", "data": "Após a análise do gráfico, ele concluiu que a tensão em função da corrente é dada pela equação \\(V=10i+i^2\\). O gráficoda resistência elétrica (R) do resistor em função da corrente (i) é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/resistor-02.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/resistor-03.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/resistor-04.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/resistor-05.png" }
+        ],
+        [
+            { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/resistor-06.png" }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 110,
+    "correct": 3
+}

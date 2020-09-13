@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A figura representa um prisma óptico, constituído de um material transparente, cujo índice de refração é crescente com a frequência da luz que sobre ele incide. Um feixe luminoso, composto por luzes vermelha, azul e verde, incide na face A, emerge na face B e, após ser refletido por um espelho, incide num filme para fotografia colorida, revelando três pontos." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/prisma-espelho.png" },
+        { "type": "text", "data": "Observando os pontos luminosos revelados no filme, de baixo para cima, constatam-se as seguintes cores:" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "Vermelha, verde, azul." }
+        ],
+        [
+            { "type": "text", "data": "Verde, vermelha, azul." }
+        ],
+        [
+            { "type": "text", "data": "Azul, verde, vermelha." }
+        ],
+        [
+            { "type": "text", "data": "Verde, azul, vermelha." }
+        ],
+        [
+            { "type": "text", "data": "Azul, vermelha, verde." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 128,
+    "correct": 0
+}

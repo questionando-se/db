@@ -1,31 +1,32 @@
 {
     "exam": "ENEM",
     "year": 2018,
-    "tags": ["teorica"],
+    "tags": [],
     "content": [
-        { "type": "text", "data": "As pessoas que utilizam objetos cujo princípio de funcionamento é o mesmo do das alavancas aplicam uma força, chamada de força potente, em um dado ponto da barra, para superar ou equilibrar uma segunda força, chamada de resistente, em outro ponto da barra. Por causa das diferentes distâncias entre os pontos de aplicação das forças, potente e resistente, os seus efeitos também são diferentes. Afigura mostra alguns exemplos desses objetos." },
-        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/instrumentos.jpg" },
-        { "type": "text", "data": "Em qual dos objetos a força potente é maior que a força resistente?" }
+        { "type": "text", "data": "Nos manuais de instalação de equipamentos de som há o alerta aos usuários para que observem a correta polaridade dos fios ao realizarem as conexões das caixas de som. As figuras ilustram o esquema de conexão das caixas de som de um equipamento de som mono, no qual os alto-falantes emitem as mesmas ondas. No primeiro caso, a ligação obedece às especificações do fabricante e no segundo mostra uma ligação na qual a polaridade está invertida." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/caixa-som-1.png" },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2018/fisica/caixa-som-2.png" },
+        { "type": "text", "data": "O que ocorre com os alto-falantes E e D se forem conectados de acordo com o segundo esquema?" }
     ],
     "resolutions": [],
     "alternatives": [
         [
-            { "type": "text", "data": "Pinça." }
+            { "type": "text", "data": "O alto-falante E funciona normalmente e o D entra em curto-circuito e não emite som." }
         ],
         [
-            { "type": "text", "data": "Alicate." }
+            { "type": "text", "data": "O alto-falante E emite ondas sonoras com frequências ligeiramente diferentes do alto-falante D provocando o fenômeno batimento." }
         ],
         [
-            { "type": "text", "data": "Quebra-nozes." }
+            { "type": "text", "data": "O alto-falante E emite ondas sonoras com frequências e fases diferentes do alto-falante D provocando o fenômeno conhecido como ruído." }
         ],
         [
-            { "type": "text", "data": "Carrinho de mão." }
+            { "type": "text", "data": "O alto-falante E emite ondas sonoras que apresentam um lapso de tempo em relação às emitidas pelo alto-falante D provocando o fenômeno de reverberação." }
         ],
         [
-            { "type": "text", "data": "Abridor de garrafa." }
+            { "type": "text", "data": "O alto-falante E emite ondas sonoras em oposição de fase às emitidas pelo alto-falante D provocando o fenômeno de interferência destrutiva nos pontos equidistantes aos alto-falantes." }
         ]
     ],
     "notebook": "Amarelo",
-    "number": 118,
-    "correct": 0
+    "number": 124,
+    "correct": 4
 }
