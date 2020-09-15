@@ -55,6 +55,8 @@ export default class LayoutsWriter {
     private getQuestionDocumentEnding(): string[] {
         return this.getDocumentEnding([
             `<script src="https://cdn.jsdelivr.net/gh/questionando-se/dashboard@${this.version}/scripts/question.js"></script>`,
+            `<script src="https://cdn.jsdelivr.net/gh/questionando-se/dashboard@${this.version}/scripts/userExams/common.js"></script>`,
+            `<script src="https://cdn.jsdelivr.net/gh/questionando-se/dashboard@${this.version}/scripts/userExams/question-side.js"></script>`,
             '<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>',
             '<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>'
         ]);

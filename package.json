@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "math": "tsc && node build/index.js --input db/matematica --output ../matematica --git https://github.com/questionando-se/matematica.git",
-    "phys": "tsc && node build/index.js --input db/fisica --output ../fisica --git https://github.com/questionando-se/fisica.git"
+    "math": "tsc && node build/index.js --version 0.0.12 --input db/matematica --output ../matematica --git https://github.com/questionando-se/matematica.git",
+    "phys": "tsc && node build/index.js --version 0.0.12 --input db/fisica --output ../fisica --git https://github.com/questionando-se/fisica.git"
   },
   "keywords": [],
   "author": "",

@@ -121,7 +121,18 @@ export default class HomePageWriter {
             this.getEnemCard(),
             this.getNumberCards(),
             '</div>',
+        ];
+        // no need to trim left, for now.
+        return output.join('');
+    }
 
+    private buildUserPage(): string {
+        const output = [
+            '---\n',
+            'layout: home\n',
+            '---\n\n\n',
+            `<script src="https://cdn.jsdelivr.net/gh/questionando-se/dashboard@${this.version}/scripts/userExams/common.js"></script>`,
+            `<script src="https://cdn.jsdelivr.net/gh/questionando-se/dashboard@${this.version}/scripts/userExams/user-side.js"></script>`
         ];
         // no need to trim left, for now.
         return output.join('');
@@ -130,5 +141,7 @@ export default class HomePageWriter {
     write(homePath: string): void {
         const indexFile = path.join(homePath, 'index.html');
         fs.writeFileSync(indexFile, this.buildPage());
+        const userFile = path.join(homePath, 'user.html');
+        fs.writeFileSync(userFile, this.buildUserPage());
     }
 }
