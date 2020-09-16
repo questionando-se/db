@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A polinização, que viabiliza o transporte do grão de pólen de uma planta até o estigma de outra, pode ser realizada biótica ou abioticamente. Nos processos abióticos, as plantas dependem de fatores como o vento e a água." },
+        { "type": "text", "data": "A estratégia evolutiva que resulta em polinização mais eficiente quando esta depende do vento é o(a)" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "diminuição do cálice." }
+        ],
+        [
+            { "type": "text", "data": "alongamento do ovário." }
+        ],
+        [
+            { "type": "text", "data": "disponibilização do néctar." }
+        ],
+        [
+            { "type": "text", "data": "intensificação da cor das pétalas." }
+        ],
+        [
+            { "type": "text", "data": "aumento do número de estames." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 105,
+    "correct": 4
+}

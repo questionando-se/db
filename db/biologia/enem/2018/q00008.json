@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O deserto é um bioma que se localiza em regiões de pouca umidade. A fauna é, predominantemente, composta por animais roedores, aves, répteis e artrópodes." },
+        { "type": "text", "data": "Uma adaptação, associada a esse bioma, presente nos seres vivos dos grupos citados é o(a)" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "existência de numerosas glândulas sudoríparas na epiderme." }
+        ],
+        [
+            { "type": "text", "data": "eliminação de excretas nitrogenadas de forma concentrada." }
+        ],
+        [
+            { "type": "text", "data": "desenvolvimento do embrião no interior de ovo com casca." }
+        ],
+        [
+            { "type": "text", "data": "capacidade de controlar a temperatura corporal." }
+        ],
+        [
+            { "type": "text", "data": "respiração realizada por pulmões foliáceos." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 115,
+    "correct": 1
+}

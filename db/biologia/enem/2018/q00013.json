@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2018,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Considere, em um fragmento ambiental, uma árvore matriz com frutos (M) e outras cinco que produziram flores e são apenas doadoras de pólen (DP1, DP2, DP3, DP4 e DP5). Foi excluída a capacidade de autopolinização das árvores. Os genótipos da matriz, da semente (S1) e das prováveis fontes de pólen foram obtidos pela análise de dois locos (loco A e loco B) de marcadores de DNA, conforme a figura." },
+        { "type": "image", "pathType": "relative", "data": "assets/enem2018/biologia/alelos.png", "credits": "COLLEVATTI, R. G.; TELLES, M. P.; SOARES, T. N. Dispersão do pólen entre pequizeiros: uma atividade para a genética do ensino superior. Genética na Escola, n. 1, 2013 (adaptado)." },
+        { "type": "text", "data": "A progẽnie S1 recebeu o pólen de qual doadora?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "DP1." }
+        ],
+        [
+            { "type": "text", "data": "DP2." }
+        ],
+        [
+            { "type": "text", "data": "DP3." }
+        ],
+        [
+            { "type": "text", "data": "DP4." }
+        ],
+        [
+            { "type": "text", "data": "DP5." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 130,
+    "correct": 4
+}
