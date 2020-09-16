@@ -14,7 +14,11 @@ function renderText(content: QuestionFileContent): string {
  */
 function renderImage(content: QuestionFileContent): string {
     const url = makeUrl(content.data as string, content.pathType);
-    return `<img src="${url}" />`;
+    const img = `<img src="${url}" />`;
+    if (content.credits) {
+        return img + `<small class="text-right">${content.credits}</small>`;
+    }
+    return img;
 }
 
 /**
@@ -88,7 +92,11 @@ function renderTable(content: QuestionFileContent): string {
         output.push('</tr>');
     });
     output.push('</table>');
-    return output.join('\n');
+    const tableData = output.join('\n');
+    if (content.credits) {
+        return tableData + `<small class="text-right">${content.credits}</small>`;
+    }
+    return tableData;
 }
 
 /**

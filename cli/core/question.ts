@@ -27,6 +27,10 @@ export interface QuestionFileContent {
      * Used to Images, indicate if the path is absolute or relative to this repository.
      */
     pathType?: 'relative' | 'absolute';
+    /**
+     * Used to Images and Tables and indicate the file credits.
+     */
+    credits?: string;
 }
 
 export interface VideoData {
