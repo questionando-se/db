@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um empréstimo foi feito à taxa mensal de \\(i\\)%, usando juros compostos, em oito parcelas fixas e iguais a \\(P\\)." },
+        { "type": "text", "data": "O devedor tem a possibilidade de quitar a dívida antecipadamente a qualquer momento, pagando para isso o valor atual das parcelas ainda a pagar. Após pagar a 5ª parcela, resolve quitar a dívida no ato de pagar a 6ª parcela." },
+        { "type": "text", "data": "A expressão que corresponde ao valor total pago pela quitação do empréstimo é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(P \\left [ 1 + \\dfrac{1}{(1+\\frac{i}{100})} + \\dfrac{1}{(1+\\frac{i}{100})^2} \\right ]\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(P \\left [ 1 + \\dfrac{1}{(1+\\frac{i}{100})} + \\dfrac{1}{(1+\\frac{2i}{100})} \\right ]\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(P \\left [ 1 + \\dfrac{1}{(1+\\frac{i}{100})^2} + \\dfrac{1}{(1+\\frac{i}{100})^2} \\right ]\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(P \\left [ 1 + \\dfrac{1}{(1+\\frac{i}{100})} + \\dfrac{1}{(1+\\frac{2i}{100})} + \\dfrac{1}{(1+\\frac{3i}{100})} \\right ]\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(P \\left [ 1 + \\dfrac{1}{(1+\\frac{i}{100})} + \\dfrac{1}{(1+\\frac{i}{100})^2} + \\dfrac{1}{(1+\\frac{i}{100})^3} \\right ]\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 144,
+    "correct": 0
+}

@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Para realizar a viagem dos sonhos, uma pessoa precisava fazer um empréstimo no valor de R$ 5 000,00. Para pagar as prestações, dispõe de, no máximo, R$ 400,00 mensais. Para esse valor de empréstimo, o valor da prestação (P) é calculado em função do número de prestações (n) segundo a fórmula" },
+        { "type": "text", "data": "\\[ P=\\frac{5 000\\times 1,013^n\\times 0,013}{(1,013^n-1)} \\]" },
+        { "type": "text", "data": "Se necessário, utilize 0,005 como aproximação para \\(\\log{1,013}\\); 2,602 como aproximação para \\(\\log{400}\\); 2,525 como aproximação para \\(\\log{335}\\)." },
+        { "type": "text", "data": "De acordo com a fórmula dada, o menor número de parcelas cujos valores não comprometem o limite definido pela pessoa é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "12." }
+        ],
+        [
+            { "type": "text", "data": "14." }
+        ],
+        [
+            { "type": "text", "data": "15." }
+        ],
+        [
+            { "type": "text", "data": "16." }
+        ],
+        [
+            { "type": "text", "data": "17." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 145,
+    "correct": 3
+}

@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Em uma cantina, o sucesso de venda no verão são sucos preparados à base de polpa de frutas. Um dos sucos mais vendidos é o de morango com acerola, que é preparado com \\(\\frac{2}{3}\\) de polpa de morango e \\(\\frac{1}{3}\\) de polpa de acerola." },
+        { "type": "text", "data": "Para o comerciante, as polpas são vendidas em embalagens de igual volume. Atualmente, a embalagem da polpa de morango custa R$ 18,00 e a de acerola, R$ 14,70. Porém, está prevista uma alta no preço da embalagem da polpa de acerola no próximo mês, passando a custar R$ 15,30." },
+        { "type": "text", "data": "Para não aumentar o preço do suco, o comerciante negociou com o fornecedor uma redução no preço da embalagem da polpa de morango." },
+        { "type": "text", "data": "A redução, em real, no preço da embalagem da polpa de morango deverá ser de" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1,20." }
+        ],
+        [
+            { "type": "text", "data": "0,90." }
+        ],
+        [
+            { "type": "text", "data": "0,60." }
+        ],
+        [
+            { "type": "text", "data": "0,40." }
+        ],
+        [
+            { "type": "text", "data": "0,30." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 138,
+    "correct": 4
+}

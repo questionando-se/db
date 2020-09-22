@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Às 17 h 15 min começa uma forte chuva, que cai com intensidade constante. Uma piscina em forma de um paralelepípedo retângulo, que se encontrava inicialmente vazia, começa a acumular a água da chuva e, às 18 horas, o nível da água em seu interior alcança 20 cm de altura. Nesse instante, é aberto o registro que libera o escoamento da àgua por um ralo localizado no fundo dessa piscina, cuja vazão é constante. Às 18 h 40 min a chuva cessa e, nesse exato instante, o nível da água na piscina baixou para 15 cm." },
+        { "type": "text", "data": "O instante em que a água dessa psicina terminar de escoar completamente está compreendido entre" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "19 h 30 min e 20 h 10 min." }
+        ],
+        [
+            { "type": "text", "data": "19 h 20 min e 19 h 30 min." }
+        ],
+        [
+            { "type": "text", "data": "19 h 10 min e 19 h 20 min." }
+        ],
+        [
+            { "type": "text", "data": "19 h e 19 h 10 min." }
+        ],
+        [
+            { "type": "text", "data": "18 h 40 min e 19 h." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 143,
+    "correct": 3
+}

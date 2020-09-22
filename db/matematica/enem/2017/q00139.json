@@ -1,0 +1,43 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma empresa construirá sua página na internet e espera atrair um público de aproximadamente um milhão de clientes. Para acessar essa página, será necessária uma senha com formato a ser definido pela empresa. Existem cinco opções de formato oferecidas pelo programador, descritas no quadro, em que \"L\" e \"D\" representam, respectivamente, letra maiúscula e dígito." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Opção" },
+                { "header": true, "text": "Formato" }
+            ],
+            [{ "text": "I" }, { "text": "LDDDDD" }],
+            [{ "text": "II" }, { "text": "DDDDDDD" }],
+            [{ "text": "III" }, { "text": "LLDDDD" }],
+            [{ "text": "IV" }, { "text": "DDDDD" }],
+            [{ "text": "V" }, { "text": "LLLDD" }]
+        ] },
+        { "type": "text", "data": "As letras do alfabeto, entre as 26 possíveis, bem como os dígitos, entre os 10 possíveis, podem se repetir em qualquer das opções." },
+        { "type": "text", "data": "A empresa quer escolher uma opção de formato cujo número de senhas distintas possíveis seja superior ao número esperado de clientes, mas que esse número não seja superior ao dobro do número esperado de clientes." },
+        { "type": "text", "data": "A opção que mais se adequa às condições da empresa é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 140,
+    "correct": 4
+}

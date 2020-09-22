@@ -1,0 +1,50 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Como não são adeptos da prática de esportes, um grupo de amigos resolveu fazer um torneio de futebol utilizando videogame. Decidiram que cada jogador joga uma única vez com cada um dos outros jogadores. O campeão será aquele que conseguir o maior número de pontos. Observaram que o número de partidar jogadas depende do número de jogadores, como mostra o quadro:" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Quantidade de <br/>jogadores" },
+                { "text": "2" },
+                { "text": "3" },
+                { "text": "4" },
+                { "text": "5" },
+                { "text": "6" },
+                { "text": "7" }
+            ],
+            [
+                { "header": true, "text": "Número de <br/>partidas" },
+                { "text": "1" },
+                { "text": "3" },
+                { "text": "6" },
+                { "text": "10" },
+                { "text": "15" },
+                { "text": "21" }
+            ]
+        ] },
+        { "type": "text", "data": "Se a quantidade de jogadores for 8, quantas partidas serão realizadas?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "64." }
+        ],
+        [
+            { "type": "text", "data": "56." }
+        ],
+        [
+            { "type": "text", "data": "49." }
+        ],
+        [
+            { "type": "text", "data": "36." }
+        ],
+        [
+            { "type": "text", "data": "28." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 141,
+    "correct": 4
+}

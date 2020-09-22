@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "math": "tsc && node build/index.js --version 0.0.13 --input db/matematica --output ../matematica --git https://github.com/questionando-se/matematica.git",
-    "phys": "tsc && node build/index.js --version 0.0.13 --input db/fisica --output ../fisica --git https://github.com/questionando-se/fisica.git",
-    "bio": "tsc && node build/index.js --version 0.0.13 --input db/biologia --output ../biologia --git https://github.com/questionando-se/biologia.git"
+    "math": "tsc && node build/index.js --version 0.0.15 --input db/matematica --output ../matematica --git https://github.com/questionando-se/matematica.git",
+    "phys": "tsc && node build/index.js --version 0.0.15 --input db/fisica --output ../fisica --git https://github.com/questionando-se/fisica.git",
+    "bio": "tsc && node build/index.js --version 0.0.15 --input db/biologia --output ../biologia --git https://github.com/questionando-se/biologia.git"
   },
   "keywords": [],
   "author": "",
