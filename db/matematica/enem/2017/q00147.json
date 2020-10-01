@@ -1,0 +1,55 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A avaliação de rendimento de alunos de um curso universitário baseia-se na média ponderada das notas obtidas nas disciplinas pelos respectivos números de créditos, como mostra o quadro:" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Avaliação" },
+                { "header": true, "text": "Média de notas (M)" }
+            ],
+            [ { "text": "Excelente" }, { "text": "\\(9< M\\leqslant 10\\)" } ],
+            [ { "text": "Bom" }, { "text": "\\(7\\leqslant M\\leqslant 9\\)" } ],
+            [ { "text": "Regular" }, { "text": "\\(5\\leqslant M < 7\\)" } ],
+            [ { "text": "Ruím" }, { "text": "\\(3\\leqslant M < 5\\)" } ],
+            [ { "text": "Péssimo" }, { "text": "M < 3" } ]
+        ] },
+        { "type": "text", "data": "Quanto melhor a avaliação de um aluno em determinado período letivo, maior sua prioridade na escolha de disciplinas para o período seguinte." },
+        { "type": "text", "data": "Determinado aluno sabe que se obtiver avaliação \"Bom\" ou \"Excelente\" conseguirá matrícula nas disciplinas que deseja. Ele já realizou as provas de 4 das 5 disciplinas em que está matriculado, mas ainda não realizou a prova da disciplina I, conforme o quadro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Disciplinas" },
+                { "header": true, "text": "Notas" },
+                { "header": true, "text": "Números de créditos" }
+            ],
+            [ { "text": "I" }, { "text": "-" }, { "text": "12" } ],
+            [ { "text": "II" }, { "text": "8,00" }, { "text": "4" } ],
+            [ { "text": "III" }, { "text": "6,00" }, { "text": "8" } ],
+            [ { "text": "IV" }, { "text": "5,00" }, { "text": "8" } ],
+            [ { "text": "V" }, { "text": "7,50" }, { "text": "10" } ]
+        ] },
+        { "type": "text", "data": "Para que atinja seu objetivo, a nota mínima que ele deve conseguir na disciplina I é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "7,00." }
+        ],
+        [
+            { "type": "text", "data": "7,38." }
+        ],
+        [
+            { "type": "text", "data": "7,50." }
+        ],
+        [
+            { "type": "text", "data": "8,25." }
+        ],
+        [
+            { "type": "text", "data": "9,00." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 148,
+    "correct": 3
+}

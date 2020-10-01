@@ -1,0 +1,39 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Em um parque há dois mirantes de alturas distintas que são acessados por elevador panorâmico. O topo do mirante 1 é acessado pelo elevador 1, enquanto que o topo do mirante 2 é acessado pelo elevador 2. Eles encontram-se a uma distância possível de ser percorrida a pé, e entre os mirantes há um teleférico que os liga que pode ou não ser utilizado pelo visitante." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/teleferico.png" },
+        { "type": "text", "data": "O acesso aos elevadores tem os seguintes custos:" },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "Subir pelo elevador 1: R$ 0,15;" },
+            { "type": "text", "data": "Subir pelo elevador 2: R$ 1,80;" },
+            { "type": "text", "data": "Descer pelo elevador 1: R$ 0,10;" },
+            { "type": "text", "data": "Descer pelo elevador 2: R$ 2,30." }
+        ] },
+        { "type": "text", "data": "O custo da passagem do teleférico partindo do topo do mirante 1 para o topo do mirante 2 é de R$ 2,00, e do topo do mirante 2 para o topo do mirante 1 é de R$ 2,50." },
+        { "type": "text", "data": "Qual é o menor custo, em real, para uma pessoa visitar os topos dos dois mirantes e retornar ao solo?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "2,25." }
+        ],
+        [
+            { "type": "text", "data": "3,90." }
+        ],
+        [
+            { "type": "text", "data": "4,35." }
+        ],
+        [
+            { "type": "text", "data": "4,40." }
+        ],
+        [
+            { "type": "text", "data": "4,45." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 161,
+    "correct": 2
+}

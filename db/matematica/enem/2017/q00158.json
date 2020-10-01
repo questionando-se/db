@@ -1,0 +1,64 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Três alunos, X, Y e Z, estão matriculados em um curso de inglês. Para avaliar esses alunos, o professor optou por fazer cinco provas. Para que seja aprovado nesse curso, o aluno deverá ter média aritmética das notas das cinco provas maior ou igual a 6. Na tabela, estão dispostas as notas que cada aluno tirou em cada prova." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Aluno" },
+                { "header": true,  "text": "1ª<br/>Prova" },
+                { "header": true,  "text": "2ª<br/>Prova" },
+                { "header": true,  "text": "3ª<br/>Prova" },
+                { "header": true,  "text": "4ª<br/>Prova" },
+                { "header": true,  "text": "5ª<br/>Prova" }
+            ],
+            [
+                { "text": "X" },
+                { "text": "5" },
+                { "text": "5" },
+                { "text": "5" },
+                { "text": "10" },
+                { "text": "6" }
+            ],
+            [
+                { "text": "Y" },
+                { "text": "4" },
+                { "text": "9" },
+                { "text": "3" },
+                { "text": "9" },
+                { "text": "5" }
+            ],
+            [
+                { "text": "Z" },
+                { "text": "5" },
+                { "text": "5" },
+                { "text": "8" },
+                { "text": "5" },
+                { "text": "6" }
+            ]
+        ] },
+        { "type": "text", "data": "Com base nos dados da tabela e nas informações dadas, ficará(ão) reprovado(s)" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "apenas o aluno Y." }
+        ],
+        [
+            { "type": "text", "data": "apenas o aluno Z." }
+        ],
+        [
+            { "type": "text", "data": "apenas os alunos X e Y." }
+        ],
+        [
+            { "type": "text", "data": "apenas os alunos X e Z." }
+        ],
+        [
+            { "type": "text", "data": "os alunos X, Y e Z." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 159,
+    "correct": 1
+}

@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O gráfico apresenta a taxa de desemprego (em %) para o período de março de 2008 a abril de 2009, obtida com base nos dados observados nas regiões metropolitanas de Recife, Salvador, Belo Horizonte, Rio de Janeiro, São Paulo e Porto Alegre." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/desemprego.png", "credits": "IBGE. Pesquisa mensal de emprego. Disponível em: www.ibge.gov.br. Acesso em: 30 jul. 2012 (adaptado)." },
+        { "type": "text", "data": "A mediana dessa taxa de desemprego, no período de março de 2008 a abril de 2009, foi de" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "8,1%." }
+        ],
+        [
+            { "type": "text", "data": "8,0%." }
+        ],
+        [
+            { "type": "text", "data": "7,9%." }
+        ],
+        [
+            { "type": "text", "data": "7,7%." }
+        ],
+        [
+            { "type": "text", "data": "7,6%." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 170,
+    "correct": 1
+}

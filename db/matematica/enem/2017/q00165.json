@@ -1,0 +1,79 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma bicicleta do tipo mountain bike tem uma coroa com 3 engrenagens e uma catraca com 6 engrenagens, que, combinadas entre si, determinam 18 marchas (número de engrenagens da coroa vezes o número de engrenagens da catraca)." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/coroa-catraca.png" },
+        { "type": "text", "data": "Os números de dentes das engrenagens das coroas e das catracas dessa bicicleta estão listados no quadro." },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "Engrenagens" },
+                { "header": true, "text": "1ª" },
+                { "header": true, "text": "2ª" },
+                { "header": true, "text": "3ª" },
+                { "header": true, "text": "4ª" },
+                { "header": true, "text": "5ª" },
+                { "header": true, "text": "6ª" }
+            ],
+            [
+                { "text": "Nº de dentes da<br/>coroa" },
+                { "text": "46" },
+                { "text": "36" },
+                { "text": "26" },
+                { "text": "-" },
+                { "text": "-" },
+                { "text": "-" }
+            ],
+            [
+                { "text": "Nº de dentes da<br/>catraca" },
+                { "text": "24" },
+                { "text": "22" },
+                { "text": "20" },
+                { "text": "18" },
+                { "text": "16" },
+                { "text": "14" }
+            ]
+        ] },
+        { "type": "text", "data": "Sabe-se que o número de voltas efetuadas pela roda traseira a cada pedalada é calculado dividindo-se a quantidade de dentes da coroa pela quantidade de dentes da catraca." },
+        { "type": "text", "data": "Durante um passeio em uma bicicleta desse tipo, deseja-se fazer um percurso o mais devagar possível, escolhendo, para isso, uma das seguintes combinações de engrenagens (coroa x catraca):" },
+        { "type": "table", "data": [
+            [
+                { "header": true, "text": "I" },
+                { "header": true, "text": "II" },
+                { "header": true, "text": "III" },
+                { "header": true, "text": "IV" },
+                { "header": true, "text": "V" }
+            ],
+            [
+                { "text": "1ª x 1ª" },
+                { "text": "1ª x 6ª" },
+                { "text": "2ª x 4ª" },
+                { "text": "3ª x 1ª" },
+                { "text": "3ª x 6ª" }
+            ]
+        ] },
+        { "type": "text", "data": "A combinação escolhida para realizar esse passeio da forma desejada é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "I." }
+        ],
+        [
+            { "type": "text", "data": "II." }
+        ],
+        [
+            { "type": "text", "data": "III." }
+        ],
+        [
+            { "type": "text", "data": "IV." }
+        ],
+        [
+            { "type": "text", "data": "V." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 166,
+    "correct": 3
+}

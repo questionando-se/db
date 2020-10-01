@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Em uma de suas viagens, um turista comprou uma lembrança de um dos monumentos que visitou. Na base do objeto há informações dizendo que se trata de uma peça em escala 1 : 400, e que seu volume é de 25 cm<sup>3</sup>." },
+        { "type": "text", "data": "O volume do monumento original, em metro cúbico, é de" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "100." }
+        ],
+        [
+            { "type": "text", "data": "400." }
+        ],
+        [
+            { "type": "text", "data": "1 600." }
+        ],
+        [
+            { "type": "text", "data": "6 250." }
+        ],
+        [
+            { "type": "text", "data": "10 000." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 165,
+    "correct": 2
+}

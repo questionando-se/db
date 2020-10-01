@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Em um teleférico turístico, bondinhos saem de estações ao nível do mar e do topo de uma montanha. A travessia dura 1,5 minuto e ambos os bondinhos se deslocam à mesma velocidade. Quarenta segundos após o bondinho A partir da estação ao nível do mar, ele cruza com o bondinho B, que havia saído do topo da montanha." },
+        { "type": "text", "data": "Quantos segundos após a partida do bondinho B partiu o bondinho A?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "5." }
+        ],
+        [
+            { "type": "text", "data": "10." }
+        ],
+        [
+            { "type": "text", "data": "15." }
+        ],
+        [
+            { "type": "text", "data": "20." }
+        ],
+        [
+            { "type": "text", "data": "25." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 152,
+    "correct": 1
+}

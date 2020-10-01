@@ -1,0 +1,39 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Neste modelo de termômetro, os filetes na cor preta registram as temperaturas mínima e máxima do dia anterior e os filetes na cor cinza registram a temperatura ambiente atual, ou seja, no momento da leitura do termômetro." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/termometro.png" },
+        { "type": "text", "data": "Por isso, ele tem duas colunas. Na da esquerda, os números estão em ordem crescente, de cima para baixo, de -30º C até 50 °C. Na coluna da direita, os números estão ordenados de forma crescente, de baixo para cima, de -30 °C até 50 °C." },
+        { "type": "text", "data": "A leitura é feita da seguinte maneira:" },
+        { "type": "ul", "data": [
+            { "type": "text", "data": "a temperatura mínima é indicada pelo nível inferior do filete preto na coluna da esquerda;" },
+            { "type": "text", "data": "a temperatura máxima é indicada pelo nível inferior do filete preto na coluna da direita;" },
+            { "type": "text", "data": "a temperatura atual é indicada pelo nível superior dos filetes cinza nas duas colunas." }
+        ] },
+        { "type": "text", "data": "<small class='text-right'>Disponível em: www.if.ufrgs.br. Acesso em: 28 ago. 2014 (adaptado).</small>" },
+        { "type": "text", "data": "Qual é a temperatura máxima mais aproximada registrada nesse termômetro?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "5 °C." }
+        ],
+        [
+            { "type": "text", "data": "7 °C." }
+        ],
+        [
+            { "type": "text", "data": "13 °C." }
+        ],
+        [
+            { "type": "text", "data": "15 °C." }
+        ],
+        [
+            { "type": "text", "data": "19 °C." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 174,
+    "correct": 4
+}

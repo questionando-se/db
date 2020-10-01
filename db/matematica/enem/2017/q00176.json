@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Quanto tempo você fica conectado à internet? Para responder a essa pergunta foi criado um miniaplicativo de computador que roda na área de trabalho, para gerar automaticamente um gráfico de setores, mapeando o tempo que uma pessoa acessa cinco sites visitados. Em um computador, foi observado que houve um aumento significativo do tempo de acesso da sexta-feira para o sábado, nos cinco sites mais acessados. A seguir, temos os dados do miniaplicativo para esses dias." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/sites.png" },
+        { "type": "text", "data": "Analisando os gráficos do computador, a maior taxa de aumento no tempo de acesso, da sexta-feira para o sábado, foi no site" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "X." }
+        ],
+        [
+            { "type": "text", "data": "Y." }
+        ],
+        [
+            { "type": "text", "data": "Z." }
+        ],
+        [
+            { "type": "text", "data": "W." }
+        ],
+        [
+            { "type": "text", "data": "U." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 177,
+    "correct": 0
+}

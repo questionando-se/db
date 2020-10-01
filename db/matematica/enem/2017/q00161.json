@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A mensagem digitada no celular, enquanto você dirige, tira a sua atenção e, por isso, deve ser evitada. Pesquisas mostram que um motorista que dirige um carro a uma velocidade constante percorre \"às cegas\" (isto é, sem ter visão da pista) uma distância proporcional ao tempo gasto ao olhar para o celular durante a digitação da mensagem. Considere que isso de fato aconteça. Suponha que dois motoristas (X e Y) dirigem com a mesma velocidade constante e digitam a mesma mensagem em seus celulares. Suponha, ainda, que o tempo gasto pelo motorista X olhando para seu celular enquanto digita a mensagem corresponde a 25% do tempo gasto pelo motorista Y para executar a mesma tarefa." },
+        { "type": "text", "data": "<small class='text-right'>Disponível em: http://g1.globo.com. Acesso em: 21 jul. 2012 (adaptado)." },
+        { "type": "text", "data": "A razão entre as distâncias percorridas às cegas por X e Y nessa ordem é igual a" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(\\frac{5}{4}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{1}{4}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{4}{3}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{4}{1}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{3}{4}\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 162,
+    "correct": 1
+}

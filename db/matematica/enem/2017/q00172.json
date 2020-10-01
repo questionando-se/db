@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Dois reservatórios A e B são alimentados por bombas distintas por um período de 20 horas. A quantidade de água contida em cada reservatório nesse período pode ser visualizada na figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/agua-reservatorio.png" },
+        { "type": "text", "data": "O número de horas em que os dois reservatórios contêm a mesma quantidade de água é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1." }
+        ],
+        [
+            { "type": "text", "data": "2." }
+        ],
+        [
+            { "type": "text", "data": "4." }
+        ],
+        [
+            { "type": "text", "data": "5." }
+        ],
+        [
+            { "type": "text", "data": "6." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 173,
+    "correct": 0
+}

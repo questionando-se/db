@@ -1,0 +1,34 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O resultado de uma pesquisa eleitoral, sobre a preferência dos eleitores em relação a dois candidatos, foi representado por meio do Gráfico 1." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/pesquisa-eleitoral1.png" },
+        { "type": "text", "data": "Ao ser divulgado esse resultado em jornal, o Gráfico 1 foi cortado durante a diagramação, como mostra o Gráfico 2." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/pesquisa-eleitoral2.png" },
+        { "type": "text", "data": "Apesar de os valores apresentados estarem corretos e a largura das colunas ser a mesma, muitos leitores criticaram o formato do Gráfico 2 impresso no jornal, alegando que houve prejuízo visual para o candidato B." },
+        { "type": "text", "data": "A diferença entre as razões da altura da coluna B pela coluna A nos gráficos 1 e 2 é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "0." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{1}{2}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{1}{5}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{2}{15}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(frac{8}{35}\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 178,
+    "correct": 4
+}

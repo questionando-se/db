@@ -1,0 +1,33 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma pessoa ganhou uma pulseira formada por pérolas esféricas, na qual faltava uma das pérolas. A figura indica a posição em que estaria faltando esta pérola." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/joalheiro.png" },
+        { "type": "text", "data": "Ela levou a joia a um joalheiro que verificou que a medida do diâmetro dessas pérolas era 4 milímetros. Em seu estoque, as pérolas do mesmo tipo e formato disponíveis para reposição tinham diâmetros iguais a 4,025 mm; 4,100 mm; 3,970 mm; 4,080 mm e 3,099 mm." },
+        { "type": "text", "data": "O joalheiro então colocou na pulseira a pérola cujo diâmetro era o mais próximo do diâmetro das pérolas originais." },
+        { "type": "text", "data": "A pérola colocada na pulseira pelo joalheiro tem diâmetro em milímetro, igual a" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "3,099." }
+        ],
+        [
+            { "type": "text", "data": "3,970." }
+        ],
+        [
+            { "type": "text", "data": "4,025." }
+        ],
+        [
+            { "type": "text", "data": "4,080." }
+        ],
+        [
+            { "type": "text", "data": "4,100." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 164,
+    "correct": 2
+}

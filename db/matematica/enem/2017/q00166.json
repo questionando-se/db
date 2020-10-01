@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "O comitê organizador da Copa do Mundo 2014 criou a logomarca da Copa, composta de uma figura plana e o slogan \"Juntos num só ritmo\", com mãos que se unem formando a taça Fifa. Considere que o comitê organizador resolvesse utilizar todas as cores da bandeira nacional (verde, amarelo, azul e branco) para colorir a logomarca, de forma que regiões vizinhas tenham cores diferentes." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/copa.png", "credits": "Disponível em: www.pt.fifa.com. Acesso em: 19 nov. 2013 (adaptado)." },
+        { "type": "text", "data": "De quantas maneiras diferentes o comitê organizador da Copa poderia pintar a logomarca com as cores citadas?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "15." }
+        ],
+        [
+            { "type": "text", "data": "30." }
+        ],
+        [
+            { "type": "text", "data": "108." }
+        ],
+        [
+            { "type": "text", "data": "360." }
+        ],
+        [
+            { "type": "text", "data": "972." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 167,
+    "correct": 4
+}

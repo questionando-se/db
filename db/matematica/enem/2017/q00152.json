@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Num dia de tempestade, a alteração na profundidade de um rio, num determinado local, foi registrada durante um período de 4 horas. Os resultados estão indicados no gráfico de linhas. Nele, a profundidade \\(h\\), registrada às 13 horas, não foi anotada e, a partir de \\(h\\), cada unidade sobre o eixo vertical representa um metro." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/profundidade.png" },
+        { "type": "text", "data": "Foi informado que entre 15 horas e 16 horas, a profundidade do rio diminuiu em 10%." },
+        { "type": "text", "data": "Às 16 horas, qual é a profundidade do rio, em metro, no local onde foram feitos os registros?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "18." }
+        ],
+        [
+            { "type": "text", "data": "20." }
+        ],
+        [
+            { "type": "text", "data": "24." }
+        ],
+        [
+            { "type": "text", "data": "36." }
+        ],
+        [
+            { "type": "text", "data": "40." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 153,
+    "correct": 0
+}

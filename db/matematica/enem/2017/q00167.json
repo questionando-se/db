@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Viveiros de lagostas são construídos, por cooperativas locais de pescadores, em formato de prismas reto-retangulares, fixados ao solo e com telas flexíveis de mesma altura, capazes de suportar a corrosão marinha. Para cada viveiro a ser construído, a cooperativa utiliza integralmente 100 metros lineares dessa tela, que é usada apenas nas laterais." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/lagostas.png" },
+        { "type": "text", "data": "Quais devem ser os valores de X e de Y, em metro, para que a área da base do viveiro seja máxima?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "1 e 49." }
+        ],
+        [
+            { "type": "text", "data": "1 e 99." }
+        ],
+        [
+            { "type": "text", "data": "10 e 10." }
+        ],
+        [
+            { "type": "text", "data": "25 e 25." }
+        ],
+        [
+            { "type": "text", "data": "50 e 50." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 168,
+    "correct": 3
+}

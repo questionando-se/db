@@ -1,0 +1,30 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Numa avenida existem 10 semáforos. Por causa de uma pane no sistema, os semáforos ficaram sem controle durante uma hora, e fixaram suas luzes unicamente em verde ou vermelho. Os semáforos funcionam de forma independente; a probabilidade de acusar a cor verde é de \\(\\frac{2}{3}\\) e a de acusar a cor vermelha é de \\(\\frac{1}{3}\\). Uma pessoa percorreu a pé toda essa avenida durante o período da pane, observando a cor da luz de cada um desses semáfaros." },
+        { "type": "text", "data": "Qual a probabilidade de que esta pessoa tenha observado exatamente um sinal na cor verde?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(\\frac{10\\times 2}{3^{10}}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{10\\times 2^{9}}{3^{10}}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{2^{10}}{3^{100}}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{2^{90}}{3^{100}}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{2}{3^{10}}\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 171,
+    "correct": 0
+}

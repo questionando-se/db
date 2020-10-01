@@ -1,0 +1,32 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Um brinquedo infantil caminhão-cegonha é formado por uma carreta e dez carrinhos nela transportados, conforme a figura." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/cegonha.png" },
+        { "type": "text", "data": "No setor de produção da empresa que fabrica esse brinquedo, é feita a pintura de todos os carrinhos para que o aspecto do brinquedo fique mais atraente. São utilizadas as cores amarelo, branco, laranja e verde, e cada carrinhos é pintado apenas com uma cor. O caminhão-cegonha tem uma cor fixa. A empresa determinou que em todo caminhão-cegonha deve haver pelo menos um carrinho de cada uma das quatro cores disponíveis. Mudança de posição dos carrinhos no caminhão-cegonha não gera um novo modelo do brinquedo." },
+        { "type": "text", "data": "Com base nessas informações, quantos são os modelos distintos do brinquedo caminhão-cegonha que essa empresa poderá produzir?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(C_{6,4}\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(C_{9,3}\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(C_{10,4}\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(6^4\\)" }
+        ],
+        [
+            { "type": "text", "data": "\\(4^6\\)" }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 149,
+    "correct": 1
+}

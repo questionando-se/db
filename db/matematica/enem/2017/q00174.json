@@ -1,0 +1,33 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Pivô central é um sistema de irrigação muito usado na agricultura, em que uma área circular é projetada para receber uma estrutura suspensa. No centro dessa área, há uma tubulação vertical que transmite água através de um cano horizontal longo, apoiado em torres de sustentação, as quais giram, sobre rodas, em torno do centro do pivô, também chamado de base, conforme mostram as figuras. Cada torre move-se com velocidade constante." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/pivo1.png" },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/pivo2.png" },
+        { "type": "text", "data": "Um pivô de três torres (\\(T_1\\), \\(T_2\\) e \\(T_3\\)) será instalado em uma fazenda, sendo que as distâncias entre torres consecutivas bem como da base à torre \\(T_1\\) são iguais a 50 m. O fazendeiro pretende ajustar as velocidades das torres, de tal forma que o pivô efetue uma volta completa em 25 horas. Use 3 como aproximação para \\(\\pi\\)." },
+        { "type": "text", "data": "Para atingir seu objetivo, as velocidades das torres \\(T_1\\), \\(T_2\\) e \\(T_3\\) devem ser, em metro por hora, de" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "12, 24 e 36." }
+        ],
+        [
+            { "type": "text", "data": "6, 12 e 18." }
+        ],
+        [
+            { "type": "text", "data": "2, 4 e 6." }
+        ],
+        [
+            { "type": "text", "data": "300, 1 200 e 2 700." }
+        ],
+        [
+            { "type": "text", "data": "600, 2 400 e 5 400." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 175,
+    "correct": 0
+}

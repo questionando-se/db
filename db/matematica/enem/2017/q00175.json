@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "A Igreja de São Francisco de Assis, obra arquitetônica modernista de Oscar Niemeyer, localizada na Lagoa da Pampulha, em Belo Horizonte, possui abóbadas parabólicas. A seta na Figura 1 ilustra uma das abóbadas na entrada principal da capela. A figura 2 fornece uma vista frontal dessa abóbada, com medidas hipotéticas para simplificar os cálculos." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/igreja.png" },
+        { "type": "text", "data": "Qual a medida da altura \\(H\\), em metro, indicada na Figura 2?" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "\\(\\frac{16}{3}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{31}{5}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{25}{4}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{25}{3}\\)." }
+        ],
+        [
+            { "type": "text", "data": "\\(\\frac{75}{2}\\)." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 176,
+    "correct": 3
+}

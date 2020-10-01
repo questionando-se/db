@@ -1,0 +1,31 @@
+{
+    "exam": "ENEM",
+    "year": 2017,
+    "tags": [],
+    "content": [
+        { "type": "text", "data": "Uma rede hoteleira dispõe de cabanas simples na ilha de Gotland, na Suécia, conforme Figura 1. A estrutura de sustentação de cada uma dessas cabanas está representada na Figura 2. A ideia é permitir ao hóspede uma estada livre de tecnologia, mas conectada com a natureza." },
+        { "type": "image", "pathType": "relative",  "data": "assets/enem2017/matematica/cabana-natureza.png", "credits": "ROMERO, L. Tendências. Superinteressante, n. 315, fev. 2013 (adaptado)." },
+        { "type": "text", "data": "A forma geométrica da superfície cujas arestas estão representadas na Figura 2 é" }
+    ],
+    "resolutions": [],
+    "alternatives": [
+        [
+            { "type": "text", "data": "tetraedro." }
+        ],
+        [
+            { "type": "text", "data": "pirâmide retangular." }
+        ],
+        [
+            { "type": "text", "data": "tronco de pirâmide retangular." }
+        ],
+        [
+            { "type": "text", "data": "prisma quadrangular reto." }
+        ],
+        [
+            { "type": "text", "data": "prisma triangular reto." }
+        ]
+    ],
+    "notebook": "Amarelo",
+    "number": 154,
+    "correct": 4
+}
